@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import './index.scss';
@@ -17,21 +18,21 @@ import Conferences from './pages/BaiWorkshops/AllConferences';
 library.add(fab, fas);
 
 ReactDOM.render(
-    <BrowserRouter>
+    <HashRouter basename='/'>
         <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} exact />
-            <Route path="/membership" component={Membership} exact/>
-            <Route path="/partnership" component={Partnership} exact/>
-            <Route path="/academic-programs" component={AcademicPrograms} exact/> 
-            <Route path="/programs" component={Programs} exact/>
-            <Route path="/conferences" component={Conferences} exact/>
-            <Route path="/workshop/bai2017" component={Conferences} exact/>
-            <Route path="/workshop/bai2018" component={Conferences} exact/>
-            <Route path="/workshop/bai2019" component={Conferences} exact/>
-            <Route path="/workshop/bai2020" component={Conferences} exact/>
+            <Route path="/about" component={About} />
+            <Route path="/membership" component={Membership}/>
+            <Route path="/partnership" component={Partnership}/>
+            <Route path="/academic-programs" component={AcademicPrograms}/> 
+            <Route path="/programs" component={Programs}/>
+            <Route path="/conferences" component={Conferences}/>
+            <Route path="/workshop/bai2017" component={Conferences}/>
+            <Route path="/workshop/bai2018" component={Conferences}/>
+            <Route path="/workshop/bai2019" component={Conferences}/>
+            <Route path="/workshop/bai2020" component={Conferences}/>
         </Switch>
-    </BrowserRouter>,
+    </HashRouter>,
   document.getElementById('root')
 );
 

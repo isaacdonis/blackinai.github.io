@@ -1,5 +1,6 @@
 {
   "name": "blackinai",
+  "homepage": "https://blackinai.github.io/blackinai-website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,6 +15,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.1.0",
     "markdown-to-jsx": "^7.0.1",
     "marked": "^1.2.0",
     "materialize-css": "^1.0.0-rc.2",
@@ -26,6 +28,8 @@
     "use-marked-hook": "^1.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
