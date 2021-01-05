@@ -21,16 +21,16 @@ ReactDOM.render(
     <HashRouter basename='https://blackinai.github.io/blackinai-website/'>
         <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/membership" component={Membership}/>
-            <Route path="/partnership" component={Partnership}/>
-            <Route path="/academic-programs" component={AcademicPrograms}/> 
-            <Route path="/programs" component={Programs}/>
-            <Route path="/conferences" component={Conferences}/>
-            <Route path="/workshop/bai2017" component={Conferences}/>
-            <Route path="/workshop/bai2018" component={Conferences}/>
-            <Route path="/workshop/bai2019" component={Conferences}/>
-            <Route path="/workshop/bai2020" component={Conferences}/>
+            <Route path="/blackinai-website/about/" component={About} />
+            <Route path="/blackinai-website/membership/" component={Membership}/>
+            <Route path="/blackinai-website/partnership/" component={Partnership}/>
+            <Route path="/blackinai-website/academic-programs/" component={AcademicPrograms}/> 
+            <Route path="/blackinai-website/programs/" component={Programs}/>
+            <Route path="/blackinai-website/conferences/" component={Conferences}/>
+            <Route path="/blackinai-website/workshop/bai2017/" component={Conferences}/>
+            <Route path="/blackinai-website/workshop/bai2018/" component={Conferences}/>
+            <Route path="/blackinai-website/workshop/bai2019/" component={Conferences}/>
+            <Route path="/blackinai-website/workshop/bai2020/" component={Conferences}/>
         </Switch>
     </HashRouter>,
   document.getElementById('root')
