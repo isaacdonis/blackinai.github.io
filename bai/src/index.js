@@ -18,7 +18,7 @@ import Conferences from './pages/BaiWorkshops/AllConferences';
 library.add(fab, fas);
 
 ReactDOM.render(
-    <HashRouter basename='/blackinai-website/' hashType={'noslash'} >
+    <HashRouter basename='/' hashType={'noslash'} >
         <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
