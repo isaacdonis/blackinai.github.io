@@ -93,7 +93,7 @@ function HomeHeader(props) {
                             <ColorButton className={classes.chip} variant="contained" href="/">
                                 Become a Member
                             </ColorButton>
-                            <JoinUsButton className={classes.chip} variant="contained" href="/">
+                            <JoinUsButton className={classes.chip} variant="contained" href="/#/partnership">
                                 Partner with Us
                             </JoinUsButton>
                         </Grid>

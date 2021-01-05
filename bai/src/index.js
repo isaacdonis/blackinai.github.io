@@ -18,10 +18,10 @@ import Conferences from './pages/BaiWorkshops/AllConferences';
 library.add(fab, fas);
 
 ReactDOM.render(
-    <HashRouter basename='/' >
+    <HashRouter basename='/' hashType={'slash'}>
         <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
+            <Route path="/about" component={About}/>
             <Route path="/membership" component={Membership}/>
             <Route path="/partnership" component={Partnership}/>
             <Route path="/academic-programs" component={AcademicPrograms}/> 

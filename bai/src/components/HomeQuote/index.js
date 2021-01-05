@@ -81,7 +81,7 @@ function HomeQuote(props) {
                                 the lack of visibility and support for those who are already in the field, leading 
                                 them to leave or not realize their full potential.
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/about">
+                            <ColorButton className={classes.chip} variant="contained" href="/#/about">
                                 Learn more about our work
                             </ColorButton>
                         </Grid>

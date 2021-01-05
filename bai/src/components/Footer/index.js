@@ -150,16 +150,16 @@ function Footer(props) {
                         </Typography>
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/about">About Us</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/about">About Us</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/">Programs</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#">Programs</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/membership">Membership</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/membership">Membership</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/partnership">Partnership</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/partnership">Partnership</Link>
                             </li>
                         </ul>
                     </Grid>

@@ -92,7 +92,7 @@ function CommunityValues(props) {
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 We're addressing the diversity crisis in AI
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/">
+                            <ColorButton className={classes.chip} variant="contained" href="/#">
                                 Our Programns
                             </ColorButton>
                         </Grid>

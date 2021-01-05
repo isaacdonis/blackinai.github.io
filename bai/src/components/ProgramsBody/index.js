@@ -125,7 +125,7 @@ function ProgramsBody(props) {
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
-                                <Link href="/conferences">View more conferences</Link>
+                                <Link href="/#/conferences">View more conferences</Link>
                             </Typography>
                         </Grid>
                     </Grid>

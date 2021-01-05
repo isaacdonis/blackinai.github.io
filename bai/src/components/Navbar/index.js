@@ -120,19 +120,19 @@ function Navbar(props) {
         },
         {
             text: 'About',
-            path: '/about',
+            path: '/#/about',
         },
         {
             text: 'Programs',
-            path: '/programs',
+            path: '/#/programs',
         },
         {
             text: 'Membership',
-            path: '/membership',
+            path: '/#/membership',
         },
         {
             text: 'Partnership',
-            path: '/partnership',
+            path: '/#/partnership',
         },
     ]
 
