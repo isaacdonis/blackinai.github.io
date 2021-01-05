@@ -14,6 +14,7 @@ import Partnership from './pages/Partnership';
 import AcademicPrograms from './pages/AcademicPrograms';
 import Programs from './pages/Programs';
 import Conferences from './pages/BaiWorkshops/AllConferences';
+import BAI2017 from './pages/BaiWorkshops/BAI2017';
 
 library.add(fab, fas);
 
@@ -27,7 +28,7 @@ ReactDOM.render(
             <Route path="/academic-programs" component={AcademicPrograms}/> 
             <Route path="/programs" component={Programs}/>
             <Route path="/conferences" component={Conferences}/>
-            <Route path="/workshop/bai2017" component={Conferences}/>
+            <Route path="/workshop/bai2017" component={BAI2017}/>
             <Route path="/workshop/bai2018" component={Conferences}/>
             <Route path="/workshop/bai2019" component={Conferences}/>
             <Route path="/workshop/bai2020" component={Conferences}/>
