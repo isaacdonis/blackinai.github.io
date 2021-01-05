@@ -15,6 +15,8 @@ import AcademicPrograms from './pages/AcademicPrograms';
 import Programs from './pages/Programs';
 import Conferences from './pages/BaiWorkshops/AllConferences';
 import BAI2017 from './pages/BaiWorkshops/BAI2017';
+import BAI2018 from './pages/BaiWorkshops/BAI2018';
+import BAI2019 from './pages/BaiWorkshops/BAI2019';
 
 library.add(fab, fas);
 
@@ -29,9 +31,8 @@ ReactDOM.render(
             <Route path="/programs" component={Programs}/>
             <Route path="/conferences" component={Conferences}/>
             <Route path="/workshop/bai2017" component={BAI2017}/>
-            <Route path="/workshop/bai2018" component={Conferences}/>
-            <Route path="/workshop/bai2019" component={Conferences}/>
-            <Route path="/workshop/bai2020" component={Conferences}/>
+            <Route path="/workshop/bai2018" component={BAI2018}/>
+            <Route path="/workshop/bai2019" component={BAI2019}/>
         </Switch>
     </HashRouter>,
   document.getElementById('root')
