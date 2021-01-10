@@ -90,7 +90,7 @@ function HomeHeader(props) {
                                 Black in AI increases the presence and inclusion of Black people in the field of 
                                 AI by creating space for sharing ideas, fostering collaborations, mentorship and advocacy.
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/">
+                            <ColorButton className={classes.chip} variant="contained" href="/#/membership">
                                 Become a Member
                             </ColorButton>
                             <JoinUsButton className={classes.chip} variant="contained" href="/#/partnership">

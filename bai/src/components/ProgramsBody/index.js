@@ -111,17 +111,17 @@ function ProgramsBody(props) {
                         <Grid item xs={12} md={6}>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2020
-                                <ColorButton className={classes.listButton} variant="contained" href="https://blackinai2020.vercel.app/">VIEW HIGHLIGHTS</ColorButton>
+                                <ColorButton className={classes.listButton} variant="contained" href="https://blackinai2020.vercel.app/">VIEW BAI 2020</ColorButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2019
-                                <JoinUsButton className={classes.listButton} variant="contained" href="/#/workshop/bai2019">VIEW HIGHLIGHTS</JoinUsButton>
+                                <JoinUsButton className={classes.listButton} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2018
-                                <JoinUsButton className={classes.listButton} variant="contained" href="/#/workshop/bai2018">VIEW HIGHLIGHTS</JoinUsButton>
+                                <JoinUsButton className={classes.listButton} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>

@@ -76,7 +76,7 @@ function HomeBody(props) {
                             various conferences related to AI, advocacy, and community building 
                             (through our online forums).
                         </Typography>
-                        <ColorButton className={classes.chip} variant="contained" href="/">
+                        <ColorButton className={classes.chip} variant="contained" href="/#/programs">
                             See Our Programns
                         </ColorButton>
                     </Grid>
@@ -91,7 +91,7 @@ function HomeBody(props) {
                             researcher. We use the forum to aggregate scholarships, fellowships, internship 
                             and job opportunities, summer schools, or research related discussions.
                         </Typography>
-                        <ColorButton className={classes.chip} variant="contained" href="/">
+                        <ColorButton className={classes.chip} variant="contained" href="/#/membership">
                             Join Us
                         </ColorButton>
                     </Grid>
@@ -113,7 +113,7 @@ function HomeBody(props) {
                             Partners play a key role in accelerating our mission and impact through 
                             making our workshop feasible and sustaining our community
                         </Typography>
-                        <ColorButton className={classes.chip} variant="contained" href="/">
+                        <ColorButton className={classes.chip} variant="contained" href="/#/partnership">
                             Learn More
                         </ColorButton>
                     </Grid>
