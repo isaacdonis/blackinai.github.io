@@ -69,7 +69,7 @@ function ProgramsList(props) {
             <Container className={classes.container}>
                 <Grid container spacing={4}>
                 {eachProgram.map((key) => (
-                    <Grid container item xs>
+                    <Grid container item xs={12} md={4}>
                         <Card className={classes.card}>
                             <CardActionArea>
                                 <CardMedia className={classes.media} image={key.img} title={key.title}/>
