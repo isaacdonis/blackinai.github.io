@@ -6,6 +6,7 @@ import theme from './../../theme';
 import ProgramsHeader from '../../components/ProgramsHeader';
 import ProgramsBody from '../../components/ProgramsBody';
 import Loader from '../../loader';
+import ProgramsList from '../../components/ProgramsList';
 
 function Programs() {
     return (
@@ -14,6 +15,7 @@ function Programs() {
             <Navbar />
             <ProgramsHeader/>
             <ProgramsBody/>
+            <ProgramsList/>
             <Footer />
         </ThemeProvider>
     );
