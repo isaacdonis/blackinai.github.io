@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { ThemeProvider, CssBaseline } from '@material-ui/core';
@@ -7,10 +7,12 @@ import HomeHeader from '../../components/HomeHeader';
 import JoinUs from '../../components/JoinUs';
 import HomeQuote from '../../components/HomeQuote';
 import HomeBody from '../../components/HomeBody';
+import Loader from '../../loader';
 
 function Home() {
     return (
         <ThemeProvider theme={theme}>
+            <Loader />
             <CssBaseline />
             <Navbar/>
             <HomeHeader/>
