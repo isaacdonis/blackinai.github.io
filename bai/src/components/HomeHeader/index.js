@@ -87,7 +87,7 @@ function HomeHeader(props) {
                     </Typography>
                     <Typography align="left" variant="h5">
                         Black in AI increases the presence and inclusion of Black people in the field of
-                        SAI by creating space for sharing ideas, fostering collaborations, mentorship and advocacy.
+                        AI by creating space for sharing ideas, fostering collaborations, mentorship and advocacy.
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="/#/membership">
                         Become a Member

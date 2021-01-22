@@ -27,7 +27,7 @@ const styles = (theme) => ({
         justify: 'center'
     },
     image: {
-        height: 60,
+        height: 80,
     },
     title: {
         marginTop: theme.spacing(2),
@@ -66,11 +66,23 @@ const OrgButton = withStyles((theme) => ({
 const sponsorslist = {
     Foundations: [
         {
-            title: '',
-            image: '',
-            link: '',
-            alt: 'logo',
+            title: 'Ford Foundation',
+            image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
+            link: 'https://www.fordfoundation.org/',
+            alt: 'Ford Foundation logo',
         },
+        {
+            title: 'MacArthur Foundation',
+            image: require('./../../assets/img/sponsors-partners/macArthur.png'),
+            link: 'https://www.macfound.org/',
+            alt: 'MacArthur Foundation logo',
+        },
+        {
+            title: 'Hopper-Dean Foundation',
+            image: require('./../../assets/img/sponsors-partners/hopperdeanfoundadion.png'),
+            link: '/',
+            alt: 'Hopper-Dean Foundation logo',
+        }
     ],
     Diamond: [
         {
@@ -91,18 +103,7 @@ const sponsorslist = {
             link: 'https://deepmind.com/',
             alt: 'Deepmind logo',
         },
-        {
-            title: 'Ford Foundation',
-            image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
-            link: 'https://www.fordfoundation.org/',
-            alt: 'Ford Foundation logo',
-        },
-        {
-            title: 'MacArthur Foundation',
-            image: require('./../../assets/img/sponsors-partners/macArthur.png'),
-            link: 'https://www.macfound.org/',
-            alt: 'MacArthur Foundation logo',
-        }],
+    ],
     Platinum: [
         {
             title: 'Nvidia',
@@ -173,12 +174,7 @@ const sponsorslist = {
             link: 'https://www.partnershiponai.org/',
             alt: 'Partnership on AI logo',
         },
-        {
-            title: 'Hopper-Dean Foundation',
-            image: require('./../../assets/img/sponsors-partners/hopperdeanfoundadion.png'),
-            link: '/',
-            alt: 'Hopper-Dean Foundation logo',
-        }],
+    ],
 };
 
 

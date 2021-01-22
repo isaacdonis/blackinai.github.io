@@ -97,7 +97,7 @@ function PartnershipBody(props) {
                                 Be part of our network
                             </Typography>
                             <ColorButton className={classes.chip} variant="contained" href="/">
-                                PARTNER OF US
+                                PARTNER WITH US
                             </ColorButton>
                         </Grid>
                         <Grid item xs={12} md={6}>

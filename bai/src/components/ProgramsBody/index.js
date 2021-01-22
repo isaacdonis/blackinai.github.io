@@ -35,7 +35,7 @@ const styles = (theme) => ({
     },
     chip: {
         margin: theme.spacing(1),
-        size: 'large',
+        size: 'medium',
         borderRadius: "40px",
     },
     divider: {
@@ -45,14 +45,12 @@ const styles = (theme) => ({
         height: "1px",
     },
     list: {
-        marginTop: theme.spacing(3),
-        marginBottom: theme.spacing(3),
-        marginLeft: theme.spacing(4),
+        margin: theme.spacing(3),
         color: theme.palette.primary.light,
     },
     listButton: {
         margin: theme.spacing(-1),
-        size: 'medium',
+        size: 'small',
         borderRadius: "40px",
         marginLeft: theme.spacing(25),
     }
@@ -111,17 +109,17 @@ function ProgramsBody(props) {
                         <Grid item xs={12} md={6}>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2020
-                                <ColorButton className={classes.listButton} variant="contained" href="https://blackinai2020.vercel.app/">VIEW BAI 2020</ColorButton>
+                                <ColorButton className={classes.chip} variant="contained" href="https://blackinai2020.vercel.app/">VIEW BAI 2020</ColorButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2019
-                                <JoinUsButton className={classes.listButton} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
+                                <JoinUsButton className={classes.chip} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2018
-                                <JoinUsButton className={classes.listButton} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
+                                <JoinUsButton className={classes.chip} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
