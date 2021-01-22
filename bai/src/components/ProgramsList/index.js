@@ -5,7 +5,6 @@ import Grid from '@material-ui/core/Grid';
 import { Container, Button } from '@material-ui/core/';
 import { Card, CardActionArea, CardContent, CardActions, CardMedia } from '@material-ui/core/';
 import Typography from '../Typography';
-import image from './../../assets/img/general/young-black-women-talking.jpg';
 
 const styles = (theme) => ({
     root: {
@@ -42,19 +41,19 @@ const styles = (theme) => ({
 
 const eachProgram = [
     {
-        img: image,
+        img: require('./../../assets/img/general/young-black-women-talking.jpg'),
         title: 'Academic Program',
         url: '/#/academic-programs',
         text: 'The Black in AI Academic program is committed to serving as a resource and supporting Black junior researchers as they apply to graduate programs, navigate graduate school, and enter the postgraduate job market. To that end, we conduct online information sessions, provide scholarships to cover costs related to applications, assign participants to peer and senior mentors, and share crowdsourced documents that demystify application processes.'
     },
     {
-        img: image,
+        img: require('./../../assets/img/general/image2.jpg'),
         title: 'Financial Support',
         url: '/#/programs',
         text: 'Black in AI awards need-based travel grants to attend our annual workshop and the NeurIPS conference. Our grants cover flights, accommodation, daily per diems, visa fees, and registration for the NurIPS conference. In 2018, 188 works from 28 countries were presented at BAI with a total of $375k given out in travel grants supporting 284 people.'
     },
     {
-        img: image,
+        img: require('./../../assets/img/general/image3.jpg'),
         title: 'Advocacy',
         url: '/#/programs',
         text: 'Our advocacy on barriers faced by our members ranging from visa issues while attending major AI conferences, to the lack of a presence by international companies on the African continent has resulted in new processes by conferences such as NeurIPS to mitigate barriers faced by our members and the first Google AI center in Africa (Accra, Ghana).'
