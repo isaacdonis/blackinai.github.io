@@ -96,7 +96,7 @@ function MembershipBody(props) {
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 Be part of our network
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/">
+                            <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/1pv34QhQE74gBnDu2xTdLmMNnWykY5tN2wihWIh7mwrQ/viewform?edit_requested=true">
                                 Become a Member
                             </ColorButton>
                             <JoinUsButton className={classes.chip} variant="contained" href="/">
