@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { HashRouter, BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
-import './index.scss';
+import './index.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons'

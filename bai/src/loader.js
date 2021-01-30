@@ -1,6 +1,6 @@
 import React, { Component, useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import './index.css';
 
 export default function Loader() {
     const [isLoading, setLoading] = useState(true);
