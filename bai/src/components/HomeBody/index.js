@@ -91,7 +91,7 @@ function HomeBody(props) {
                             researcher. We use the forum to aggregate scholarships, fellowships, internship 
                             and job opportunities, summer schools, or research related discussions.
                         </Typography>
-                        <ColorButton className={classes.chip} variant="contained" href="/#/membership">
+                        <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/1pv34QhQE74gBnDu2xTdLmMNnWykY5tN2wihWIh7mwrQ/viewform?edit_requested=true">
                             Join Us
                         </ColorButton>
                     </Grid>
