@@ -96,7 +96,7 @@ function PartnershipBody(props) {
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 Be part of our network
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/">
+                            <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/presentation/d/1wzh9uggU_pW7X0XJ2bVPonimAprbAwNtFTvsq5hy2w8/edit">
                                 PARTNER WITH US
                             </ColorButton>
                         </Grid>

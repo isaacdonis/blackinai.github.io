@@ -75,7 +75,7 @@ const JoinUsButton = withStyles((theme) => ({
 
 const valueslist = [
     {
-        id: 1, title: '300',
+        id: 1, title: '3000+',
         text: 'We’ve grown from a small facebook group to a global movement comprising 3000 community members and allies who believe that more black people should shape the direction of the field of AI.'
     },
     {
@@ -99,7 +99,7 @@ function MembershipBody(props) {
                             <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/1pv34QhQE74gBnDu2xTdLmMNnWykY5tN2wihWIh7mwrQ/viewform?edit_requested=true">
                                 Become a Member
                             </ColorButton>
-                            <JoinUsButton className={classes.chip} variant="contained" href="/">
+                            <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/spreadsheets/d/1RzmXMpDmfH6l_KiY3w4oc-47eqTX-BwdCIH5WK0LMkg/edit#gid=98451491">
                                 Membership Directory
                             </JoinUsButton>
                         </Grid>

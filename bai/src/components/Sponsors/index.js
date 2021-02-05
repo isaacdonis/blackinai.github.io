@@ -24,7 +24,7 @@ const styles = (theme) => ({
         flexDirection: 'column',
         alignItems: 'center', 
         padding: theme.spacing(3),
-        justify: 'center'
+        justify: 'center',
     },
     image: {
         height: 80,
@@ -39,51 +39,11 @@ const styles = (theme) => ({
         borderRadius: "40px",
     },
     avatarSize: {
-        height: theme.spacing(6),
+        height: theme.spacing(8),
     },
 });
 
-const ColorButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.dark),
-        backgroundColor: theme.palette.primary.dark,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.dark,
-        },
-    },
-}))(Button);
-
-const OrgButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
-
 const sponsorslist = {
-    Foundations: [
-        {
-            title: 'Ford Foundation',
-            image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
-            link: 'https://www.fordfoundation.org/',
-            alt: 'Ford Foundation logo',
-        },
-        {
-            title: 'MacArthur Foundation',
-            image: require('./../../assets/img/sponsors-partners/macArthur.png'),
-            link: 'https://www.macfound.org/',
-            alt: 'MacArthur Foundation logo',
-        },
-        {
-            title: 'Hopper-Dean Foundation',
-            image: require('./../../assets/img/sponsors-partners/hopperdeanfoundadion.png'),
-            link: '/',
-            alt: 'Hopper-Dean Foundation logo',
-        }
-    ],
     Diamond: [
         {
             title: 'Google',
@@ -110,6 +70,12 @@ const sponsorslist = {
             image: require('./../../assets/img/sponsors-partners/nvidia.png'),
             link: 'https://www.nvidia.com/',
             alt: 'Nvidia logo',
+        },
+        {
+            title: 'Ford Foundation',
+            image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
+            link: 'https://www.fordfoundation.org/',
+            alt: 'Ford Foundation logo',
         }],
     Gold: [
         {
@@ -153,6 +119,18 @@ const sponsorslist = {
             image: require('./../../assets/img/sponsors-partners/ibm.png'),
             link: 'https://www.ibm.com/',
             alt: 'IBM logo',
+        },
+        {
+            title: 'MacArthur Foundation',
+            image: require('./../../assets/img/sponsors-partners/macArthur.png'),
+            link: 'https://www.macfound.org/',
+            alt: 'MacArthur Foundation logo',
+        },
+        {
+            title: 'Hopper-Dean Foundation',
+            image: require('./../../assets/img/sponsors-partners/hopperdeanfoundadion.png'),
+            link: '/',
+            alt: 'Hopper-Dean Foundation logo',
         }],
     Silver: [
         {
@@ -190,20 +168,6 @@ function Sponsors(props) {
                             Current Partners
                         </Typography>
                     </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
-                            Foundations
-                        </Typography>
-                    </Grid>
-                    {sponsorslist.Foundations.map(key => (
-                        <Grid item xs={12} md={3}>
-                            <div className={classes.item}>
-                                <Link href={key.link}>
-                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
-                                </Link>
-                            </div>
-                        </Grid>
-                    ))}
                     <Grid item xs={12}>
                         <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                             Diamond & Platinum
@@ -257,7 +221,7 @@ function Sponsors(props) {
                         </Typography>
                     </Grid>
                     {sponsorslist.Bronze.map(key => (
-                        <Grid item xs={12} md={3}>
+                        <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
                                     <img alt={key.title} src={key.image} className={classes.avatarSize} />
