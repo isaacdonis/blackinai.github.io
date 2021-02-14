@@ -10,10 +10,12 @@ import Organizers2018 from './../../../posts/bai2018/Organizers2018.md';
 import ContentFile from '../../../components/Markdown/readfile';
 import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
 import image from './../../../assets/img/general/montreal_convention_centre.jpg';
+import Loader from '../../../loader';
 
 function BAI2018() {
     return (
         <ThemeProvider theme={theme}>
+            <Loader />
             <Navbar />
             <WorkshopPageHeader src={image}/>
             <ContentFile href={CallForPapers2018}>

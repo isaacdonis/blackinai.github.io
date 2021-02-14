@@ -73,7 +73,7 @@ const ColorButton = withStyles((theme) => ({
     },
 }))(Button);
 
-const JoinUsButton = withStyles((theme) => ({
+const SecondButton = withStyles((theme) => ({
     root: {
         color: theme.palette.getContrastText(theme.palette.primary.light),
         backgroundColor: theme.palette.primary.light,
@@ -102,9 +102,9 @@ function ProgramsBody(props) {
                                 satellite gatherings in other AI conferences (e.g. AAAI, CVPR, ICML, FAccT) allow 
                                 members of the BAI community to attend NeurIPS without feeling isolated.
                             </Typography>
-                            <JoinUsButton className={classes.chip} variant="contained" href="/">
+                            <SecondButton className={classes.chip} variant="contained" href="/">
                                 Become a Sponsor
-                            </JoinUsButton>
+                            </SecondButton>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="body1" className={classes.list}>
@@ -114,12 +114,12 @@ function ProgramsBody(props) {
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2019
-                                <JoinUsButton className={classes.chip} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
+                                <SecondButton className={classes.chip} variant="contained" href="/#/workshop/bai2019">VIEW HIGHLIGHTS</SecondButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
                                 BAI 2018
-                                <JoinUsButton className={classes.chip} variant="contained" href="/#/conferences">VIEW HIGHLIGHTS</JoinUsButton>
+                                <SecondButton className={classes.chip} variant="contained" href="/#/workshop/bai2018">VIEW HIGHLIGHTS</SecondButton>
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>

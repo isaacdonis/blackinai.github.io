@@ -9,10 +9,12 @@ import Grants2019 from './../../../posts/bai2019/Grants2019.md';
 import ContentFile from '../../../components/Markdown/readfile';
 import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
 import image from './../../../assets/img/general/vancouver_convention_center.jpg';
+import Loader from '../../../loader';
 
 function BAI2019() {
     return (
         <ThemeProvider theme={theme}>
+            <Loader />
             <Navbar />
             <WorkshopPageHeader src={image}/>
             <ContentFile href={CallForPapers2019}>
