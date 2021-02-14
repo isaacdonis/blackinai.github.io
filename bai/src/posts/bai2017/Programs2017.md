@@ -3,257 +3,160 @@
 <details><summary><b>Schedule 2017</b></summary>
 
 
-<table>
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Program</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1:00 - 1:05 pm</td>
-            <td>Introduction</td>
-        </tr>
-        <tr>
-            <td>1:25 - 1:55 pm</td>
-            <td>Keynote Address</td>
-        </tr>
-        <tr>
-            <td>1:55 - 2:15 pm</td>
-            <td>Oral Session 1</td>
-        </tr>
-        <tr>
-            <td>2:15 - 4:15 pm</td>
-            <td>Keynote Address</td>
-        </tr>
-        <tr>
-            <td>4:15 - 4:35 pm</td>
-            <td>Poster Session &amp; Coffee Break</td>
-        </tr>
-        <tr>
-            <td>4:35 - 5:05 pm</td>
-            <td>Keynote Address</td>
-        </tr>
-        <tr>
-            <td>5:05 - 5:25 pm</td>
-            <td>Oral Session 2</td>
-        </tr>
-        <tr>
-            <td>5:25 - 5:55 pm</td>
-            <td>Keynote Address</td>
-        </tr>
-        <tr>
-            <td>5:55 - 6:00 pm</td>
-            <td>Panel</td>
-        </tr>
-        <tr>
-            <td>6:00 - 6:30 pm</td>
-            <td>Closing Remarks</td>
-        </tr>
-        <tr>
-            <td>6:30 - 9:00 pm</td>
-            <td>Dinner</td>
-        </tr>
-    </tbody>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-wa1i">Time</th>
+    <th class="tg-wa1i">Program</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1">1:00 - 1:05 pm</td>
+    <td class="tg-cly1">Introduction</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">1:25 - 1:55 pm</td>
+    <td class="tg-cly1">Keynote Address</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">1:55 - 2:15 pm</td>
+    <td class="tg-cly1">Oral Session 1</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">2:15 - 4:15 pm</td>
+    <td class="tg-cly1">Keynote Address</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">4:15 - 4:35 pm</td>
+    <td class="tg-cly1">Poster Session &amp; Coffee Break</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">4:35 - 5:05 pm</td>
+    <td class="tg-cly1">Keynote Address</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">5:05 - 5:25 pm</td>
+    <td class="tg-cly1">Oral Session 2</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">5:25 - 5:55 pm</td>
+    <td class="tg-cly1">Keynote Address</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">5:55 - 6:00 pm</td>
+    <td class="tg-cly1">Panel</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">6:00 - 6:30 pm</td>
+    <td class="tg-cly1">Closing Remarks</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">6:30 - 9:00 pm</td>
+    <td class="tg-cly1">Dinner</td>
+  </tr>
+</tbody>
 </table>
+
 </details>
 
 <details><summary><b>Keynotes</b></summary>
 
-<table>
-    <thead>
-        <tr>
-            <th>Speakers</th>
-            <th>Bio</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>
-                <a href="https://sites.google.com/site/cwamainadekut/" target="_blank" rel="noopener">Ciira Maina</a>,
-                Dedan Kimathi University of Technology<br><em>Leveraging Machine Learning, Low Cost Devices and Open
-                    Science for Impact in the Developing World: An Example In Ecology</em>
-            </td>
-            <td>Ciira Maina graduated from the University of Nairobi, Kenya with a Bsc. degree in Electrical Engineering
-                (First class honors) in 2007 and with a Ph.D. from Drexel University in Philadelphia, USA in September
-                2011. At Drexel he was a member of the Adaptive Signal Processing and Information Theory Research Group
-                where he conducted research on robust speech processing. Between October 2011 and August 2013 he was a
-                postdoctoral researcher in computational Biology working with Prof. Magnus Rattray and Prof. Neil
-                Lawrence at the University of Sheffield. Since September 2013 he has been a Lecturer in Electrical
-                Engineering at Dedan Kimathi University of Technology in Nyeri, Kenya where he conducts research on
-                bioacoustic approaches to environmental monitoring, sensor systems for livestock monitoring and novel
-                approaches to electrical engineering instruction. In addition he serves on the organising committee for
-                Data Science Africa, an organisation that runs an annual data science and machine learning summer school
-                and workshop in Africa.</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="http://www.imperial.ac.uk/people/d.belgrave" target="_blank" rel="noopener">Danielle
-                    Belgrave</a>, Microsoft Research<br><em>Machine Learning for Personalised Health</em>
-            </td>
-            <td>Danielle Belgrave is a Researcher at Microsoft Research Cambridge. She also holds a tenured Research
-                Fellowship (Assistant Professor) at Imperial College London. Her research focuses on developing
-                probabilistic and causal graphical modelling frameworks to understand disease progression over time. The
-                aim of this research is to use machine learning to identify distinct subtypes of disease evolution
-                (endotypes) and to understand the underlying mechanisms of these subtypes so as to develop personalized
-                disease management strategies. She has a BSc in Business Mathematics and Statistics from the London
-                School of Economics and an MSc in Statistics from University College London. She was awarded a Microsoft
-                PhD Scholarship to complete her PhD in Statistics and Machine Learning applied to Health (2010-2013) at
-                The University of Manchester. She received a Medical Research Council (UK) Career Development Award in
-                Biostatistics (2015 – 2020) for the project “Unified probabilistic latent variable modelling strategies
-                to accelerate endotype discovery in longitudinal studies”.</td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://www.linkedin.com/in/dolaoseb/" target="_blank" rel="noopener">Debo Olaosebikan</a>,
-                Gigster<br><em>How to Automate the Creation of Software</em>
-            </td>
-            <td>Debo is co-founder and CTO of
-                <a href="https://gigster.com/" target="_blank" rel="noopener">Gigster</a>, a software development
-                marketplace that seeks to automate the creation and delivery of software while creating a productive
-                workplace of the future for engineers. Gigster logs data about code, projects, and people throughout the
-                software development lifecycle and uses patterns in that data to drive increases in reliability and
-                efficiency. Gigster aims to apply machine learning to challenging problems like software cost and time
-                estimation, optimal team formation, predicting the future (risk) on projects, and ultimately code
-                generation. Gigster is backed by Andreessen Horowitz, Redpoint, Y Combinator, and Greylock.Debo has
-                founded multiple marketplace, energy, and data startups. He is on leave from a physics PhD at Cornell
-                where he worked on silicon nanophotonics and theoretical physics. He was once a radio featured musician
-                and was the young Nigerian scientist of 2011. Debo advises startups and helps young founders as a Thiel
-                Fellowship mentor.
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <a href="https://habengirma.com/" target="_blank" rel="noopener">Haben Girma</a>, Harvard Law
-                School<br><em>Disability and Innovation: the benefits of universal design</em>
-            </td>
-            <td>The first Deafblind person to graduate from Harvard Law School, Haben Girma advocates for equal
-                opportunities for people with disabilities. President Obama named her a White House Champion of Change,
-                and Forbes recognized her in Forbes 30 Under 30. Haben travels the world consulting and public speaking,
-                teaching clients the benefits of fully accessible products and services. Haben is a talented storyteller
-                who helps people frame difference as an asset. She resisted society’s low expectations, choosing to
-                create her own pioneering story. Because of her disability rights advocacy she has been honored by
-                President Obama, President Clinton, and many others. Haben is also writing a memoir that will be
-                published by Grand Central Publishing in 2019.</td>
-        </tr>
-    </tbody>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-h240{font-family:serif !important;;text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-wa1i">Speakers</th>
+    <th class="tg-wa1i">Bio</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1"><a href="https://sites.google.com/site/cwamainadekut/" target="_blank" rel="noopener noreferrer">Ciira Maina</a>,<br>Dedan Kimathi University of Technology<br>Leveraging Machine Learning, Low Cost Devices and Open Science for Impact in the Developing World: An Example In Ecology</td>
+    <td class="tg-cly1">Ciira Maina graduated from the University of Nairobi, Kenya with a Bsc. degree in Electrical Engineering(First class honors) in 2007 and with a Ph.D. from Drexel University in Philadelphia, USA in September 2011. At Drexel he was a member of the Adaptive Signal Processing and Information Theory Research Group where he conducted research on robust speech processing. Between October 2011 and August 2013 he was a postdoctoral researcher in computational Biology working with Prof. Magnus Rattray and Prof. Neil Lawrence at the University of Sheffield. Since September 2013 he has been a Lecturer in Electrical Engineering at Dedan Kimathi University of Technology in Nyeri, Kenya where he conducts research on bioacoustic approaches to environmental monitoring, sensor systems for livestock monitoring and novel approaches to electrical engineering instruction. In addition he serves on the organising committee for Data Science Africa, an organisation that runs an annual data science and machine learning summer school and workshop in Africa.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><a href="http://www.imperial.ac.uk/people/d.belgrave" target="_blank" rel="noopener noreferrer">Danielle Belgrave</a>, <br>Microsoft Research<br>Machine Learning for Personalised Health </td>
+    <td class="tg-cly1">Danielle Belgrave is a Researcher at Microsoft Research Cambridge. She also holds a tenured Research Fellowship (Assistant Professor) at Imperial College London. Her research focuses on developing probabilistic and causal graphical modelling frameworks to understand disease progression over time. The aim of this research is to use machine learning to identify distinct subtypes of disease evolution (endotypes) and to understand the underlying mechanisms of these subtypes so as to develop personalized disease management strategies. She has a BSc in Business Mathematics and Statistics from the London School of Economics and an MSc in Statistics from University College London. She was awarded a Microsoft PhD Scholarship to complete her PhD in Statistics and Machine Learning applied to Health (2010-2013) at The University of Manchester. She received a Medical Research Council (UK) Career Development Award in Biostatistics (2015 – 2020) for the project “Unified probabilistic latent variable modelling strategies to accelerate endotype discovery in longitudinal studies”.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><a href="https://www.linkedin.com/in/dolaoseb/" target="_blank" rel="noopener noreferrer">Debo Olaosebikan</a>,<br>Gigster<br>How to Automate the Creation of Software </td>
+    <td class="tg-h240">Debo is co-founder and CTO of <a href="https://gigster.com/" target="_blank" rel="noopener noreferrer">Gigster</a>, a software development marketplace that seeks to automate the creation and delivery of software while creating a productive workplace of the future for engineers. Gigster logs data about code, projects, and people throughout the software development lifecycle and uses patterns in that data to drive increases in reliability and efficiency. Gigster aims to apply machine learning to challenging problems like software cost and time                 estimation, optimal team formation, predicting the future (risk) on projects, and ultimately code generation. Gigster is backed by Andreessen Horowitz, Redpoint, Y Combinator, and Greylock.Debo has founded multiple marketplace, energy, and data startups. He is on leave from a physics PhD at Cornell where he worked on silicon nanophotonics and theoretical physics. He was once a radio featured musician and was the young Nigerian scientist of 2011. Debo advises startups and helps young founders as a Thiel Fellowship mentor. </td>
+  </tr>
+  <tr>
+    <td class="tg-cly1"><a href="https://habengirma.com/" target="_blank" rel="noopener noreferrer">Haben Girma</a>, <br>Harvard Law School<br>Disability and Innovation: the benefits of universal design </td>
+    <td class="tg-cly1">The first Deafblind person to graduate from Harvard Law School, Haben Girma advocates for equal opportunities for people with disabilities. President Obama named her a White House Champion of Change, and Forbes recognized her in Forbes 30 Under 30. Haben travels the world consulting and public speaking, teaching clients the benefits of fully accessible products and services. Haben is a talented storyteller who helps people frame difference as an asset. She resisted society’s low expectations, choosing to create her own pioneering story. Because of her disability rights advocacy she has been honored by President Obama, President Clinton, and many others. Haben is also writing a memoir that will be published by Grand Central Publishing in 2019.</td>
+  </tr>
+</tbody>
 </table>
 </details>
 
 <details><summary><b>Oral Research Presenters</b></summary>
 
-</table>
-<h2 id="oral-research-presenters">Oral Research Presenters</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Researcher</th>
-            <th>Abstract</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Bonolo Mathibel<br>IBM Research Africa</td>
-            <td><em>Towards Impactful Artificial Intelligence on the African Continent</em><br>In recent years, machine
-                learning has been applied to solve diverse sets of challenges on the African continent. This includes
-                reducing road traffic congestion in the face of failing road infrastructure in South Africa, drought
-                modeling in the Horn of Africa, transfer learning for cassava disease detection in sub-Saharan Africa,
-                and galaxy count extraction from radio telescopes. The vast majority of research conducted in the field
-                of Artificial Intelligence (AI) occurs outside of the African continent, and the few studies that have
-                been applied to the African context are based on bespoke datasets generated to solve the problem at
-                hand. We therefore propose three pillars of representation that are foundational to achieving impactful,
-                sustainable, and scalable AI research and product development for and on the African continent. Our aim
-                is to increase the number of AI studies conducted in Africa and encourage researchers and AI
-                practitioners to consider both science and impact when selecting problems to work on.</td>
-        </tr>
-        <tr>
-            <td>George W Musumba<br>Dedan Kimathi University of Technology</td>
-            <td><em>Modelling Virtual Enterprises Using a Multi-Agent Systems Approach</em> <br> Nowadays enterprises
-                work together towards a common goal by sharing responsibilities and profits as is the case for
-                construction related projects. The construction sector’s potential contribution to the economic growth
-                of developing countries can be enhanced if the challenges facing the sector that include delayed
-                completion of projects, frequent collapse of buildings, lack of ethics, incompetent design, use of
-                inappropriate materials, poor coordination and management of contractors are effectively addressed.
-                These can be attributed to poor choice of partner enterprises for the tasks due to insufficient
-                information available about them and lack of facilitation techniques. Selection of best partner among
-                many for construction project is a Multi-Criteria Decision Making (MCDM) process. Existing MCDM
-                techniques cannot be used to select right partners for construction projects. Fuzzy Analytical Hierarchy
-                Process (FAHP) and Group Fuzzy Analytical Hierarchy Process (GFAHP), MCDM algorithms that learns partner
-                attributes (machine learning technique incorporated), were designed and applied. A Multi-Agent
-                Systems(MAS) approach was used for simulations. The approach provide efficient decision-making support
-                for human beings using software agents. Results show that this technique is both efficient and
-                effective. Validation of the system, carried out by stakeholders, show that it is approximately 99.7%
-                accurate in the evaluation and selection of partners and partners&rsquo;s performance evaluation.</td>
-        </tr>
-        <tr>
-            <td>Charles Onu<br>McGill University</td>
-            <td><em>Saving Newborn Lives at Birth through Machine Learning</em> <br>Every year, 3 million newborns die
-                within the first month of life. Birth asphyxia and other breathing-related conditions are a leading
-                cause of mortality during the neonatal phase. Current diagnostic methods are too sophisticated in terms
-                of equipment, required expertise, and general logistics. Consequently, early detection of asphyxia in
-                newborns is very difficult in many parts of the world, especially in resource-poor settings. We are
-                developing a machine learning system, dubbed Ubenwa, which enables diagnosis of asphyxia through
-                automated analysis of the infant cry. Deployed via smartphone and wearable technology, Ubenwa will
-                drastically reduce the time, cost and skill required to make accurate and potentially life-saving
-                diagnoses.</td>
-        </tr>
-        <tr>
-            <td>Ousmane Dia<br>ElementAI</td>
-            <td><em>Adversarial Functionality-Preserving Training in the Malware Domain</em> <br>Multiple approaches of
-                generating adversarial examples have been proposed to deceive deep neural networks into predicting an
-                incorrect target for a given observation [1, 2, 4, 7, 8, 10]. Most of the existing techniques that deal
-                with images involve either computing the gradients of a loss function with respect to the images pixels
-                [3, 7, 10], or they inject some noise generally sampled from a random or a normal distribution [1, 4, 8]
-                into a true case in the hope that the network will take an unexpected decision. While for images, the
-                adversarial examples are generated in a way to be identical to the true cases, the precise locations of
-                some details in a true image may still not be preserved in the perturbed one [2]. However, exact
-                locations of those fine details are not usually important for perceptual image recognition or validation
-                due to images high-entropy [6]. In Security, and specifically in malware detection, however, where the
-                cases in hand usually consist of raw bytes or sequences of system calls, this rarely holds. In Security,
-                being able to generate new examples that preserve the functionalities (or malignant properties) of some
-                true cases is paramount due to the difficulty of gathering large enough quantities of data for modeling
-                purposes. We posit that the reasons the adversary generated examples may not preserve such properties
-                are because the noise that is injected into the true cases is not necessarily sampled within the
-                manifold of the true cases or that the gradients that are exploited are not selected in the neighborhood
-                of the true examples.<br>In this study, we explore a new approach of generating adversarial malware
-                cases. We make use of variational autoencoders (VAEs) (similar in spirit to [5]) to generate
-                functionality-preserving mutations of true malware and extend Stein variational gradient descent [7]
-                where the distribution of the latent samples are approximated using the true cases data-generating
-                distribution. We also provide two ways to assess that the generated cases are functionality-preserving
-                mutations of true malware: 1) by sampling sequences of bytes from the (vector representation of the)
-                adversarial cases that we validate using as Oracle the Cuckoo Sandbox [9], and 2) by comparing specific
-                sections of our generated mutations against true cases of malware. Because our architecture is generic
-                enough, we evaluate our approach further with existing work on adversarial training of images and audio
-                and compare our results.</td>
-        </tr>
-        <tr>
-            <td>Adji Bousso Dieng<br>Columbia University</td>
-            <td><em>A Recurrent Neural Network with Long-Range Semantic Dependency</em><br> Language modeling is crucial
-                to many NLP tasks. Applications include machine translation and speech recognition. Traditional n-gram
-                and feed-forward neural network language models fail to capture long-range word dependencies. Previous
-                work by Mikolov et al. has shown that adding context to a Recurrent Neural Network (RNN) language model
-                is a promising direction to solve this issue. In this talk I will briefly review traditional language
-                models and topic models before diving into the more recent contextual RNN-based language models. In
-                particular, I will discuss the TopicRNN model, a RNN-based language model that captures long-range
-                semantic dependencies using topic features. I will also highlight some results on word prediction and
-                sentiment analysis using the TopicRNN model.</td>
-        </tr>
-        <tr>
-            <td>Flora Ponjou Tasse<br>University of Cambridge</td>
-            <td><em>ShapeSearch: A Generic Engine for 3D Models, Images, and Sketches</em><br>We present ShapeSearch, a
-                generic search engine for shapes that supports queries such as 3D models, images, sketches, and text.
-                Online repositories of images and 3D objects are growing at an exponential rate, used by growing
-                communities of makers and artists. Moreover, the proliferation of Augmented Reality platforms is
-                creating new communities of content creators and developers in need of 3D content. However, search
-                features in the large 3D repositories are still limited to text. On the other hand, the research
-                community has made significant progress in context-based shape retrieval, but current methods are
-                typically limited to one modality such as images or sketches. We propose a generic search engine able to
-                retrieve relevant shapes based on a wide range of modalities by leveraging the latest machine learning
-                advances in Graphics, Vision, and NLP.</td>
-        </tr>
-    </tbody>
-</table>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;margin:0px auto;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-cly1{text-align:left;vertical-align:middle}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-wa1i">Researcher</th>
+    <th class="tg-yla0">Abstract</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-cly1">Bonolo Mathibel<br>IBM Research Africa</td>
+    <td class="tg-8zwo">Towards Impactful Artificial Intelligence on the African Continent<br>In recent years, machine learning has been applied to solve diverse sets of challenges on the African continent. This includes reducing road traffic congestion in the face of failing road infrastructure in South Africa, drought modeling in the Horn of Africa, transfer learning for cassava disease detection in sub-Saharan Africa, and galaxy count extraction from radio telescopes. The vast majority of research conducted in the field of Artificial Intelligence (AI) occurs outside of the African continent, and the few studies that have been applied to the African context are based on bespoke datasets generated to solve the problem at hand. We therefore propose three pillars of representation that are foundational to achieving impactful, sustainable, and scalable AI research and product development for and on the African continent. Our aim is to increase the number of AI studies conducted in Africa and encourage researchers and AI practitioners to consider both science and impact when selecting problems to work on.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">George W Musumba<br>Dedan Kimathi University of Technology</td>
+    <td class="tg-8zwo">Modelling Virtual Enterprises Using a Multi-Agent Systems Approach <br> Nowadays enterprises work together towards a common goal by sharing responsibilities and profits as is the case for construction related projects. The construction sector’s potential contribution to the economic growth of developing countries can be enhanced if the challenges facing the sector that include delayed completion of projects, frequent collapse of buildings, lack of ethics, incompetent design, use of inappropriate materials, poor coordination and management of contractors are effectively addressed. These can be attributed to poor choice of partner enterprises for the tasks due to insufficient information available about them and lack of facilitation techniques. Selection of best partner among many for construction project is a Multi-Criteria Decision Making (MCDM) process. Existing MCDM techniques cannot be used to select right partners for construction projects. Fuzzy Analytical Hierarchy Process (FAHP) and Group Fuzzy Analytical Hierarchy Process (GFAHP), MCDM algorithms that learns partner attributes (machine learning technique incorporated), were designed and applied. A Multi-Agent Systems(MAS) approach was used for simulations. The approach provide efficient decision-making support for human beings using software agents. Results show that this technique is both efficient and effective. Validation of the system, carried out by stakeholders, show that it is approximately 99.7% accurate in the evaluation and selection of partners and partners’s performance evaluation.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Charles Onu<br>McGill University</td>
+    <td class="tg-8zwo">Saving Newborn Lives at Birth through Machine Learning <br>Every year, 3 million newborns die within the first month of life. Birth asphyxia and other breathing-related conditions are a leading cause of mortality during the neonatal phase. Current diagnostic methods are too sophisticated in terms of equipment, required expertise, and general logistics. Consequently, early detection of asphyxia in newborns is very difficult in many parts of the world, especially in resource-poor settings. We are developing a machine learning system, dubbed Ubenwa, which enables diagnosis of asphyxia through automated analysis of the infant cry. Deployed via smartphone and wearable technology, Ubenwa will drastically reduce the time, cost and skill required to make accurate and potentially life-saving diagnoses.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Ousmane Dia<br>ElementAI</td>
+    <td class="tg-8zwo">Adversarial Functionality-Preserving Training in the Malware Domain <br>Multiple approaches of generating adversarial examples have been proposed to deceive deep neural networks into predicting an incorrect target for a given observation [1, 2, 4, 7, 8, 10]. Most of the existing techniques that deal with images involve either computing the gradients of a loss function with respect to the images pixels [3, 7, 10], or they inject some noise generally sampled from a random or a normal distribution [1, 4, 8] into a true case in the hope that the network will take an unexpected decision. While for images, the adversarial examples are generated in a way to be identical to the true cases, the precise locations of some details in a true image may still not be preserved in the perturbed one [2]. However, exact locations of those fine details are not usually important for perceptual image recognition or validation due to images high-entropy [6]. In Security, and specifically in malware detection, however, where the cases in hand usually consist of raw bytes or sequences of system calls, this rarely holds. In Security, being able to generate new examples that preserve the functionalities (or malignant properties) of some true cases is paramount due to the difficulty of gathering large enough quantities of data for modeling purposes. We posit that the reasons the adversary generated examples may not preserve such properties are because the noise that is injected into the true cases is not necessarily sampled within the manifold of the true cases or that the gradients that are exploited are not selected in the neighborhood of the true examples.<br>In this study, we explore a new approach of generating adversarial malware cases. We make use of variational autoencoders (VAEs) (similar in spirit to [5]) to generate functionality-preserving mutations of true malware and extend Stein variational gradient descent [7] where the distribution of the latent samples are approximated using the true cases data-generating distribution. We also provide two ways to assess that the generated cases are functionality-preserving mutations of true malware: 1) by sampling sequences of bytes from the (vector representation of the) adversarial cases that we validate using as Oracle the Cuckoo Sandbox [9], and 2) by comparing specific sections of our generated mutations against true cases of malware. Because our architecture is generic enough, we evaluate our approach further with existing work on adversarial training of images and audio and compare our results.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Adji Bousso Dieng<br>Columbia University</td>
+    <td class="tg-8zwo">A Recurrent Neural Network with Long-Range Semantic Dependency<br> Language modeling is crucial to many NLP tasks. Applications include machine translation and speech recognition. Traditional n-gram and feed-forward neural network language models fail to capture long-range word dependencies. Previous work by Mikolov et al. has shown that adding context to a Recurrent Neural Network (RNN) language model is a promising direction to solve this issue. In this talk I will briefly review traditional language models and topic models before diving into the more recent contextual RNN-based language models. In particular, I will discuss the TopicRNN model, a RNN-based language model that captures long-range semantic dependencies using topic features. I will also highlight some results on word prediction and sentiment analysis using the TopicRNN model.</td>
+  </tr>
+  <tr>
+    <td class="tg-cly1">Flora Ponjou Tasse<br>University of Cambridge</td>
+    <td class="tg-8zwo">ShapeSearch: A Generic Engine for 3D Models, Images, and Sketches<br>We present ShapeSearch, a generic search engine for shapes that supports queries such as 3D models, images, sketches, and text. Online repositories of images and 3D objects are growing at an exponential rate, used by growing communities of makers and artists. Moreover, the proliferation of Augmented Reality platforms is creating new communities of content creators and developers in need of 3D content. However, search features in the large 3D repositories are still limited to text. On the other hand, the research community has made significant progress in context-based shape retrieval, but current methods are typically limited to one modality such as images or sketches. We propose a generic search engine able to retrieve relevant shapes based on a wide range of modalities by leveraging the latest machine learning advances in Graphics, Vision, and NLP.</td>
+  </tr>
+</tbody>
+</table></div>
 </details>
 
 <details><summary><b>Accepted Posters</b></summary>

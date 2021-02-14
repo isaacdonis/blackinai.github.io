@@ -11,18 +11,18 @@ Thanks to our corporate sponsors, the workshop is free to attendees and we are a
 
 ### Silver Sponsors (Component)
 <img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/elementai.png" alt="Element AI" width="200">
-<img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/airbnd.png" alt="Airbnb" width="200">
-<img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/uber.png" alt="Uber" width="200">
-<img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/savoy.jpg" alt="Uber" width="200">
+<img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/airbnb.png" alt="Airbnb" width="200">
+<img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/uber.png" alt="Uber" width="170">
+<img src="https://raw.githubusercontent.com/blackinai/blackinai.github.io/main/bai/src/assets/img/sponsors-partners/savoy.jpg" alt="Savoy" width="170">
 
 ### Supporters
 We thank [B4 Capital Group](https://b4capitalgroup.com/) for their support.
 
-We also thank the following institutions for sponsoring their students to attend the workshop
+We also thank the following institutions for sponsoring their students to attend the workshop:
 
-Cornell University
-Duke University
-Harvard University
-Stanford University
-University of California, Berkeley
-University of Illinois at Urbana-Champaign
+- Cornell University
+- Duke University
+- Harvard University
+- Stanford University
+- University of California, Berkeley
+- University of Illinois at Urbana-Champaign
