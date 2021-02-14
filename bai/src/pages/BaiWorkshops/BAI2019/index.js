@@ -7,11 +7,14 @@ import withRoot from '../../../withRoot';
 import CallForPapers2019 from './../../../posts/bai2019/CallForPapers2019.md';
 import Grants2019 from './../../../posts/bai2019/Grants2019.md';
 import ContentFile from '../../../components/Markdown/readfile';
+import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
+import image from './../../../assets/img/general/vancouver_convention_center.jpg';
 
 function BAI2019() {
     return (
         <ThemeProvider theme={theme}>
             <Navbar />
+            <WorkshopPageHeader src={image}/>
             <ContentFile href={CallForPapers2019}>
                 Black in AI 2019
             </ContentFile>

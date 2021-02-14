@@ -99,7 +99,7 @@ function ProgramsBody(props) {
                         <Grid item xs={12} md={6}>
                             <Typography className={classes.title}>
                                 Our annual Black in AI (BAI) workshop co-located with NeurIPS, as well as our 
-                                satellite gatherings in other AI conferences (e.g. AAAI, CVPR, ICML, FAT*) allow 
+                                satellite gatherings in other AI conferences (e.g. AAAI, CVPR, ICML, FAccT) allow 
                                 members of the BAI community to attend NeurIPS without feeling isolated.
                             </Typography>
                             <JoinUsButton className={classes.chip} variant="contained" href="/">

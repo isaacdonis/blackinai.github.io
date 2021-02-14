@@ -73,7 +73,7 @@ function Donate(){
             <input type="hidden" name="business" value="organizers@blackinai.org"/>
             <input type="hidden" name="lc" value="US"/>
             <input type="hidden" name="item_name" value="Black in AI Fundraiser"/>
-            <input type="hidden" name="item_number" value="Thanks for your kind contribution. Funds are used to support the annual BAI Workshops."/>
+            <input type="hidden" name="item_number" value="Thanks for your kind contribution. Funds are used to support Black in AI initiatives."/>
             <input type="hidden" name="no_note" value="0"/>
             <input type="hidden" name="currency_code" value="USD"/>
             <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_SM.gif:NonHostedGuest"/>
@@ -153,7 +153,7 @@ function Footer(props) {
                                 <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/about">About Us</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#">Programs</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/programs">Programs</Link>
                             </li>
                             <li className={classes.listItem}>
                                 <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/membership">Membership</Link>

@@ -50,7 +50,7 @@ const eachProgram = [
         img: require('./../../assets/img/general/image2.jpg'),
         title: 'Financial Support',
         url: '/#/programs',
-        text: 'Black in AI awards need-based travel grants to attend our annual workshop and the NeurIPS conference. Our grants cover flights, accommodation, daily per diems, visa fees, and registration for the NurIPS conference. In 2018, 188 works from 28 countries were presented at BAI with a total of $375k given out in travel grants supporting 284 people.'
+        text: 'Black in AI awards need-based travel grants to attend our annual workshop and the NeurIPS conference. Our grants cover flights, accommodation, daily per diems, visa fees, and registration for the NeurIPS conference. In 2018, 188 works from 28 countries were presented at BAI with a total of $375k given out in travel grants supporting 284 people.'
     },
     {
         img: require('./../../assets/img/general/image3.jpg'),

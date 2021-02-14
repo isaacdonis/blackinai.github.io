@@ -63,7 +63,7 @@ const ColorButton = withStyles((theme) => ({
 const valueslist = [
     {
         id: 1, title: '2017',
-        text: 'BAI was founded to challenge the status quo.'
+        text: 'Black in AI was founded to challenge the status quo.'
     },
     {
         id: 2, title: '3000',

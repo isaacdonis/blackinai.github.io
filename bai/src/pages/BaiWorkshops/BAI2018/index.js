@@ -8,11 +8,14 @@ import CallForPapers2018 from './../../../posts/bai2018/CallForPapers2018.md';
 import Grants2018 from './../../../posts/bai2018/Grants2018.md';
 import Organizers2018 from './../../../posts/bai2018/Organizers2018.md';
 import ContentFile from '../../../components/Markdown/readfile';
+import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
+import image from './../../../assets/img/general/montreal_convention_centre.jpg';
 
 function BAI2018() {
     return (
         <ThemeProvider theme={theme}>
             <Navbar />
+            <WorkshopPageHeader src={image}/>
             <ContentFile href={CallForPapers2018}>
                 Black in AI 2018
             </ContentFile>

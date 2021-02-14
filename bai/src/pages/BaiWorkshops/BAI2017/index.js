@@ -8,11 +8,14 @@ import CallForPapers2017 from './../../../posts/bai2017/CallForPapers2017.md';
 import Grants2017 from './../../../posts/bai2017/Grants2017.md';
 import Organizers2017 from './../../../posts/bai2017/Organizers2017.md';
 import ContentFile from '../../../components/Markdown/readfile';
+import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
+import image from './../../../assets/img/general/renaissance_long_beach_hotel.jpg';
 
 function BAI2017() {
     return (
         <ThemeProvider theme={theme}>
             <Navbar />
+            <WorkshopPageHeader src={image}/>
             <ContentFile href={CallForPapers2017}>
                 Black in AI 2017
             </ContentFile>
