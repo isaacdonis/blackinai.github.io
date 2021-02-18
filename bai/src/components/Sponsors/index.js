@@ -165,7 +165,7 @@ function Sponsors(props) {
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
                         <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            Current Partners
+                            Current Sponsors
                         </Typography>
                     </Grid>
                     <Grid item xs={12}>
