@@ -148,6 +148,12 @@ const communityTeam = [
         link: 'https://www.linkedin.com/in/isaacdonis/',
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
+    {
+        image: require('./../../assets/img/team/mirian.png'),
+        name: 'Mírian Silva', 
+        link: 'https://www.linkedin.com/in/mirianfsilva/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
+    },
 ];
 
 function TeamMembers(props) {
@@ -172,7 +178,7 @@ function TeamMembers(props) {
                         <Grid item xs={12} md={2}>
                             <Avatar alt={tile.name} src={tile.image} className={classes.avatarSize} />
                             <Typography className={classes.cardtitle} variant="h6" gutterBottom>
-                                {tile.name} <Link className={classes.icon} href={tile.link}>{tile.icon}</Link>
+                                {tile.name} <Link target="_blank" rel="noopener" className={classes.icon} href={tile.link}>{tile.icon}</Link>
                             </Typography>
                         </Grid>
                     ))}
@@ -188,7 +194,7 @@ function TeamMembers(props) {
                         <Grid item xs={12} md={2}>
                             <Avatar alt={tile.name} src={tile.image} className={classes.avatarSize} />
                             <Typography className={classes.cardtitle} variant="h6" gutterBottom>
-                                {tile.name} <Link className={classes.icon} href={tile.link}>{tile.icon}</Link>
+                                {tile.name} <Link target="_blank" rel="noopener" className={classes.icon} href={tile.link}>{tile.icon}</Link>
                             </Typography>
                         </Grid>
                     ))}
@@ -205,7 +211,7 @@ function TeamMembers(props) {
                         <Grid key={tile} item xs={12} md={2}>
                             <Avatar alt={tile.name} src={tile.image} className={classes.avatarSize} />
                             <Typography className={classes.cardtitle} variant="h6" gutterBottom>
-                                {tile.name} <Link className={classes.icon} href={tile.link}>{tile.icon}</Link>
+                                {tile.name} <Link target="_blank" rel="noopener" className={classes.icon} href={tile.link}>{tile.icon}</Link>
                             </Typography>
                         </Grid>
                         ))}
