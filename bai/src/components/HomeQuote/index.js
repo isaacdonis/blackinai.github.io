@@ -33,8 +33,9 @@ const styles = (theme) => ({
     },
     chip: {
         margin: theme.spacing(1),
-        size: 'large',
+        size: 'medium',
         borderRadius: "40px",
+        marginBottom: theme.spacing(2),
     },
     avatarSize: {
         width: theme.spacing(25),
@@ -66,34 +67,33 @@ function HomeQuote(props) {
     return (
         <section className={classes.root}>
             <Container className={classes.container}>
-                <Grid container spacing={2}>
+                <Grid container spacing={4}>
                     <Grid item xs={12}>
                         <Typography variant="h3" align="center" className={classes.title}>
                             Removing barriers to the sustained existence of black ai innovators
                         </Typography>
                     </Grid>
-                    <Grid item xs={12} className={classes.container}>
-                        <Grid item xs={12} md={8}>
-                            <Typography variant="body1" className={classes.title}>
-                                Without diversity in our set of researchers, we are not going to address problems 
-                                faced by the majority of people in the world. Black in AI’s projects addresses the 
-                                dire lack of Black professionals in the field of artificial intelligence (AI), and 
-                                the lack of visibility and support for those who are already in the field, leading 
-                                them to leave or not realize their full potential.
-                            </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="/#/about">
-                                Learn more about our work
-                            </ColorButton>
-                        </Grid>
-                        <Grid item xs={12} md={4}>
-                            <Avatar alt="Timnit Gebru" src={require('./../../assets/img/team/TimnitGebru.jpg')} 
-                                className={classes.avatarSize} />
-                            <Typography className={classes.title} variant="body1" gutterBottom>
-                                Timnit Gebru
-                                <br></br>
-                                Co-founder, Black in AI
-                            </Typography>
-                        </Grid>
+                    <Grid item xs={12} md={8}>
+                        <Typography variant="body1" className={classes.title}>
+                            Without diversity in our set of researchers, we are not going to address problems
+                            faced by the majority of people in the world. Black in AI’s projects addresses the
+                            dire lack of Black professionals in the field of artificial intelligence (AI), and
+                            the lack of visibility and support for those who are already in the field, leading
+                            them to leave or not realize their full potential.
+                        </Typography>
+                        <ColorButton className={classes.chip} variant="contained" href="/#/about">
+                            Learn more about our work
+                        </ColorButton>
+                    </Grid>
+
+                    <Grid item xs={12} md={4}>
+                        <Avatar alt="Timnit Gebru" src={require('./../../assets/img/team/TimnitGebru.jpg')}
+                            className={classes.avatarSize} />
+                        <Typography className={classes.title} variant="body1" gutterBottom>
+                            Timnit Gebru
+                            <br></br>
+                            Co-founder, Black in AI
+                        </Typography>
                     </Grid>
                 </Grid>
             </Container>

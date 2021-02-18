@@ -68,7 +68,7 @@ function Copyright() {
 
 function Donate(){
     return (
-        <form id='my-donate-form' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <form id='my-donate-form' action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" rel="noopener">
             <input type="hidden" name="cmd" value="_donations"/>
             <input type="hidden" name="business" value="organizers@blackinai.org"/>
             <input type="hidden" name="lc" value="US"/>
@@ -163,6 +163,7 @@ function Footer(props) {
                             </li>
                         </ul>
                     </Grid>
+                    {/**
                     <Grid item xs={6} sm={4} md={3}>
                         <Typography style={{ color:'#f8f7f7'}} variant="h6" marked="left" gutterBottom>
                             GET UPDATES
@@ -177,6 +178,7 @@ function Footer(props) {
                             </li>
                         </ul>
                     </Grid>
+                    **/}
                 </Grid>
             </Container>
         </Typography>

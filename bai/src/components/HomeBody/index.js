@@ -4,9 +4,9 @@ import { withStyles } from '@material-ui/core/styles';
 import Typography from '../Typography';
 import { Card, Button, CardMedia, Container, Divider, Grid } from '@material-ui/core';
 
-const image1 = "https://images.unsplash.com/photo-1573164574397-dd250bc8a598?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80";
-const image2 = "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80";
-const image3 = "https://images.unsplash.com/photo-1524087460115-e21f419c9e1e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80";
+const image1 = require('./../../assets/img/header/bai-img-13.jpg');
+const image2 = require('./../../assets/img/header/bai-img-11.jpg');
+const image3 = require('./../../assets/img/header/bai-img-14.jpg');
 
 const styles = (theme) => ({
     root: {
