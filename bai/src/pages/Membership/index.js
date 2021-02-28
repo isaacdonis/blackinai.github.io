@@ -6,6 +6,7 @@ import { ThemeProvider, Container, Box } from '@material-ui/core';
 import theme from './../../theme';
 import MembershipBody from '../../components/MembershipBody';
 import Loader from '../../loader';
+import MembershipDirectory from '../../components/MembershipDirectory';
 
 function Membership() {
     return (
@@ -14,6 +15,7 @@ function Membership() {
             <Navbar />
             <MembershipHeader/>
             <MembershipBody/>
+            <MembershipDirectory/>
             <Footer />
         </ThemeProvider>
     );

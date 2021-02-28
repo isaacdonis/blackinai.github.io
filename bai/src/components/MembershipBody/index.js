@@ -99,9 +99,6 @@ function MembershipBody(props) {
                             <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/1pv34QhQE74gBnDu2xTdLmMNnWykY5tN2wihWIh7mwrQ/viewform?edit_requested=true">
                                 Become a Member
                             </ColorButton>
-                            <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/spreadsheets/d/1RzmXMpDmfH6l_KiY3w4oc-47eqTX-BwdCIH5WK0LMkg/edit#gid=98451491">
-                                Membership Directory
-                            </JoinUsButton>
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h4" className={classes.title}>
