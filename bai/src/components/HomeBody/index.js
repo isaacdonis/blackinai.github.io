@@ -77,7 +77,7 @@ function HomeBody(props) {
                             (through our online forums).
                         </Typography>
                         <ColorButton className={classes.chip} variant="contained" href="/#/programs">
-                            See Our Programns
+                            See Our Programs
                         </ColorButton>
                     </Grid>
                 </Grid>
