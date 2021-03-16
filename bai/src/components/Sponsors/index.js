@@ -1,10 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import { Container, Link } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
-import { Container, Divider, Chip, Button, Avatar, Link } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from './../Typography';
-import backgroundImage from './../../assets/img/appCurvyLines.png';
 
 const styles = (theme) => ({
     root: {
@@ -45,12 +44,6 @@ const styles = (theme) => ({
 
 const sponsorslist = {
     Diamond: [
-        {
-            title: 'Google',
-            image: require('./../../assets/img/sponsors-partners/google.png'),
-            link: 'https://about.google/',
-            alt: 'Google logo',
-        },
         {
             title: 'Apple',
             image: require('./../../assets/img/sponsors-partners/apple.png'),
@@ -126,12 +119,7 @@ const sponsorslist = {
             link: 'https://www.macfound.org/',
             alt: 'MacArthur Foundation logo',
         },
-        {
-            title: 'Hopper-Dean Foundation',
-            image: require('./../../assets/img/sponsors-partners/hopperdeanfoundadion.png'),
-            link: '/',
-            alt: 'Hopper-Dean Foundation logo',
-        }],
+    ],
     Silver: [
         {
             title: 'Salesforce',

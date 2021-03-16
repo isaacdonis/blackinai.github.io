@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import { Container } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button, Avatar } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
 
 const styles = (theme) => ({

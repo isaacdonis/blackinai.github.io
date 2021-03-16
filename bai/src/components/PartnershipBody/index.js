@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import { Button, Container, ListItem } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button, Divider, ListItem } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
 
 const styles = (theme) => ({
@@ -62,28 +62,6 @@ const ColorButton = withStyles((theme) => ({
         },
     },
 }))(Button);
-
-const JoinUsButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
-
-const valueslist = [
-    {
-        id: 1, title: '300',
-        text: 'We’ve grown from a small facebook group to a global movement comprising 3000 community members and allies who believe that more black people should shape the direction of the field of AI.'
-    },
-    {
-        id: 2, title: '42',
-        text: 'Total number of countries with Black in AI members.'
-    },
-];
-
 function PartnershipBody(props) {
     const { classes } = props;
 
