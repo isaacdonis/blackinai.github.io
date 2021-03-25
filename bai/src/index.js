@@ -1,22 +1,24 @@
-import React, { Component, useState, useEffect} from 'react';
-import ReactDOM from 'react-dom';
-// import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { HashRouter, BrowserRouter, Route, Switch, Link } from "react-router-dom";
-import Home from './pages/Home';
-import About from './pages/About';
-import './index.css';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons'
-import * as serviceWorker from './serviceWorker';
-import Membership from './pages/Membership';
-import Partnership from './pages/Partnership';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { HashRouter, Route, Switch } from "react-router-dom";
+import './index.css';
+import About from './pages/About';
 import AcademicPrograms from './pages/AcademicPrograms';
-import Programs from './pages/Programs';
+import AdvocacyPrograms from './pages/AdvocacyPrograms';
 import Conferences from './pages/BaiWorkshops/AllConferences';
 import BAI2017 from './pages/BaiWorkshops/BAI2017';
 import BAI2018 from './pages/BaiWorkshops/BAI2018';
 import BAI2019 from './pages/BaiWorkshops/BAI2019';
+import FinancialSupport from './pages/FinancialSupport';
+import EntrepreneurshipProgram from './pages/EntrepreneurshipProgram';
+import Home from './pages/Home';
+import Membership from './pages/Membership';
+import Partnership from './pages/Partnership';
+import Programs from './pages/Programs';
+import * as serviceWorker from './serviceWorker';
 
 library.add(fab, fas);
 
@@ -27,7 +29,10 @@ ReactDOM.render(
             <Route path="/about" component={About}/>
             <Route path="/membership" component={Membership}/>
             <Route path="/partnership" component={Partnership}/>
-            <Route path="/academic-programs" component={AcademicPrograms}/> 
+            <Route path="/programs/academic-programs" component={AcademicPrograms}/>
+            <Route path="/programs/advocacy" component={AdvocacyPrograms}/> 
+            <Route path="/programs/financial-support" component={FinancialSupport}/> 
+            <Route path="/programs/entrepreneurship-program" component={EntrepreneurshipProgram}/>           
             <Route path="/programs" component={Programs}/>
             <Route path="/conferences" component={Conferences}/>
             <Route path="/workshop/bai2017" component={BAI2017}/>

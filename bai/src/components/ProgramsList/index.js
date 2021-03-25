@@ -1,9 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import { Button, Card, CardActions, CardContent, CardMedia, Container } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button } from '@material-ui/core/';
-import { Card, CardActionArea, CardContent, CardActions, CardMedia } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
 
 const styles = (theme) => ({
@@ -27,7 +26,7 @@ const styles = (theme) => ({
         paddingTop: '56.25%', // 16:9
     },
     image: {
-        height: 300,
+        height: 250,
     },
     card: {
         maxWidth: 345,
@@ -37,26 +36,75 @@ const styles = (theme) => ({
         marginBottom: theme.spacing(5),
         color: theme.palette.primary.dark,
     },
+    content: {
+        flex: '1 0 auto',
+    },
+    details: {
+        display: 'flex',
+        flexDirection: 'column',
+    },
 });
+
+const ColorButton = withStyles((theme) => ({
+    root: {
+        color: theme.palette.getContrastText(theme.palette.primary.light),
+        backgroundColor: theme.palette.primary.light,
+        '&:hover': {
+            backgroundColor: theme.palette.primary.light,
+        },
+    },
+}))(Button);
 
 const eachProgram = [
     {
-        img: require('./../../assets/img/general/young-black-women-talking.jpg'),
+        img: require('./../../assets/img/header/bai-img-13.jpg'),
         title: 'Academic Program',
-        url: '/#/academic-programs',
-        text: 'The Black in AI Academic program is committed to serving as a resource and supporting Black junior researchers as they apply to graduate programs, navigate graduate school, and enter the postgraduate job market. To that end, we conduct online information sessions, provide scholarships to cover costs related to applications, assign participants to peer and senior mentors, and share crowdsourced documents that demystify application processes.'
+        url: '/#/programs/academic-programs',
+        // eslint-disable-next-line
+        text: 'The Black in AI Academic program is committed to serving as a resource and supporting \
+            Black junior researchers as they apply to graduate programs, navigate graduate school, and enter \
+            the postgraduate job market. To that end, we conduct online information sessions, provide scholarships \
+            to cover costs related to applications, assign participants to peer and senior mentors, and share \
+            crowdsourced documents that demystify application processes.'
     },
     {
-        img: require('./../../assets/img/general/image2.jpg'),
+        img: require('./../../assets/img/header/bai-img-8.png'),
         title: 'Financial Support',
-        url: '/#/programs',
-        text: 'Black in AI awards need-based travel grants to attend our annual workshop and the NeurIPS conference. Our grants cover flights, accommodation, daily per diems, visa fees, and registration for the NeurIPS conference. In 2018, 188 works from 28 countries were presented at BAI with a total of $375k given out in travel grants supporting 284 people.'
+        url: '/#/programs/financial-support',
+        // eslint-disable-next-line
+        text: 'In addition to providing scholarships to cover costs associated with navigating academic \
+            programs, Black in AI awards need-based travel grants to attend our annual events including our \
+            workshop at the NeruIPS conference, and additional events in other conferences such as \
+            AAAI, CVPR, ACL, ICML, ICLR, COLING and FAccT. Our grants cover flights, accommodation, daily per diems, \
+            visa fees, data grants, and registration for the conferences. Since the first Black in AI workshop in 2017, \
+            400+ works from 40+ countries have been presented with over $1M given out in travel grants supporting \
+            400+ people. Many members cannot afford to first pay out of pocket and then receive reimbursements. \
+            Thus we also make travel arrangements for them including booking airfare and accommodation.'
     },
     {
-        img: require('./../../assets/img/general/image3.jpg'),
+        img: require('./../../assets/img/header/bai-img-12.jpg'),
         title: 'Advocacy',
-        url: '/#/programs',
-        text: 'Our advocacy on barriers faced by our members ranging from visa issues while attending major AI conferences, to the lack of a presence by international companies on the African continent has resulted in new processes by conferences such as NeurIPS to mitigate barriers faced by our members and the first Google AI center in Africa (Accra, Ghana).'
+        url: '/#/programs/advocacy',
+        // eslint-disable-next-line
+        text: 'Black in AI’s advocacy has focused on removing barriers faced by Black people around the world in the field of AI. \
+            Our advocacy has helped remove the GRE as an admissions requirement by some graduate schools in the US, \
+            helped shed light on visa issues that Africans and members of the African diaspora face while attempting \
+            to attend major international AI conferences, the lack of presence by international companies on the African \
+            continent, and the choice of conference locations that exclude many members of our community.'
+    },
+    {
+        img: require('./../../assets/img/header/bai-img-13.jpg'),
+        title: 'Entrepreneurship Program',
+        url: '/#/programs/entrepreneurship-program',
+        // eslint-disable-next-line
+        text: 'As of 2021, Black founders in the US receive around 2% of venture capital and Black investors \
+        represent 3% of the professionals in the Venture Capital industry. Our \
+        entrepreneurship program, which is currently under design, hopes to work on closing this gap by providing \
+        support to entrepreneurs in Black in AI. We started our work with a survey \
+        for aspiring founders and funders of the community and will release a report based on the survey to enable other \
+        members of the entrepreneurial ecosystem to support Black AI founders and foster collaborations. We then plan on \
+        implementing our program based on major difficulties pointed out by our members, including funding early stage \
+        teams and pairing them with experienced mentors.'
     },
 ];
 
@@ -68,24 +116,24 @@ function ProgramsList(props) {
             <Container className={classes.container}>
                 <Grid container spacing={4}>
                 {eachProgram.map((key) => (
-                    <Grid container item xs={12} md={4}>
-                        <Card className={classes.card}>
-                            <CardActionArea>
+                    <Grid container item xs={12} md={6}>
+                        <Card className={classes.root}>
+                            <div className={classes.details}>
                                 <CardMedia className={classes.media} image={key.img} title={key.title}/>
-                                <CardContent>
+                                <CardContent className={classes.content}>
                                     <Typography gutterBottom variant="h5" component="h3">
                                         {key.title}
                                     </Typography>
                                     <Typography variant="body2">
-                                        {key.text}
+                                        {key.text}                      
                                     </Typography>
                                 </CardContent>
-                            </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="secondary" href={key.url}>
-                                    Learn More
-                                </Button>
-                            </CardActions>
+                                <CardActions>
+                                    <ColorButton size="small" color="secondary" variant="contained" href={key.url}>
+                                        Read More
+                                    </ColorButton>
+                                </CardActions>
+                            </div>
                         </Card>
                     </Grid>
                 ))}

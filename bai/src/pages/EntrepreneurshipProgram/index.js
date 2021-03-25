@@ -6,22 +6,22 @@ import PageHeader from '../../components/WorkshopPageHeader';
 import Loader from '../../loader';
 import theme from '../../theme';
 import withRoot from '../../withRoot';
-import image from './../../assets/img/general/academic_programs.jpg';
+import image from './../../assets/img/general/young-black-women-talking.jpg';
 import ContentFile from './../../components/Markdown/readfile';
-import AcademicPage from './../../posts/baiPrograms/AcademicPrograms.md';
+import Entrepreneurship from './../../posts/baiPrograms/EntrepreneurshipProgram.md';
 
-function AcademicPrograms() {
+function EntrepreneurshipProgram() {
     return (
         <ThemeProvider theme={theme}>
             <Loader />
             <Navbar />
             <PageHeader src={image}/>
-            <ContentFile href={AcademicPage}>
-                Academic Programs
+            <ContentFile href={Entrepreneurship}>
+                Entrepreneurship Program
             </ContentFile>
             <Footer />
         </ThemeProvider>
     );
 }
 
-export default withRoot(AcademicPrograms);
+export default withRoot(EntrepreneurshipProgram);

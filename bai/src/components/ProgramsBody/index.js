@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import { Button, Container, Divider, Link } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button, Divider , Link} from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
 
 const styles = (theme) => ({
@@ -123,7 +123,7 @@ function ProgramsBody(props) {
                             </Typography>
                             <Divider variant="middle" className={classes.divider}/>
                             <Typography variant="body1" className={classes.list}>
-                                <Link href="/#/conferences">View more conferences</Link>
+                                <Link className={classes.chip} variant="contained" href="/#conferences">View more conferences</Link>
                             </Typography>
                         </Grid>
                     </Grid>

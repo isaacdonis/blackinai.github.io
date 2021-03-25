@@ -1,10 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
-import { withStyles } from '@material-ui/core/styles';
-import { List, Link, ListItem, Grid } from '@material-ui/core';
-import { Container, Button} from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Container, Grid, Link, List, ListItem } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from './../Typography';
 
 
@@ -41,16 +39,6 @@ const useStyles = makeStyles((theme) => ({
         borderRadius: "40px",
     }
 }));
-
-const ColorButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.warning.main),
-        backgroundColor: theme.palette.warning.main,
-        '&:hover': {
-            backgroundColor: theme.palette.warning.main,
-        },
-    },
-}))(Button);
 
 function Copyright() {
     return (

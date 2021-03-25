@@ -1,13 +1,13 @@
-import React, { useState, useEffect} from 'react';
-import Navbar from '../../components/Navbar';
+import { CssBaseline, ThemeProvider } from '@material-ui/core';
+import React from 'react';
 import Footer from '../../components/Footer';
-import { ThemeProvider, CssBaseline } from '@material-ui/core';
-import theme from './../../theme';
-import HomeHeader from '../../components/HomeHeader';
-import JoinUs from '../../components/JoinUs';
-import HomeQuote from '../../components/HomeQuote';
 import HomeBody from '../../components/HomeBody';
+import HomeHeader from '../../components/HomeHeader';
+import HomeQuote from '../../components/HomeQuote';
+import JoinUs from '../../components/JoinUs';
+import Navbar from '../../components/Navbar';
 import Loader from '../../loader';
+import theme from './../../theme';
 
 function Home() {
     return (

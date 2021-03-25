@@ -1,12 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { CardMedia, Container, Grid } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
-import Button from '../Button';
-import Typography from '../Typography';
+import PropTypes from 'prop-types';
+import React from 'react';
 import HeaderLayout from '../HeaderLayout';
-import { Card, CardMedia, Container, Divider, Grid, GridList, GridListTile } from '@material-ui/core';
-
-import image1 from './../../assets/img/header/bai-img-2.jpg';
+import Typography from '../Typography';
 import image2 from './../../assets/img/header/bai-img-4.JPG';
 import image4 from './../../assets/img/header/bai-img-5.jpg';
 import image5 from './../../assets/img/header/bai-img-6.jpg';

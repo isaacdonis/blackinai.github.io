@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { Button, CardMedia, Container, Grid } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
-import { Button, Card, CardMedia, Container, Divider, Grid, GridList, GridListTile } from '@material-ui/core';
-
 import image from './../../assets/img/header/bai-img-2.jpg';
+
 // import image2 from './../../assets/img/header/bai-img-4.JPG';
 // import image4 from './../../assets/img/header/bai-img-5.jpg';
 // import image5 from './../../assets/img/header/bai-img-6.jpg';

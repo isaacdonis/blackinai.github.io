@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const styles = (theme) => ({
     root: {
@@ -44,7 +44,7 @@ function WorkshopPageHeader(props) {
     return (
         <div className={classes.root}>
             <Container className={classes.cardMedia} style={{ backgroundImage: `url(${path_img})` }}>    
-                {<img style={{ display: 'none' }} src={path_img} />}
+                {<img style={{ display: 'none' }} alt="" src={path_img} />}
             </Container>
         </div>
 

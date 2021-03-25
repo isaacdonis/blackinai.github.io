@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { ButtonBase, Container } from '@material-ui/core/';
 import { withStyles } from '@material-ui/core/styles';
-import { ButtonBase, Container, Link} from '@material-ui/core/';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
 
 

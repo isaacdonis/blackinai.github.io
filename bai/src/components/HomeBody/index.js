@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { Button, Container, Grid } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
-import { Card, Button, CardMedia, Container, Divider, Grid } from '@material-ui/core';
 
 const image1 = require('./../../assets/img/header/bai-img-13.jpg');
 const image2 = require('./../../assets/img/header/bai-img-11.jpg');
@@ -64,7 +64,7 @@ function HomeBody(props) {
                 <Grid item xs={12} className={classes.container}>
                     <Grid item xs={12}>
                         <Container className={classes.cardMedia} style={{ backgroundImage: `url(${image1})` }}>    
-                            {<img style={{ display: 'none' }} src={image1} />}
+                            {<img style={{ display: 'none' }} alt="" src={image1} />}
                         </Container>
                     </Grid>
                     <Grid item xs={12} className={classes.cardText}>
@@ -96,13 +96,13 @@ function HomeBody(props) {
                         </ColorButton>
                     </Grid>
                     <Container className={classes.cardMedia} style={{ backgroundImage: `url(${image2})` }}>    
-                        {<img style={{ display: 'none' }} src={image2} />}
+                        {<img style={{ display: 'none' }} alt="" src={image2} />}
                     </Container>
                 </Grid>
                 <Grid item xs={12} className={classes.container}>
                     <Grid item xs={12}>
                         <Container className={classes.cardMedia} style={{ backgroundImage: `url(${image3})` }}>    
-                            {<img style={{ display: 'none' }} src={image3} />}
+                            {<img style={{ display: 'none' }} alt="" src={image3} />}
                         </Container>
                     </Grid>
                     <Grid item xs={12} className={classes.cardText}>

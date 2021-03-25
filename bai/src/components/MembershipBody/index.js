@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
+import { Button, Container, Divider } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
-import { Container, Button, Divider } from '@material-ui/core/';
+import { withStyles } from '@material-ui/core/styles';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
 
 const styles = (theme) => ({
@@ -55,16 +55,6 @@ const ColorButton = withStyles((theme) => ({
         },
     },
     secundary: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
-
-const JoinUsButton = withStyles((theme) => ({
-    root: {
         color: theme.palette.getContrastText(theme.palette.primary.light),
         backgroundColor: theme.palette.primary.light,
         '&:hover': {

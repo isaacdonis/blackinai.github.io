@@ -1,5 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useEffect, useState } from 'react';
 import './index.css';
 
 export default function Loader() {
@@ -18,7 +17,7 @@ export default function Loader() {
             }
         });
         window.scrollTo(0, 0)
-    }, []);
+    });
 
     if (isLoading) {
         window.scrollTo(0, 0)

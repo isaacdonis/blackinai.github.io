@@ -1,11 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import { CardMedia, Container, Grid } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
-import Button from '../Button';
+import PropTypes from 'prop-types';
+import React from 'react';
 import Typography from '../Typography';
-import { Card, CardMedia, Container, Divider, Grid, GridList, GridListTile } from '@material-ui/core';
-
 import image from './../../assets/img/header/bai-img-9.png';
+
 
 const styles = (theme) => ({
     root: {
