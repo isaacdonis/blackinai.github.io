@@ -26,7 +26,7 @@ const styles = (theme) => ({
         paddingTop: '56.25%', // 16:9
     },
     image: {
-        height: 200,
+        height: 180,
     },
     card: {
         maxWidth: 300,
@@ -92,8 +92,8 @@ const eachProgram = [
             to attend major international AI conferences, the lack of presence by international companies on the African \
             continent, and the choice of conference locations that exclude many members of our community.'
     },
-    /* {
-        img: require('./../../assets/img/header/bai-img-13.jpg'),
+    {
+        img: require('./../../assets/img/header/bai-img-15.jpg'),
         title: 'Entrepreneurship Program',
         url: '/#/programs/entrepreneurship-program',
         // eslint-disable-next-line
@@ -105,7 +105,7 @@ const eachProgram = [
         members of the entrepreneurial ecosystem to support Black AI founders and foster collaborations. We then plan on \
         implementing our program based on major difficulties pointed out by our members, including funding early stage \
         teams and pairing them with experienced mentors.'
-    }, */
+    },
 ];
 
 function ProgramsList(props) {
@@ -116,7 +116,7 @@ function ProgramsList(props) {
             <Container className={classes.container}>
                 <Grid container spacing={4}>
                     {eachProgram.map((key) => (
-                        <Grid container item xs={12} md={4}>
+                        <Grid container item xs={12} md={6}>
                             <Card className={classes.root}>
                                 <div className={classes.details}>
                                     <CardMedia className={classes.media} image={key.img} title={key.title} />
