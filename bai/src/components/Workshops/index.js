@@ -116,7 +116,7 @@ function Workshops(props) {
     return (
         <Container className={classes.root} component="section">
             <Typography variant="h4" marked="center" align="center" component="h2">
-                Black in Ai Workshops
+                Black in AI Workshops
             </Typography>
             <div className={classes.images}>
                 {workshops.map((key) => (

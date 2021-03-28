@@ -26,10 +26,10 @@ const styles = (theme) => ({
         paddingTop: '56.25%', // 16:9
     },
     image: {
-        height: 250,
+        height: 200,
     },
     card: {
-        maxWidth: 345,
+        maxWidth: 300,
     },
     title: {
         marginTop: theme.spacing(5),
@@ -92,7 +92,7 @@ const eachProgram = [
             to attend major international AI conferences, the lack of presence by international companies on the African \
             continent, and the choice of conference locations that exclude many members of our community.'
     },
-    {
+    /* {
         img: require('./../../assets/img/header/bai-img-13.jpg'),
         title: 'Entrepreneurship Program',
         url: '/#/programs/entrepreneurship-program',
@@ -105,7 +105,7 @@ const eachProgram = [
         members of the entrepreneurial ecosystem to support Black AI founders and foster collaborations. We then plan on \
         implementing our program based on major difficulties pointed out by our members, including funding early stage \
         teams and pairing them with experienced mentors.'
-    },
+    }, */
 ];
 
 function ProgramsList(props) {
@@ -115,28 +115,28 @@ function ProgramsList(props) {
         <section className={classes.root}>
             <Container className={classes.container}>
                 <Grid container spacing={4}>
-                {eachProgram.map((key) => (
-                    <Grid container item xs={12} md={6}>
-                        <Card className={classes.root}>
-                            <div className={classes.details}>
-                                <CardMedia className={classes.media} image={key.img} title={key.title}/>
-                                <CardContent className={classes.content}>
-                                    <Typography gutterBottom variant="h5" component="h3">
-                                        {key.title}
-                                    </Typography>
-                                    <Typography variant="body2">
-                                        {key.text}                      
-                                    </Typography>
-                                </CardContent>
-                                <CardActions>
-                                    <ColorButton size="small" color="secondary" variant="contained" href={key.url}>
-                                        Read More
+                    {eachProgram.map((key) => (
+                        <Grid container item xs={12} md={4}>
+                            <Card className={classes.root}>
+                                <div className={classes.details}>
+                                    <CardMedia className={classes.media} image={key.img} title={key.title} />
+                                    <CardContent className={classes.content}>
+                                        <Typography gutterBottom variant="h5" component="h3">
+                                            {key.title}
+                                        </Typography>
+                                        <Typography variant="body2">
+                                            {key.text}
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <ColorButton size="small" color="secondary" variant="contained" href={key.url}>
+                                            Read More
                                     </ColorButton>
-                                </CardActions>
-                            </div>
-                        </Card>
-                    </Grid>
-                ))}
+                                    </CardActions>
+                                </div>
+                            </Card>
+                        </Grid>
+                    ))}
                 </Grid>
             </Container>
         </section>

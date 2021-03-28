@@ -134,6 +134,10 @@ function Navbar(props) {
             text: 'Partnership',
             path: '/#/partnership',
         },
+        {
+            text: 'Media',
+            path: '/#/media',
+        },
     ]
 
     const [mobileOpen, setMobileOpen] = React.useState({
