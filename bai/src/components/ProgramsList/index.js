@@ -55,7 +55,22 @@ const ColorButton = withStyles((theme) => ({
     },
 }))(Button);
 
-const eachProgram = [
+const eachProgramOne = [
+    {
+        img: require('./../../assets/img/header/bai-img-4.JPG'),
+        title: 'Summer Research Programs',
+        url: '/#/programs/summer-research-programs',
+        // eslint-disable-next-line
+        text: 'Starting summer of 2021, Black in AI is piloting 2 summer programs, one tailored towards undergraduates, \
+        and another one without restrictions for participation. Black in AI is excited to partner with the Distributed \
+        Research Experiences for Undergraduates (DREU) program and will fund a limited \
+        number of summer internships in the summer of 2021. In addition, Black in AI is also partnering with Stanford \
+        University to pilot the BlackAIR summer research program, to provide research support, mentorship, and exposure \
+        to program participants. Black women at various stages of AI research \
+        experience are encouraged to apply. Program participants will be matched with a research mentor whom they will \
+        regularly meet (remotely) for research guidance over the course of the grant, and will get the opportunity to \
+        hear speakers from various Computer Science research fields. The 2021 edition of the program will be held remotely.'
+    },
     {
         img: require('./../../assets/img/header/bai-img-13.jpg'),
         title: 'Academic Program',
@@ -67,6 +82,9 @@ const eachProgram = [
             to cover costs related to applications, assign participants to peer and senior mentors, and share \
             crowdsourced documents that demystify application processes.'
     },
+];
+
+const eachProgramTwo = [
     {
         img: require('./../../assets/img/header/bai-img-8.png'),
         title: 'Financial Support',
@@ -115,8 +133,30 @@ function ProgramsList(props) {
         <section className={classes.root}>
             <Container className={classes.container}>
                 <Grid container spacing={4}>
-                    {eachProgram.map((key) => (
+                    {eachProgramOne.map((key) => (
                         <Grid container item xs={12} md={6}>
+                            <Card className={classes.root}>
+                                <div className={classes.details}>
+                                    <CardMedia className={classes.media} image={key.img} title={key.title} />
+                                    <CardContent className={classes.content}>
+                                        <Typography gutterBottom variant="h5" component="h3">
+                                            {key.title}
+                                        </Typography>
+                                        <Typography variant="body2">
+                                            {key.text}
+                                        </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <ColorButton size="small" color="secondary" variant="contained" href={key.url}>
+                                            Read More
+                                    </ColorButton>
+                                    </CardActions>
+                                </div>
+                            </Card>
+                        </Grid>
+                    ))}
+                    {eachProgramTwo.map((key) => (
+                        <Grid container item xs={12} md={4}>
                             <Card className={classes.root}>
                                 <div className={classes.details}>
                                     <CardMedia className={classes.media} image={key.img} title={key.title} />

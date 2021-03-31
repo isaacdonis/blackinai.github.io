@@ -19,6 +19,7 @@ import Membership from './pages/Membership';
 import Partnership from './pages/Partnership';
 import Programs from './pages/Programs';
 import * as serviceWorker from './serviceWorker';
+import SummerResearchPrograms from './pages/SummerResearchPrograms';
 
 library.add(fab, fas);
 
@@ -26,21 +27,22 @@ ReactDOM.render(
     <HashRouter basename='/' hashType={'slash'}>
         <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/about" component={About}/>
-            <Route path="/membership" component={Membership}/>
-            <Route path="/partnership" component={Partnership}/>
-            <Route path="/programs/academic-programs" component={AcademicPrograms}/>
-            <Route path="/programs/advocacy" component={AdvocacyPrograms}/> 
-            <Route path="/programs/financial-support" component={FinancialSupport}/> 
-            <Route path="/programs/entrepreneurship-program" component={EntrepreneurshipProgram}/>           
-            <Route path="/programs" component={Programs}/>
-            <Route path="/conferences" component={Conferences}/>
-            <Route path="/workshop/bai2017" component={BAI2017}/>
-            <Route path="/workshop/bai2018" component={BAI2018}/>
-            <Route path="/workshop/bai2019" component={BAI2019}/>
+            <Route path="/about" component={About} />
+            <Route path="/membership" component={Membership} />
+            <Route path="/partnership" component={Partnership} />
+            <Route path="/programs/academic-programs" component={AcademicPrograms} />
+            <Route path="/programs/advocacy" component={AdvocacyPrograms} />
+            <Route path="/programs/financial-support" component={FinancialSupport} />
+            <Route path="/programs/entrepreneurship-program" component={EntrepreneurshipProgram} />
+            <Route path="/programs/summer-research-programs" component={SummerResearchPrograms} />
+            <Route path="/programs" component={Programs} />
+            <Route path="/conferences" component={Conferences} />
+            <Route path="/workshop/bai2017" component={BAI2017} />
+            <Route path="/workshop/bai2018" component={BAI2018} />
+            <Route path="/workshop/bai2019" component={BAI2019} />
         </Switch>
     </HashRouter>,
-  document.getElementById('root')
+    document.getElementById('root')
 );
 
 

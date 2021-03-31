@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { withStyles } from '@material-ui/core/styles';
-import { Link, Drawer, IconButton, List , ListItem} from '@material-ui/core/';
+import { Link, Drawer, IconButton, List, ListItem } from '@material-ui/core/';
 import { AppBar, Toolbar, Button } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -27,7 +27,7 @@ const styles = (theme) => ({
         backgroundColor: theme.palette.primary.light,
         [theme.breakpoints.down('sm')]: {
             display: 'none',
-        }  
+        }
     },
     left: {
         flex: 1,
@@ -72,7 +72,7 @@ const styles = (theme) => ({
         display: 'none',
         [theme.breakpoints.down('sm')]: {
             display: 'block'
-        }   
+        }
     },
     icon: {
         alignItems: 'center',
@@ -134,10 +134,10 @@ function Navbar(props) {
             text: 'Partnership',
             path: '/#/partnership',
         },
-        {
+        /* {
             text: 'Media',
             path: '/#/media',
-        },
+        }, */
     ]
 
     const [mobileOpen, setMobileOpen] = React.useState({
@@ -162,11 +162,11 @@ function Navbar(props) {
     ];
 
     const list = (anchor) => (
-        <div className={clsx(classes.list, { [classes.fullList]: anchor === 'top' || anchor === 'bottom',})}
+        <div className={clsx(classes.list, { [classes.fullList]: anchor === 'top' || anchor === 'bottom', })}
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}>
-            <div className={classes.right}>{brandComponent}</div>        
+            <div className={classes.right}>{brandComponent}</div>
             <List>
                 {navLinks.map((link, index) =>
                     <ListItem>
@@ -174,7 +174,7 @@ function Navbar(props) {
                             href={link.path}>
                             {link.text}
                         </Link>
-                    </ListItem> 
+                    </ListItem>
                 )}
                 {socialList.map(item => (
                     <ListItem className={classes.icon}>
@@ -190,7 +190,7 @@ function Navbar(props) {
         </div>
     );
 
-    const brandComponent = <Link underline="none" className={classes.left} href="/"><img src={logo} width={80} alt="The raised fist, the black in AI logo."/></Link>;
+    const brandComponent = <Link underline="none" className={classes.left} href="/"><img src={logo} width={80} alt="The raised fist, the black in AI logo." /></Link>;
 
 
     return (
@@ -209,7 +209,7 @@ function Navbar(props) {
                             <ColorButton className={classes.chip} size="small">
                                 <Donate />
                             </ColorButton>
-                        </div>            
+                        </div>
                     </React.Fragment>
                 </Toolbar>
                 <div className={classes.iconContainer}>
@@ -219,12 +219,12 @@ function Navbar(props) {
                             <MenuIcon />
                             <div className={classes.left}>{brandComponent}</div>
                         </IconButton>
-                        <Drawer anchor='right' open={mobileOpen['right']} onClose={toggleDrawer('right', false)}>            
+                        <Drawer anchor='right' open={mobileOpen['right']} onClose={toggleDrawer('right', false)}>
                             {list('right')}
                         </Drawer>
                     </React.Fragment>
                 </div>
-                
+
             </AppBar>
             <div className={classes.placeholder} />
         </div>
