@@ -21,7 +21,7 @@ const styles = (theme) => ({
     item: {
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', 
+        alignItems: 'center',
         padding: theme.spacing(3),
         justify: 'center',
     },
@@ -45,10 +45,10 @@ const styles = (theme) => ({
 const sponsorslist = {
     Diamond: [
         {
-            title: 'Apple',
-            image: require('./../../assets/img/sponsors-partners/apple.png'),
-            link: 'https://www.apple.com/',
-            alt: 'Apple logo',
+            title: 'MacArthur Foundation',
+            image: require('./../../assets/img/sponsors-partners/macArthur.png'),
+            link: 'https://www.macfound.org/',
+            alt: 'MacArthur Foundation logo',
         },
         {
             title: 'Deepmind',
@@ -56,20 +56,27 @@ const sponsorslist = {
             link: 'https://deepmind.com/',
             alt: 'Deepmind logo',
         },
+        {
+            title: 'Apple',
+            image: require('./../../assets/img/sponsors-partners/apple.png'),
+            link: 'https://www.apple.com/',
+            alt: 'Apple logo',
+        },
     ],
     Platinum: [
+        {
+            title: 'Ford Foundation',
+            image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
+            link: 'https://www.fordfoundation.org/',
+            alt: 'Ford Foundation logo',
+        }
         {
             title: 'Nvidia',
             image: require('./../../assets/img/sponsors-partners/nvidia.png'),
             link: 'https://www.nvidia.com/',
             alt: 'Nvidia logo',
         },
-        {
-            title: 'Ford Foundation',
-            image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
-            link: 'https://www.fordfoundation.org/',
-            alt: 'Ford Foundation logo',
-        }],
+    ],
     Gold: [
         {
             title: 'Berkeley University',
@@ -112,12 +119,6 @@ const sponsorslist = {
             image: require('./../../assets/img/sponsors-partners/ibm.png'),
             link: 'https://www.ibm.com/',
             alt: 'IBM logo',
-        },
-        {
-            title: 'MacArthur Foundation',
-            image: require('./../../assets/img/sponsors-partners/macArthur.png'),
-            link: 'https://www.macfound.org/',
-            alt: 'MacArthur Foundation logo',
         },
     ],
     Silver: [
