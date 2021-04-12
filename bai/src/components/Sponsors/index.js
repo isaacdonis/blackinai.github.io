@@ -69,7 +69,7 @@ const sponsorslist = {
             image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
             link: 'https://www.fordfoundation.org/',
             alt: 'Ford Foundation logo',
-        }
+        },
         {
             title: 'Nvidia',
             image: require('./../../assets/img/sponsors-partners/nvidia.png'),
