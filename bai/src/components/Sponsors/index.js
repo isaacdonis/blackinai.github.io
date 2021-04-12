@@ -159,11 +159,11 @@ function Sponsors(props) {
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
-                            Diamond & Platinum
+                            Diamond
                         </Typography>
                     </Grid>
                     {sponsorslist.Diamond.map(key => (
-                        <Grid item xs={12} md={3}>
+                        <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
                                     <img alt={key.title} src={key.image} className={classes.avatarSize} />
@@ -172,8 +172,13 @@ function Sponsors(props) {
                             </div>
                         </Grid>
                     ))}
+                    <Grid item xs={12}>
+                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                            Platinum
+                        </Typography>
+                    </Grid>
                     {sponsorslist.Platinum.map(key => (
-                        <Grid item xs={12} md={3}>
+                        <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
                                     <img alt={key.title} src={key.image} className={classes.avatarSize} />
