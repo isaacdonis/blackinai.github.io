@@ -62,13 +62,19 @@ const sponsorslist = {
             link: 'https://www.apple.com/',
             alt: 'Apple logo',
         },
-    ],
-    Platinum: [
         {
             title: 'Ford Foundation',
             image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
             link: 'https://www.fordfoundation.org/',
             alt: 'Ford Foundation logo',
+        },
+    ],
+    Platinum: [
+        {
+            title: 'Microsoft',
+            image: require('./../../assets/img/sponsors-partners/microsoft.png'),
+            link: 'https://www.microsoft.com/',
+            alt: 'Microsoft logo',
         },
         {
             title: 'Nvidia',
@@ -89,12 +95,6 @@ const sponsorslist = {
             image: require('./../../assets/img/sponsors-partners/ai2.png'),
             link: 'https://allenai.org/',
             alt: 'AI2 logo',
-        },
-        {
-            title: 'Microsoft',
-            image: require('./../../assets/img/sponsors-partners/microsoft.png'),
-            link: 'https://www.microsoft.com/',
-            alt: 'Microsoft logo',
         },
         {
             title: 'Facebook',
