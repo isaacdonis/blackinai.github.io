@@ -186,11 +186,25 @@ function Navbar(props) {
     const list = (anchor) => (
         <div className={clsx(classes.list, { [classes.fullList]: anchor === 'top' || anchor === 'bottom', })}
             role="presentation"
-            onClick={toggleDrawer(anchor, false)}
+            onClick={toggleDrawer(anchor, true)}
             onKeyDown={toggleDrawer(anchor, false)}>
             <div className={classes.right}>{brandComponent}</div>
             <List>
                 {navLinks.map((link, index) =>
+                    Array.isArray(link.path)
+                    ?   
+                    <ListItem>
+                        <CustomDropdown noLiPadding buttonText={link.text}
+                            dropdownList={[
+                                link.path.map((sublink, idx) => 
+                                    <Link color="inherit" variant="h5" underline="none" className={classes.dropdownLink} href={sublink.path}>
+                                        {sublink.text}
+                                    </Link>
+                                )
+                            ]} />
+                    </ListItem>
+                            
+                    :   
                     <ListItem>
                         <Link color="inherit" variant="h5" underline="none" className={classes.rightLink}
                             href={link.path}>
