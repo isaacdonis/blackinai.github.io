@@ -21,6 +21,7 @@ import Membership from './pages/Membership';
 import Partnership from './pages/Partnership';
 import Programs from './pages/Programs';
 import * as serviceWorker from './serviceWorker';
+import NAACL2021 from './pages/BaiSocials/NAACL2021';
 
 library.add(fab, fas);
 
@@ -42,7 +43,7 @@ ReactDOM.render(
             <Route path="/workshop/bai2018" component={BAI2018} />
             <Route path="/workshop/bai2019" component={BAI2019} />
             <Route path="/media" component={PressRoom} />
-            <Route path="/naacl-2021" component={PressRoom}/>
+            <Route path="/naacl-2021" component={NAACL2021}/>
         </Switch>
     </HashRouter>,
     document.getElementById('root')
