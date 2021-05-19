@@ -147,6 +147,10 @@ function Navbar(props) {
                     text: 'Partnership',
                     path: '/#/partnership',
                 },
+                {
+                    text: 'Share Job Opportunities',
+                    path: '',
+                }    
             ],
         },
         {
