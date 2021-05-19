@@ -1,4 +1,4 @@
-import { Box, Container, ThemeProvider, Typography } from '@material-ui/core';
+import { Container, ThemeProvider, Typography } from '@material-ui/core';
 import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
