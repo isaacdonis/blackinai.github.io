@@ -44,7 +44,7 @@ ReactDOM.render(
             <Route path="/workshop/bai2018" component={BAI2018} />
             <Route path="/workshop/bai2019" component={BAI2019} />
             <Route path="/media" component={PressRoom} />
-            <Route path="/naacl-2021" component={NAACL2021}/>
+            <Route path="/events/social-naacl-2021" component={NAACL2021}/>
             <Route path="/calendar" component={Calendar} />
         </Switch>
     </HashRouter>,

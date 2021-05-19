@@ -154,7 +154,7 @@ function Navbar(props) {
             path: [
                 {
                     text: 'BAI Social NAACL 2021 ',
-                    path: '/#/naacl-2021',
+                    path: '/#/events/social-naacl-2021',
                 },
                 {
                     text: 'BAI Workshops',
