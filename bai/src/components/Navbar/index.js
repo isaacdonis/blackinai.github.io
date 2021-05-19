@@ -153,7 +153,11 @@ function Navbar(props) {
             text: 'Community Events',
             path: [
                 {
-                    text: 'Events Overview',
+                    text: 'BAI Social NAACL 2021 ',
+                    path: '/#/naacl-2021',
+                },
+                {
+                    text: 'BAI Workshops',
                     path: '/#/conferences',
                 },
                 {
