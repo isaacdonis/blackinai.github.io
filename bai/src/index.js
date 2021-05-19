@@ -14,12 +14,13 @@ import BAI2018 from './pages/BaiWorkshops/BAI2018';
 import BAI2019 from './pages/BaiWorkshops/BAI2019';
 import FinancialSupport from './pages/FinancialSupport';
 import EntrepreneurshipProgram from './pages/EntrepreneurshipProgram';
+import SummerResearchPrograms from './pages/SummerResearchPrograms';
+import PressRoom from './pages/Media';
 import Home from './pages/Home';
 import Membership from './pages/Membership';
 import Partnership from './pages/Partnership';
 import Programs from './pages/Programs';
 import * as serviceWorker from './serviceWorker';
-import SummerResearchPrograms from './pages/SummerResearchPrograms';
 
 library.add(fab, fas);
 
@@ -40,6 +41,7 @@ ReactDOM.render(
             <Route path="/workshop/bai2017" component={BAI2017} />
             <Route path="/workshop/bai2018" component={BAI2018} />
             <Route path="/workshop/bai2019" component={BAI2019} />
+            <Route path="/media" component={PressRoom} />
         </Switch>
     </HashRouter>,
     document.getElementById('root')
