@@ -89,6 +89,7 @@ const styles = (theme) => ({
             textDecoration: "none",
             display: "block",
             padding: "10px 20px",
+            fontSize: theme.typography.fontSize,
         },
     }
 });

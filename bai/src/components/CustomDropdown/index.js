@@ -1,9 +1,9 @@
 import React from "react";
 import classNames from "classnames";
 import PropTypes from "prop-types";
-
+import Button from './../../components/Button';
 import { makeStyles } from "@material-ui/core/styles";
-import { Button, MenuItem, MenuList, ClickAwayListener, Paper, Grow, Divider, Popper } from "@material-ui/core/";
+import { MenuItem, MenuList, ClickAwayListener, Paper, Grow, Divider, Popper } from "@material-ui/core/";
 
 const styles = (theme) => ({
     popperClose: {
@@ -12,7 +12,6 @@ const styles = (theme) => ({
     dropdown: {
         borderRadius: "3px",
         border: "0",
-        boxShadow: "0 2px 5px 0 rgba(0, 0, 0, 0.26)",
         top: "100%",
         zIndex: "1000",
         minWidth: "160px",
@@ -20,11 +19,11 @@ const styles = (theme) => ({
         margin: "2px 0 0",
         textAlign: "left",
         listStyle: "none",
-        backgroundColor: "#fff",
-        backgroundClip: "padding-box",
+        fontSize: theme.typography.fontSize,
     },
     menuList: {
         padding: "0",
+        fontSize: theme.typography.fontSize,
     },
     popperResponsive: {
         zIndex: "1200",
@@ -37,12 +36,11 @@ const styles = (theme) => ({
             backgroundColor: "transparent",
             border: "0",
             boxShadow: "none",
-            color: "black",
         },
     },
     dropdownItem: {
         padding: "10px 20px",
-        margin: "0 5px",
+        margin: "0 3px",
         borderRadius: "2px",
         position: "relative",
         transition: "all 150ms linear",
@@ -53,14 +51,14 @@ const styles = (theme) => ({
         color: "#333",
         whiteSpace: "nowrap",
         minHeight: "unset",
-        textTransform: "none"
     },
     dropdownItemRTL: {
         textAlign: "right",
-        textTransform: "none"
+        textTransform: "none",
+        fontSize: theme.typography.fontSize,
     },
     dropdownDividerItem: {
-        margin: "5px 0",
+        margin: "1px 0",
         backgroundColor: "rgba(0, 0, 0, 0.12)",
         height: "1px",
         overflow: "hidden",
@@ -83,13 +81,11 @@ const styles = (theme) => ({
         marginRight: "4px",
     },
     dropdownHeader: {
-        // display: "block",
-        padding: "0.1875rem 1.25rem",
         lineHeight: "1.428571",
-        // color: "#777",
         whiteSpace: "nowrap",
         marginTop: "10px",
         minHeight: "unset",
+        fontSize: theme.typography.fontSize,
     },
     noLiPadding: {
         padding: "0",
@@ -126,7 +122,6 @@ export default function CustomDropdown(props) {
         dropup,
         dropdownHeader,
         caret,
-        hoverColor,
         left,
         rtlActive,
         noLiPadding,
@@ -138,7 +133,6 @@ export default function CustomDropdown(props) {
     });
     const dropdownItem = classNames({
         [classes.dropdownItem]: true,
-        [classes[hoverColor + "Hover"]]: true,
         [classes.noLiPadding]: noLiPadding,
         [classes.dropdownItemRTL]: rtlActive,
     });
@@ -232,17 +226,12 @@ CustomDropdown.defaultProps = {
 };
 
 CustomDropdown.propTypes = {
-    hoverColor: PropTypes.oneOf([
-        "primary",
-    ]),
     dropdownList: PropTypes.array,
-    // buttonProps: PropTypes.object,
     dropup: PropTypes.bool,
     dropdownHeader: PropTypes.node,
     rtlActive: PropTypes.bool,
     caret: PropTypes.bool,
     left: PropTypes.bool,
     noLiPadding: PropTypes.bool,
-    // function that retuns the selected item
     onClick: PropTypes.func,
 };
