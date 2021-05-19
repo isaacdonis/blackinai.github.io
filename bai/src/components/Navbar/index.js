@@ -225,7 +225,7 @@ function Navbar(props) {
                             {navLinks.map((link, index) => 
                                 Array.isArray(link.path)
                                 ?   
-                                    <CustomDropdown noLiPadding buttonText={link.text} buttonProps={{ className: classes.navLink, color: "transparent", }}
+                                    <CustomDropdown noLiPadding buttonText={link.text}
                                         dropdownList={[
                                             link.path.map((sublink, idx) => 
                                                 <Link color="inherit" variant="h5" underline="none" className={classes.dropdownLink} href={sublink.path}>

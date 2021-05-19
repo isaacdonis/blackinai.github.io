@@ -3,7 +3,7 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 
 import { makeStyles } from "@material-ui/core/styles";
-import { Button, MenuItem, MenuList, ClickAwayListener, Paper, Grow, Divider, Icon, Popper } from "@material-ui/core/";
+import { Button, MenuItem, MenuList, ClickAwayListener, Paper, Grow, Divider, Popper } from "@material-ui/core/";
 
 const styles = (theme) => ({
     popperClose: {
@@ -53,9 +53,11 @@ const styles = (theme) => ({
         color: "#333",
         whiteSpace: "nowrap",
         minHeight: "unset",
+        textTransform: "none"
     },
     dropdownItemRTL: {
         textAlign: "right",
+        textTransform: "none"
     },
     dropdownDividerItem: {
         margin: "5px 0",
@@ -81,17 +83,13 @@ const styles = (theme) => ({
         marginRight: "4px",
     },
     dropdownHeader: {
-        display: "block",
+        // display: "block",
         padding: "0.1875rem 1.25rem",
         lineHeight: "1.428571",
-        color: "#777",
+        // color: "#777",
         whiteSpace: "nowrap",
         marginTop: "10px",
         minHeight: "unset",
-        "&:hover,&:focus": {
-            backgroundColor: "transparent",
-            cursor: "auto",
-        },
     },
     noLiPadding: {
         padding: "0",
@@ -125,7 +123,6 @@ export default function CustomDropdown(props) {
     const {
         buttonText,
         dropdownList,
-        buttonProps,
         dropup,
         dropdownHeader,
         caret,
@@ -145,29 +142,17 @@ export default function CustomDropdown(props) {
         [classes.noLiPadding]: noLiPadding,
         [classes.dropdownItemRTL]: rtlActive,
     });
-    let icon = null;
-    switch (typeof buttonIcon) {
-        case "object":
-            icon = <props.buttonIcon className={classes.buttonIcon} />;
-            break;
-        case "string":
-            icon = <Icon className={classes.buttonIcon}>{props.buttonIcon}</Icon>;
-            break;
-        default:
-            icon = null;
-            break;
-    }
+
     return (
         <div>
             <div>
                 <Button
-                    aria-label="Notifications"
+                    // aria-label="Notifications"
                     aria-owns={anchorEl ? "menu-list" : null}
-                    aria-haspopup="true"
-                    {...buttonProps}
+                    // aria-haspopup="true"
                     onClick={handleClick}
                 >
-                    {icon}
+                    
                     {buttonText !== undefined ? buttonText : null}
                     {caret ? <b className={caretClasses} /> : null}
                 </Button>
@@ -244,18 +229,14 @@ export default function CustomDropdown(props) {
 
 CustomDropdown.defaultProps = {
     caret: true,
-    hoverColor: "primary",
 };
 
 CustomDropdown.propTypes = {
     hoverColor: PropTypes.oneOf([
-        "black",
         "primary",
     ]),
-    // buttonText: PropTypes.node,
-    buttonIcon: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     dropdownList: PropTypes.array,
-    buttonProps: PropTypes.object,
+    // buttonProps: PropTypes.object,
     dropup: PropTypes.bool,
     dropdownHeader: PropTypes.node,
     rtlActive: PropTypes.bool,
