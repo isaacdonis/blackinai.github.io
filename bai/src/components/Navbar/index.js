@@ -149,7 +149,7 @@ function Navbar(props) {
                 },
                 {
                     text: 'Share Job Opportunities',
-                    path: '',
+                    path: 'https://docs.google.com/forms/d/e/1FAIpQLSdMcCerEXj45B_FrCrbIMhTHAO4MU5n00tl978a_bRFTfRanw/viewform',
                 }    
             ],
         },
