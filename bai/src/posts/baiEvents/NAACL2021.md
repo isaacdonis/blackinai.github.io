@@ -12,10 +12,21 @@
 ## Social Program
 
 - Speed Networking (Glimpse)
+  
+Glimpse is a speed networking platform, where you will have time to have a 1-on-1 conversation with someone who is also participating in our social. In addition to being fun, you can connect with several people in the community.
+
 - Karaoke presentations (Ohyay)
-- Discussion (topic will be updated soon) (Zoom)
+
+Game time! In this game, we look forward to your engagement. We will have a slide deck with topics that will only be revealed on the spot, and each participant should present a quick talk about that topic as soon as it appears. No rehearsing, totally improvised on the spot. We will admire your creativity! 
+
+- Open Discussion: **Is the diversity of African languages an advantage or a challenge in building an NLP model?** (Zoom)
+
+To end our social, we will have 30 minutes of open discussion on this topic and we will have African panelists to foster our open debate. Join us! 
+(Updates about our invited panelists soon.)
 
 ## Social Organizers 
+
+_Any questions about our social, you can contact the organizars directly._
 
 <style>
 * {
