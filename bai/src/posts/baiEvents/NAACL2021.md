@@ -9,6 +9,7 @@
 
 - We will be operating with the official NAACL Code of Conduct, please read <a href="https://www.acm.org/code-of-ethics" target="_blank">here<a/>
 
+- The links for Zoom, Glimpse and Ohyay will be sent to everyone who signs up using the registration form. Note: Note: We don't keep your data stored, after the social all information provided on the form will be deleted.
 ## Social Program
 
 - Speed Networking (Glimpse)
