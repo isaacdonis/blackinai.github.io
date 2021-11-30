@@ -94,7 +94,13 @@ function GridOfContents(props) {
         },
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
-            title: 'Call For Paper Submissions',
+            title: 'Workshop Schedule & Keynote Speakers',
+            width: '33.3%',
+            url: '/',
+        },
+        {
+            img: require('./../../../assets/img/general/blackinai2021.png'),
+            title: 'Call For Paper & Important Deadlines',
             width: '33.3%',
             url: '/#/workshop/bai2021-cfp',
         },
@@ -119,7 +125,7 @@ function GridOfContents(props) {
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
             title: 'Financial Assistance Application',
-            width: '33.3%',
+            width: '49.9%',
             url: 'https://neurips.cc/Surveys/61',
         },
         {
@@ -127,12 +133,6 @@ function GridOfContents(props) {
             title: 'Meet the BAI 2021 Organizers',
             width: '49.9%',
             url: '/#/workshop/bai2021-organizers',
-        },
-        {
-            img: require('./../../../assets/img/general/blackinai2021.png'),
-            title: 'Workshop Schedule - Coming Soon',
-            width: '50%',
-            url: '/',
         },
     ];
 
