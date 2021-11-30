@@ -104,11 +104,21 @@ function CallForPapers(props) {
                         Full Details
                     </ColorButton>
                     <ColorButton className={classes.chip} variant="contained" href="https://blackinai-workshop2021.eventbrite.com">
-                        Eventbrite Registration* for the Workshop
+                        Eventbrite Workshop Registration*
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="https://blackinai-workshop2021.eventbrite.com">
+                    <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021-keynote-speakers">
+                        Keynote Speakers
+                    </ColorButton>
+                    {/* <ColorButton className={classes.chip} variant="contained" href="https://blackinai-workshop2021.eventbrite.com">
                         Accepted Papers BAI 2021
-                    </ColorButton>
+                    </ColorButton> */}
+                    <br/>
+                    <Typography variant="body2">
+                        <br/>
+                        *To attend the workshop you must be registered for the main conference! 
+                        We strongly encourage workshop attendees to register for the main conference as early 
+                        as possible.
+                    </Typography>
                 </Grid>
             </Container>
         </section>

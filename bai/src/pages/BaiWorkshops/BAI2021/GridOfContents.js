@@ -96,6 +96,12 @@ function GridOfContents(props) {
             img: require('./../../../assets/img/general/blackinai2021.png'),
             title: 'Workshop Schedule & Keynote Speakers',
             width: '33.3%',
+            url: '/#/workshop/bai2021-keynote-speakers',
+        },
+        {
+            img: require('./../../../assets/img/general/blackinai2021.png'),
+            title: 'Accepted Papers',
+            width: '33.3%',
             url: '/',
         },
         {
@@ -125,13 +131,13 @@ function GridOfContents(props) {
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
             title: 'Financial Assistance Application',
-            width: '49.9%',
+            width: '33.3%',
             url: 'https://neurips.cc/Surveys/61',
         },
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
             title: 'Meet the BAI 2021 Organizers',
-            width: '49.9%',
+            width: '33.3%',
             url: '/#/workshop/bai2021-organizers',
         },
     ];
