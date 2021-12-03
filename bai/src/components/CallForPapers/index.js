@@ -109,9 +109,9 @@ function CallForPapers(props) {
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021-keynote-speakers">
                         Keynote Speakers
                     </ColorButton>
-                    {/* <ColorButton className={classes.chip} variant="contained" href="https://blackinai-workshop2021.eventbrite.com">
+                    <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/d6e4edf0b9600dd5b7b1933589aa404bc89c8f54/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf">
                         Accepted Papers BAI 2021
-                    </ColorButton> */}
+                    </ColorButton>
                     <br/>
                     <Typography variant="body2">
                         <br/>

@@ -102,7 +102,7 @@ function GridOfContents(props) {
             img: require('./../../../assets/img/general/blackinai2021.png'),
             title: 'Accepted Papers',
             width: '33.3%',
-            url: '/',
+            url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/d6e4edf0b9600dd5b7b1933589aa404bc89c8f54/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf',
         },
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
