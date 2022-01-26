@@ -16,7 +16,7 @@ import image from './../../../assets/img/general/header-bai-2021.png';
 // images 
 import foutse from '../../../assets/img/team/foutse.jpg';
 import salomey from '../../../assets/img/team/salomey.jpg';
-import mirian from '../../../assets/img/team/mirian.png';
+import mirian from '../../../assets/img/team/mirian.jpg';
 import irenenandutu from '../../../assets/img/team/irene.png';
 import ham from '../../../assets/img/team/hameed.jpg'; 
 

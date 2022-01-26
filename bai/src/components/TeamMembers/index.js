@@ -163,7 +163,7 @@ const communityTeam = [
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
     {
-        image: require('./../../assets/img/team/mirian.png'),
+        image: require('./../../assets/img/team/mirian.jpg'),
         name: 'Mírian Silva', 
         title: '',
         link: 'https://www.linkedin.com/in/mirianfsilva/',
