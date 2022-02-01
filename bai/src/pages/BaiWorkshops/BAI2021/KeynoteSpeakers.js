@@ -7,7 +7,7 @@ import theme from '../../../theme';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import { Container, Card, CardContent, Avatar, Link, Divider} from '@material-ui/core/';
+import { Container, Card, CardContent, Avatar, Link, Divider, Button} from '@material-ui/core/';
 import Typography from '../../../components/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
@@ -56,6 +56,23 @@ const styles = (theme) => ({
         boxShadow: 'none',
     },
 })
+
+const ColorButton = withStyles((theme) => ({
+    root: {
+        color: theme.palette.getContrastText(theme.palette.primary.dark),
+        backgroundColor: theme.palette.primary.dark,
+        '&:hover': {
+            backgroundColor: theme.palette.primary.dark,
+        },
+    },
+    secundary: {
+        color: theme.palette.getContrastText(theme.palette.primary.light),
+        backgroundColor: theme.palette.primary.dark,
+        '&:hover': {
+            backgroundColor: theme.palette.primary.dark,
+        },
+    },
+}))(Button);
 
 const speakers = [
     {
@@ -169,7 +186,13 @@ function KeynoteSpeakers(props) {
                     </Grid>
                 </Container>
             </section>
-
+            <section className={classes.root}>
+                <Container>
+                    <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021WorkshopSchedule.pdf">
+                        Black in AI Schedule BAI 2021
+                    </ColorButton>
+                </Container>
+            </section>
             <Footer />
         </ThemeProvider>
     );

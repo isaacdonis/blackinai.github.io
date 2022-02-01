@@ -132,8 +132,8 @@ const blackinAIBoard = [
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
     {
-        image: require('./../../assets/img/team/JoyceWilliams.jpg'),
-        name: 'Joyce Williams',
+        image: require('./../../assets/img/team/SimoneBartlett.jpg'),
+        name: 'Simone Bartlett',
         title: 'Treasure', 
         link: '/',
         // icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
