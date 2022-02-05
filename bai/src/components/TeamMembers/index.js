@@ -111,6 +111,13 @@ const blackinAIBoard = [
         icon: <FontAwesomeIcon icon={["fa", "link"]} size="1x"/>,
     },
     {
+        image: require('./../../assets/img/team/SimoneBartlett.jpg'),
+        name: 'Simone Bartlett',
+        title: 'Treasurer', 
+        link: 'https://www.linkedin.com/in/simone-bartlett-b527275b/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
+    },
+    {
         image: require('./../../assets/img/team/DevinGuillory.jpg'),
         name: 'Devin Guillory', 
         title: 'Director',
@@ -129,13 +136,6 @@ const blackinAIBoard = [
         name: 'Ezinne Nwankwo', 
         title: 'Secretary',
         link: 'https://www.linkedin.com/in/ezinne-nwankwo-119586101/',
-        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
-    },
-    {
-        image: require('./../../assets/img/team/SimoneBartlett.jpg'),
-        name: 'Simone Bartlett',
-        title: 'Treasure', 
-        link: 'https://www.linkedin.com/in/simone-bartlett-b527275b/',
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
 ];
