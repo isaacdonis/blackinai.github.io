@@ -17,7 +17,7 @@ function Home() {
             <CssBaseline />
             <Navbar/>
             <HomeHeader/>
-            <CallForPapers/>
+            {/* <CallForPapers/> */}
             <HomeQuote/>
             <HomeBody/>
             <JoinUs/>
