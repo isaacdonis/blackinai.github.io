@@ -2,7 +2,6 @@ import { ThemeProvider } from '@material-ui/core';
 import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
-import ProgramsBody from '../../components/ProgramsBody';
 import ProgramsHeader from '../../components/ProgramsHeader';
 import ProgramsList from '../../components/ProgramsList';
 import Loader from '../../loader';
@@ -15,7 +14,6 @@ function Programs() {
             <Navbar />
             <ProgramsHeader/>
             <ProgramsList/>
-            <ProgramsBody/>
             <Footer />
         </ThemeProvider>
     );
