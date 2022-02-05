@@ -8,15 +8,16 @@ import theme from '../../theme';
 import withRoot from '../../withRoot';
 import image from './../../assets/img/header/bai-img-10.jpg';
 import ContentFile from './../../components/Markdown/readfile';
-import PressRoom from './../../posts/Media/PressRoom.md';
+import PressRoomMD from './../../posts/Media/PressRoom.md';
+import BAIOpenPositionMD from './../../posts/Media/BAI0penPosition.md';
 
-function Media() {
+function PressRoom() {
     return (
         <ThemeProvider theme={theme}>
             <Loader />
             <Navbar />
             <PageHeader src={image}/>
-            <ContentFile href={PressRoom}>
+            <ContentFile href={PressRoomMD}>
                 Press Room
             </ContentFile>
             <Footer />
@@ -24,4 +25,20 @@ function Media() {
     );
 }
 
-export default withRoot(Media);
+// export default withRoot(Media);
+
+function BAIOpenPosition() {
+    return (
+        <ThemeProvider theme={theme}>
+            <Loader />
+            <Navbar />
+            <PageHeader src={image}/>
+            <ContentFile href={BAIOpenPositionMD}>
+                Black in AI is looking for its first Executive Director
+            </ContentFile>
+            <Footer />
+        </ThemeProvider>
+    );
+}
+
+export { PressRoom, BAIOpenPosition } ;
