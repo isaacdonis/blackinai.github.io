@@ -188,21 +188,17 @@ function Navbar(props) {
             text: 'Community Events',
             path: [
                 {
-                    text: 'BAI Social ICLM 2021 ',
-                    path: '/#/events/social-icml-2021',
+                    text: 'Call for Organizers',
+                    path: 'https://docs.google.com/forms/d/e/1FAIpQLSeGoMlgsXby1clQPEljzqzU5Cz08NC1P6jp1VAtnZ0F7J8GdA/viewform',
                 },
                 {
-                    text: 'BAI Social NAACL 2021 ',
-                    path: '/#/events/social-naacl-2021',
+                    text: 'All Events',
+                    path: '/#/events',
                 },
                 {
                     text: 'BAI Workshops',
                     path: '/#/conferences',
                 },
-                {
-                    text: 'Calendar',
-                    path: '/#/calendar',
-                }
             ],
         },
         {

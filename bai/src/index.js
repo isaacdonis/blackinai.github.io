@@ -28,7 +28,7 @@ import Programs from './pages/Programs';
 import * as serviceWorker from './serviceWorker';
 import NAACL2021 from './pages/BaiSocials/NAACL2021';
 import ICML2021 from './pages/BaiSocials/ICML2021';
-import Calendar from './pages/Calendar';
+import Events from './pages/Events';
 
 library.add(fab, fas);
 
@@ -39,6 +39,7 @@ ReactDOM.render(
             <Route path="/about" component={About} />
             <Route path="/membership" component={Membership} />
             <Route path="/partnership" component={Partnership} />
+            <Route path="/events" component={Events} />
             <Route path="/programs/academic-program" component={AcademicProgram} />
             <Route path="/programs/advocacy" component={AdvocacyPrograms} />
             <Route path="/programs/financial-support" component={FinancialSupport} />
@@ -58,7 +59,6 @@ ReactDOM.render(
             <Route path="/bai-open-position-2022" component={Media.BAIOpenPosition} />
             <Route path="/events/social-naacl-2021" component={NAACL2021}/>
             <Route path="/events/social-icml-2021" component={ICML2021}/>
-            <Route path="/calendar" component={Calendar} />
         </Switch>
     </HashRouter>,
     document.getElementById('root')
