@@ -116,7 +116,7 @@ function Footer(props) {
                             </li>
                             <li>
                                 <Typography style={{ color:'#f8f7f7'}} variant="body1" marked="left" gutterBottom>
-                                    info@blackinai.org
+                                    inquiry@blackinai.org
                                 </Typography>
                             </li>
                             <li className={classes.iconsWrapper}>
