@@ -38,7 +38,7 @@ Candidates will possess these qualifications:
 
 Interested candidates please send resume and cover letter to: 
 
-`laura@laurapowellllc.com`
+**laura@laurapowellllc.com**
 Laura Powell LLC, Executive Search and Consulting
 
  

@@ -5,7 +5,6 @@ import Navbar from '../../components/Navbar';
 import PageHeader from '../../components/WorkshopPageHeader';
 import Loader from '../../loader';
 import theme from '../../theme';
-import withRoot from '../../withRoot';
 import image from './../../assets/img/header/bai-img-10.jpg';
 import ContentFile from './../../components/Markdown/readfile';
 import PressRoomMD from './../../posts/Media/PressRoom.md';
@@ -25,8 +24,6 @@ function PressRoom() {
     );
 }
 
-// export default withRoot(Media);
-
 function BAIOpenPosition() {
     return (
         <ThemeProvider theme={theme}>
@@ -41,4 +38,4 @@ function BAIOpenPosition() {
     );
 }
 
-export { PressRoom, BAIOpenPosition } ;
+export default {PressRoom, BAIOpenPosition};

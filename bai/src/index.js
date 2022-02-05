@@ -20,7 +20,7 @@ import BAI2021Keynote from './pages/BaiWorkshops/BAI2021/KeynoteSpeakers';
 import FinancialSupport from './pages/FinancialSupport';
 import EntrepreneurshipProgram from './pages/EntrepreneurshipProgram';
 import SummerResearchPrograms from './pages/SummerResearchPrograms';
-import { PressRoom,  BAIOpenPosition } from './pages/Media';
+import Media from './pages/Media';
 import Home from './pages/Home';
 import Membership from './pages/Membership';
 import Partnership from './pages/Partnership';
@@ -54,8 +54,8 @@ ReactDOM.render(
             <Route path="/workshop/bai2021-call-for-startups" component={BAI2021CallForStartups} />
             <Route path="/workshop/bai2021-organizers" component={BAI2021Team} />
             <Route path="/workshop/bai2021-keynote-speakers" component={BAI2021Keynote} />
-            <Route path="/media" component={PressRoom} />
-            <Route path="/media/bai-open-position" component={BAIOpenPosition} />
+            <Route path="/media" component={Media.PressRoom} />
+            <Route path="/bai-open-position-2022" component={Media.BAIOpenPosition} />
             <Route path="/events/social-naacl-2021" component={NAACL2021}/>
             <Route path="/events/social-icml-2021" component={ICML2021}/>
             <Route path="/calendar" component={Calendar} />
