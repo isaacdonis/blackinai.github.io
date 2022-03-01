@@ -111,7 +111,11 @@ function Footer(props) {
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
                                 <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">
-                                    555 Bryant St #708, Palo Alto, CA 94301.
+                                    The Black in AI mailing box:
+                                    <br/>
+                                    PO Box 8786,<br/>
+                                    Champaign,<br/>
+                                    Illinois 61826
                                 </Typography>
                             </li>
                             <li>
