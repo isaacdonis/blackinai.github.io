@@ -112,7 +112,7 @@ function GridOfContents(props) {
         },
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
-            title: 'Call For Startups',
+            title: 'Call For Startups & Startups Showcase',
             width: '33.3%',
             url: '/#/workshop/bai2021-call-for-startups',
         },

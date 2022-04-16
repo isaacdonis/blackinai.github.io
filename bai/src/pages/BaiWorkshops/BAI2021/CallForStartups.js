@@ -9,6 +9,7 @@ import ContentFile from '../../../components/Markdown/readfile';
 import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
 import image from './../../../assets/img/general/header-bai-2021.png';
 import Loader from '../../../loader';
+import StartupsShowcase from './StartupsShowcase';
 
 function BAI2021() {
     return (
@@ -17,8 +18,9 @@ function BAI2021() {
             <Navbar />
             <WorkshopPageHeader src={image}/>
             <ContentFile href={CallForStartups2021}>
-                Black in AI 2021 - Call For Startups
+                Black in AI 2021 - Startups Showcase
             </ContentFile>
+            <StartupsShowcase/>
             <Footer />
         </ThemeProvider>
     );
