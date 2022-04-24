@@ -16,7 +16,7 @@ function BAI2021() {
         <ThemeProvider theme={theme}>
             <Loader />
             <Navbar />
-            <WorkshopPageHeader src={image}/>
+            <br></br>
             <ContentFile href={CallForStartups2021}>
                 Black in AI 2021 - Startups Showcase
             </ContentFile>
