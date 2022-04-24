@@ -9,7 +9,6 @@ import Grid from '@material-ui/core/Grid';
 import { Container, Card, CardContent, Avatar, Link} from '@material-ui/core/';
 import Typography from '../../../components/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 // images 
 
 const styles = (theme) => ({
@@ -135,6 +134,11 @@ const teamlist = [
     },
 ];
 
+const reviewers = {
+    title: 'Review Committee',
+    names: 'Fadjiah Collin, John Pasmore, Hassan Kane, Michael Harries, Abdelhak Mahmoudi, Chinasa Okolo, Zuby Onwuta, Darrius Grant, Esube Bekele',
+}
+
 function StartupsShowcase(props) {
     const { classes } = props;
 
@@ -171,6 +175,25 @@ function StartupsShowcase(props) {
                                 </Card>
                             </Grid>
                         ))}
+                        <Grid item xs={12}>
+                            <Typography variant='h4'>
+                                {reviewers.title}
+                            </Typography>
+                            <br/>
+                            <Typography variant='body'>
+                                {reviewers.names}
+                            </Typography>
+                        </Grid>
+                        <Grid item xs={12} >
+                            <Typography variant='h4'>
+                                Watch the Startup Showcase at NeurIPS 2021
+                            </Typography>
+                            <iframe src="https://slideslive.com/embed/presentation/38973431" width="100%" height="400" 
+                                allow="autoplay; fullscreen" 
+                                sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation" 
+                                frameborder="0" scrolling="no">    
+                            </iframe>
+                        </Grid>
                     </Grid>
                 </Container>
             </section>
