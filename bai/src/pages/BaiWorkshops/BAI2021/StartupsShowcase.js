@@ -86,7 +86,7 @@ const teamlist = [
     },
     {
         image: 'https://github.com/blackinai/website-assets/blob/main/BAI%20Startup%20Showcase/Suacode.jpg?raw=true',
-        title: 'Suacode.ai', 
+        title: 'SuaCode.ai', 
         founder: 'George Boateng',
         bio: 'We enable young Africans to learn code using smartphones and AI.',
         link: 'https://suacode.ai/', 
