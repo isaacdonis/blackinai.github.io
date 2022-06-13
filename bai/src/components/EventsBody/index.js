@@ -143,7 +143,7 @@ function EventsBody(props) {
                     <Grid item xs={12} md={6}>
                         <Typography variant="body1" className={classes.list}>
                             Black in AI Social @ ICML 2022 (Soon)
-                            <SecondButton className={classes.chip} variant="contained" href="/#/social-icml-2022">VIEW EVENT</SecondButton>
+                            <SecondButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSdy4Y8R-nHGWLpehh7AQx_1VpuDyb9OfjlQyOOrF8mccp-vnA/viewform">VIEW EVENT</SecondButton>
                         </Typography>
                         <Divider variant="middle" className={classes.secondDivider}/>
                         <Typography variant="body1" className={classes.list}>

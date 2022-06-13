@@ -94,7 +94,7 @@ function Advertising(props) {
                         {/* <a href="/#/conferences" target="_blank"> Check out more information about submissions and important dates.</a> */}
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/e/1FAIpQLSdy4Y8R-nHGWLpehh7AQx_1VpuDyb9OfjlQyOOrF8mccp-vnA/viewform">
-                        Travel Grant Application
+                        Event Sign-In
                     </ColorButton>
                     <br/>
                     <Typography variant="body2">
