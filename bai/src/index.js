@@ -40,6 +40,9 @@ ReactDOM.render(
             <Route path="/membership" component={Membership} />
             <Route path="/partnership" component={Partnership} />
             <Route path="/events" component={Events} />
+            <Route path="/social-naacl-2021" component={NAACL2021}/>
+            <Route path="/social-icml-2021" component={ICML2021}/>
+            <Route path="/social-icml-2022" component={ICML2021}/>
             <Route path="/programs/academic-program" component={AcademicProgram} />
             <Route path="/programs/advocacy" component={AdvocacyPrograms} />
             <Route path="/programs/financial-support" component={FinancialSupport} />
@@ -57,8 +60,6 @@ ReactDOM.render(
             <Route path="/workshop/bai2021-keynote-speakers" component={BAI2021Keynote} />
             <Route path="/media" component={Media.PressRoom} />
             <Route path="/bai-open-position-2022" component={Media.BAIOpenPosition} />
-            <Route path="/events/social-naacl-2021" component={NAACL2021}/>
-            <Route path="/events/social-icml-2021" component={ICML2021}/>
         </Switch>
     </HashRouter>,
     document.getElementById('root')

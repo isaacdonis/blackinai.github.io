@@ -136,19 +136,24 @@ function EventsBody(props) {
                     </Grid>
                     <Grid item xs={12}>
                         <Typography variant="h2" align="center" color="secondary" className={classes.title}>
-                            Past Black in AI Socials
+                            Black in AI Socials
                             <Divider variant="middle" className={classes.divider}/>
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={6}>
                         <Typography variant="body1" className={classes.list}>
-                            Black in AI Social @ ICML 2021
-                            <SecondButton className={classes.chip} variant="contained" href="/#/events/social-icml-2021">VIEW EVENT</SecondButton>
+                            Black in AI Social @ ICML 2022 (Soon)
+                            <SecondButton className={classes.chip} variant="contained" href="/#/social-icml-2022">VIEW EVENT</SecondButton>
                         </Typography>
                         <Divider variant="middle" className={classes.secondDivider}/>
                         <Typography variant="body1" className={classes.list}>
-                            Black in AI Social @ NAACL 2021
-                            <SecondButton className={classes.chip} variant="contained" href="/#/events/social-naacl-2021">VIEW EVENT</SecondButton>
+                            Black in AI Social @ ICML 2021 (Past)
+                            <SecondButton className={classes.chip} variant="contained" href="/#/social-icml-2021">VIEW EVENT</SecondButton>
+                        </Typography>
+                        <Divider variant="middle" className={classes.secondDivider}/>
+                        <Typography variant="body1" className={classes.list}>
+                            Black in AI Social @ NAACL 2021 (Past)
+                            <SecondButton className={classes.chip} variant="contained" href="/#/social-naacl-2021">VIEW EVENT</SecondButton>
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={6}>
