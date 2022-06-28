@@ -1,9 +1,7 @@
-##### Last updated on March 18, 2021
+##### Last updated on June 25, 2022
 
-*__As of 2021, Black founders in the US__ [receive](https://about.crunchbase.com/2020-diversity-spotlight-report/) around 2% of __venture capital and Black investors__ [represent](https://www.blckvc.com/) 3% of the professionals in the Venture Capital industry. Our entrepreneurship program, which is currently under design, hopes to work on closing this gap by providing support to entrepreneurs in Black in AI. We started our work with a [survey](https://forms.gle/FP5UDayriEGaScPr6) for aspiring founders and funders of the community and will release a report based on the survey to enable other members of the entrepreneurial ecosystem to support Black AI founders and foster collaborations. We then plan on implementing our program based on major difficulties pointed out by our members, including funding early stage teams and pairing them with experienced mentors.*
+As of 2021, Black founders in the US [receive](https://about.crunchbase.com/2020-diversity-spotlight-report/) around 2% of venture capital and Black investors [represent 3%](https://www.blckvc.com/) of the professionals in the Venture Capital industry. Through our entrepreneurship program, we aim to contribute to closing this gap by accelerating the success of Black in AI founders working on groundbreaking ventures. 
 
-Our initial program will be piloted with one early stage team from the community. Given the presence of programs and organizations hoping to provide access to capital to underrepresented founders, much of our initial work will consist of outreach with these organizations to forge partnerships. Please stay tuned for more as we pilot our program and contact us if you are interested in partnering with our program.
+At Black In AI, we love to crunch the numbers as well as hear individual stories. Committed to mapping out our ecosystem and better understanding the needs of our community, we started our work in April of 2021 with an anonymous [survey](https://forms.gle/FP5UDayriEGaScPr6) for current and aspiring founders at Black in AI. We also had a followup [survey](https://docs.google.com/forms/d/1EG8Y-iY-LPbdZfRMiwgRhW9SiG60zIaNXCTFoZ_JSr0/edit) for investors in the community.
 
-
-#### Point of contact
-### entrepreneurship@blackinai.org
+After receiving an overwhelming number of positive responses (~150), we rolled up our sleeves and analyzed all companies with a black founder who is a Black In AI member across a range of specific criteria.
