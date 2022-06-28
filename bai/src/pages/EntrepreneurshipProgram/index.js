@@ -9,6 +9,7 @@ import withRoot from '../../withRoot';
 import image from './../../assets/img/general/young-black-women-talking.jpg';
 import ContentFile from './../../components/Markdown/readfile';
 import Entrepreneurship from './../../posts/baiPrograms/EntrepreneurshipProgram.md';
+import EntrepreneurshipBody from '../../components/EntrepreneurshipBody';
 
 function EntrepreneurshipProgram() {
     return (
@@ -19,6 +20,7 @@ function EntrepreneurshipProgram() {
             <ContentFile href={Entrepreneurship}>
                 Entrepreneurship Program
             </ContentFile>
+            <EntrepreneurshipBody></EntrepreneurshipBody>
             <Footer />
         </ThemeProvider>
     );
