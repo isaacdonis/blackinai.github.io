@@ -136,7 +136,7 @@ function GridOfContents(props) {
         },
         {
             img: require('./../../../assets/img/general/blackinai2021.png'),
-            title: 'Meet the BAI 2021 Organizers',
+            title: 'Meet the Black in AI 2021 Organizers',
             width: '33.3%',
             url: '/#/workshop/bai2021-organizers',
         },

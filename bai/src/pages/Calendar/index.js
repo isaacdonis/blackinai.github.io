@@ -15,7 +15,7 @@ function Calendar() {
             <Loader />
             <Navbar />
             <ContentFile href={TemporaryFile}>
-                BAI Events Calendar
+                Black in AI Events Calendar
             </ContentFile>
             <Container maxWidth="sm">
                 <Typography component="div" style={{ height: '50vh' }} />

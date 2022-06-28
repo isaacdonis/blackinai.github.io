@@ -110,7 +110,7 @@ function CallForPapers(props) {
                         Keynote Speakers
                     </ColorButton>
                     <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf">
-                        Accepted Papers BAI 2021
+                        Accepted Papers Black in AI 2021
                     </ColorButton>
                     <br/>
                     <Typography variant="body2">

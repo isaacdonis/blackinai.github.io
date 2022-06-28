@@ -107,7 +107,7 @@ function EventsBody(props) {
                             <Typography className={classes.title}>
                                 Our annual Black in AI (BAI) workshop co-located with NeurIPS, as well as our 
                                 satellite gatherings in other AI conferences (e.g. AAAI, CVPR, ICML, FAccT) allow 
-                                members of the BAI community to attend NeurIPS without feeling isolated.
+                                members of the Black in AI community to attend NeurIPS without feeling isolated.
                             </Typography>
                             <SecondButton className={classes.chip} variant="contained" href="/">
                                 Become a Sponsor
@@ -115,17 +115,17 @@ function EventsBody(props) {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="body1" className={classes.list}>
-                                BAI 2021
-                                <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021">VIEW BAI 2021</ColorButton>
+                                Black in AI 2021
+                                <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021">VIEW Black in AI 2021</ColorButton>
                             </Typography>
                             <Divider variant="middle" className={classes.secondDivider}/>
                             <Typography variant="body1" className={classes.list}>
-                                BAI 2020
+                                Black in AI 2020
                                 <SecondButton className={classes.chip} variant="contained" href="https://blackinai2020.vercel.app/">VIEW HIGHLIGHTS</SecondButton>
                             </Typography>
                             <Divider variant="middle" className={classes.secondDivider}/>
                             <Typography variant="body1" className={classes.list}>
-                                BAI 2019
+                                Black in AI 2019
                                 <SecondButton className={classes.chip} variant="contained" href="/#/workshop/bai2019">VIEW HIGHLIGHTS</SecondButton>
                             </Typography>
                             <Divider variant="middle" className={classes.secondDivider}/>

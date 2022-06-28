@@ -189,7 +189,7 @@ function KeynoteSpeakers(props) {
             <section className={classes.root}>
                 <Container>
                     <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021WorkshopSchedule.pdf">
-                        Black in AI Schedule BAI 2021
+                        Black in AI Schedule Black in AI 2021
                     </ColorButton>
                 </Container>
             </section>
