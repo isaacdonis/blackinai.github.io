@@ -15,7 +15,7 @@ function Membership() {
             <Navbar />
             <MembershipHeader/>
             <MembershipBody/>
-            <MembershipDirectory/>
+            {/* <MembershipDirectory/> */}
             <Footer />
         </ThemeProvider>
     );
