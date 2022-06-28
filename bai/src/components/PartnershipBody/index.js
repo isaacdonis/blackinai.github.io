@@ -69,7 +69,10 @@ function PartnershipBody(props) {
         <section className={classes.root}>
             <Container className={classes.container}>
                 <Grid container spacing={12}>
-                    <Grid container spacing={3}>
+                    <Typography variant="h6" color="secondary" align="center" className={classes.title}>
+                        Be part of our network: please contact us at sponsorship@blackinai.org to receive a sponsorship package
+                    </Typography>
+                    {/* <Grid container spacing={3}>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 Be part of our network
@@ -77,7 +80,7 @@ function PartnershipBody(props) {
                             <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/presentation/d/1wzh9uggU_pW7X0XJ2bVPonimAprbAwNtFTvsq5hy2w8/edit">
                                 PARTNER WITH US
                             </ColorButton>
-                        </Grid>
+                        </Grid> 
                         <Grid item xs={12} md={6}>
                             <Typography variant="h4" className={classes.title}>
                                 Diamond & Platinum Sponsors
@@ -104,7 +107,7 @@ function PartnershipBody(props) {
                                 <ListItem>Logo displayed on our website.</ListItem>
                             </Typography>
                         </Grid>
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Container>
         </section>
