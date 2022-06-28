@@ -173,8 +173,8 @@ const communityTeam = [
         image: require('./../../assets/img/team/victor.jpg'),
         name: 'Victor Silva', 
         title: '',
-        link: 'https://webdocs.cs.ualberta.ca/~vsilva/',
-        icon: <FontAwesomeIcon icon={["fa", "link"]} size="1x"/>,
+        link: 'https://www.linkedin.com/in/nascimentovictor/',
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
 ];
 
