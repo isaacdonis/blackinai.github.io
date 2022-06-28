@@ -83,9 +83,9 @@ function JoinUs(props) {
                         We envision a thriving, end-to-end ecosystem sustainably allocating Black talent 
                         to the development of AI through engaging with students, researchers, entrepreneurs.
                     </Typography>
-                    <ColorButton className={classes.chip} variant="contained" href="/">
+                    {/* <ColorButton className={classes.chip} variant="contained" href="/">
                         How You Can Help
-                    </ColorButton>
+                    </ColorButton> */}
                     <JoinUsButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/1pv34QhQE74gBnDu2xTdLmMNnWykY5tN2wihWIh7mwrQ/viewform?edit_requested=true">
                         Join Us
                     </JoinUsButton>
