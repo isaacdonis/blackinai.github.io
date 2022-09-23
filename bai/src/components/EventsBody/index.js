@@ -115,18 +115,17 @@ function EventsBody(props) {
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="body1" className={classes.list}>
+                                Black in AI 2022
+                                <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2022">VIEW Black in AI 2022</ColorButton>
+                            </Typography>
+                            <Typography variant="body1" className={classes.list}>
                                 Black in AI 2021
-                                <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021">VIEW Black in AI 2021</ColorButton>
+                                <SecondButton className={classes.chip} variant="contained" href="/#/workshop/bai2021">VIEW Black in AI 2021</SecondButton>
                             </Typography>
                             <Divider variant="middle" className={classes.secondDivider}/>
                             <Typography variant="body1" className={classes.list}>
                                 Black in AI 2020
                                 <SecondButton className={classes.chip} variant="contained" href="https://blackinai2020.vercel.app/">VIEW HIGHLIGHTS</SecondButton>
-                            </Typography>
-                            <Divider variant="middle" className={classes.secondDivider}/>
-                            <Typography variant="body1" className={classes.list}>
-                                Black in AI 2019
-                                <SecondButton className={classes.chip} variant="contained" href="/#/workshop/bai2019">VIEW HIGHLIGHTS</SecondButton>
                             </Typography>
                             <Divider variant="middle" className={classes.secondDivider}/>
                             <Typography variant="body1" className={classes.list}>

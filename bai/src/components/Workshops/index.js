@@ -88,6 +88,12 @@ function Workshops(props) {
 
     const workshops = [
         {
+            img: require('./../../assets/img/general/neworleans_convention_center.jpeg'),
+            title: 'Black in AI 2022',
+            width: '100%',
+            url: '/#/workshop/bai2022',
+        },
+        {
             img: require('./../../assets/img/general/convention_centre_sydney.jpeg'),
             title: 'Black in AI 2021',
             width: '100%',
