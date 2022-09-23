@@ -96,13 +96,13 @@ function Workshops(props) {
         {
             img: require('./../../assets/img/general/convention_centre_sydney.jpeg'),
             title: 'Black in AI 2021',
-            width: '100%',
+            width: '50%',
             url: '/#/workshop/bai2021',
         },
         {
             img: require('./../../assets/img/general/vancouver_neurips_2020.jpg'),
             title: 'Black in AI 2020',
-            width: '100%',
+            width: '50%',
             url: 'https://blackinai2020.vercel.app/',
         },
         {
