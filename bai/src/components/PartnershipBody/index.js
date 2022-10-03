@@ -68,7 +68,7 @@ function PartnershipBody(props) {
     return (
         <section className={classes.root}>
             <Container className={classes.container}>
-                <Grid container spacing={12}>
+                <Grid item xs={12} align="center">
                     <Typography variant="h6" color="secondary" align="center" className={classes.title}>
                         Be part of our network: please contact us at sponsorship@blackinai.org to receive a sponsorship package
                     </Typography>

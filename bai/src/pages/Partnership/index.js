@@ -15,7 +15,7 @@ function Partnership() {
             <Navbar />
             <PartnershipHeader/>
             <PartnershipBody/>
-            {/* <Sponsors/> */}
+            <Sponsors/>
             <Footer />
         </ThemeProvider>
     );
