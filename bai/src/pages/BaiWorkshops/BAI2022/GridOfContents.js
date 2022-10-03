@@ -73,6 +73,16 @@ function GridOfContents(props) {
             url: '/#/workshop/bai2022-cfp',
         },
         {
+            title: 'Call For Reviewer/Area Chair',
+            width: '33.3%',
+            url: 'https://forms.gle/q1v4kqknELEXLLpr8',
+        },
+        {
+            title: 'Black in AI Travel Grant Application',
+            width: '33.3%',
+            url: 'https://forms.gle/4CXkLZk89e1JvTZ66',
+        },
+        {
             title: 'Workshop Registration - Coming Soon',
             width: '33.3%',
             url: '',
@@ -88,25 +98,11 @@ function GridOfContents(props) {
         //     url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf',
         // },
         {
-            // img: require('./../../../assets/img/general/blackinai2021.png'),
-            title: 'Call For Reviewer/Area Chair - Coming Soon',
-            width: '33.3%',
-            url: '',
-        },
-        {
-            // img: require('./../../../assets/img/general/blackinai2021.png'),
             title: 'Call For Volunteers - Coming Soon',
             width: '33.3%',
             url: '',
         },
-        {
-            // img: require('./../../../assets/img/general/blackinai2021.png'),
-            title: 'Financial Assistance Application - Coming Soon',
-            width: '33.3%',
-            url: '',
-        },
         // {
-        //     // img: require('./../../../assets/img/general/blackinai2021.png'),
         //     title: 'Meet the Black in AI 2021 Organizers',
         //     width: '33.3%',
         //     url: '/#/workshop/bai2021-organizers',
