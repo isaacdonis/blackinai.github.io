@@ -83,9 +83,9 @@ function GridOfContents(props) {
             url: 'https://forms.gle/4CXkLZk89e1JvTZ66',
         },
         {
-            title: 'Workshop Registration - Coming Soon',
+            title: 'Workshop Registration (Hybrid format)',
             width: '33.3%',
-            url: '',
+            url: 'https://forms.gle/SHdt1Bpy5aBbwpBW9',
         },
         {
             title: 'Workshop Schedule & Keynote Speakers - Coming Soon',
