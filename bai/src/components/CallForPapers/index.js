@@ -115,10 +115,10 @@ function CallForPapers(props) {
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2022/">
                         Full Details
                     </ColorButton>
-                    {/* 
-                    <ColorButton className={classes.chip} variant="contained" href="https://blackinai-workshop2021.eventbrite.com">
-                        Eventbrite Workshop Registration*
+                    <ColorButton className={classes.chip} variant="contained" href="https://forms.gle/SHdt1Bpy5aBbwpBW9">
+                        Workshop Registration
                     </ColorButton>
+                    {/* 
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021-keynote-speakers">
                         Keynote Speakers
                     </ColorButton>
