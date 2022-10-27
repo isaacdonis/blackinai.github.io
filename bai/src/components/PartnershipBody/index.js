@@ -1,9 +1,10 @@
 import { Button, Container, ListItem } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import React from 'react';
 import Typography from '../Typography';
+// import { Document, Page } from 'react-pdf';
 
 const styles = (theme) => ({
     root: {
@@ -62,6 +63,13 @@ const ColorButton = withStyles((theme) => ({
         },
     },
 }))(Button);
+
+const [numPages, setNumPages] = useState(null);
+const [pageNumber, setPageNumber] = useState(1);
+
+function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+}
 function PartnershipBody(props) {
     const { classes } = props;
 
@@ -72,16 +80,26 @@ function PartnershipBody(props) {
                     <Typography variant="h6" color="secondary" align="center" className={classes.title}>
                         Be part of our network: please contact us at sponsorship@blackinai.org to receive a sponsorship package
                     </Typography>
-                    {/* <Grid container spacing={3}>
-                        <Grid item xs={12} md={6}>
-                            <Typography variant="h2" color="secondary" className={classes.title}>
-                                Be part of our network
-                            </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/presentation/d/1wzh9uggU_pW7X0XJ2bVPonimAprbAwNtFTvsq5hy2w8/edit">
-                                PARTNER WITH US
-                            </ColorButton>
+                   <Grid container spacing={3}>
+                        <Grid item xs={12}>
+                            <Grid item xs={6}>
+                                <Typography variant="h2" color="secondary" className={classes.title}>
+                                    Be part of our network
+                                </Typography>
+                                <ColorButton className={classes.chip} variant="contained" href="https://drive.google.com/file/d/1BJQLaLQwjMmUeNij7Oh_F0_0uPAwT_Lf/view">
+                                    PARTNER WITH US
+                                </ColorButton>
+                            </Grid>
+                            {/* <Grid item xs={6}>
+                                <Document file="bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+                                    <Page pageNumber={pageNumber} />
+                                </Document>
+                                <p>
+                                    Page {pageNumber} of {numPages}
+                                </p>
+                            </Grid> */}
                         </Grid> 
-                        <Grid item xs={12} md={6}>
+                        {/* <Grid item xs={12} md={6}>
                             <Typography variant="h4" className={classes.title}>
                                 Diamond & Platinum Sponsors
                             </Typography>
@@ -105,9 +123,9 @@ function PartnershipBody(props) {
                             <Typography variant="body1" className={classes.title}>
                                 <ListItem>Access to attendees opt-in resume booklet.</ListItem>
                                 <ListItem>Logo displayed on our website.</ListItem>
-                            </Typography>
-                        </Grid>
-                    </Grid> */}
+                            </Typography> 
+                        </Grid> */ } 
+                    </Grid>
                 </Grid>
             </Container>
         </section>

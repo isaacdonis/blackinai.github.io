@@ -44,30 +44,12 @@ const styles = (theme) => ({
 
 const sponsorslist = {
     Diamond: [
-        // {
-        //     title: 'MacArthur Foundation',
-        //     image: require('./../../assets/img/sponsors-partners/macArthur.png'),
-        //     link: 'https://www.macfound.org/',
-        //     alt: 'MacArthur Foundation logo',
-        // },
-        // {
-        //     title: 'Deepmind',
-        //     image: require('./../../assets/img/sponsors-partners/deepmind.png'),
-        //     link: 'https://deepmind.com/',
-        //     alt: 'Deepmind logo',
-        // },
         {
             title: 'Apple',
             image: require('./../../assets/img/sponsors-partners/apple.png'),
             link: 'https://www.apple.com/',
             alt: 'Apple logo',
         },
-        // {
-        //     title: 'Ford Foundation',
-        //     image: require('./../../assets/img/sponsors-partners/fordfoundation.png'),
-        //     link: 'https://www.fordfoundation.org/',
-        //     alt: 'Ford Foundation logo',
-        // },
     ],
     Platinum: [
         {
@@ -76,58 +58,10 @@ const sponsorslist = {
             link: 'https://www.ibm.com/',
             alt: 'IBM Platinum Sponsor'
         },
-        // {
-        //     title: 'Nvidia',
-        //     image: require('./../../assets/img/sponsors-partners/nvidia.png'),
-        //     link: 'https://www.nvidia.com/',
-        //     alt: 'Nvidia logo',
-        // },
-        // {
-        //     title: 'Stanford HAI (Human-Centered AI),',
-        //     image: require('./../../assets/img/sponsors-partners/hai.png'),
-        //     link: 'https://hai.stanford.edu/',
-        //     alt: 'Stanford Human-Centered AI logo',
-        // },
     ],
     Gold: [
-        // {
-        //     title: 'Berkeley University',
-        //     image: require('./../../assets/img/sponsors-partners/berkeley.png'),
-        //     link: 'https://www.berkeley.edu/',
-        //     alt: 'Berkeley University logo',
-        // },
-        // {
-        //     title: 'AI2',
-        //     image: require('./../../assets/img/sponsors-partners/ai2.png'),
-        //     link: 'https://allenai.org/',
-        //     alt: 'AI2 logo',
-        // },
-        // {
-        //     title: 'Facebook',
-        //     image: require('./../../assets/img/sponsors-partners/facebook.png'),
-        //     link: 'https://about.fb.com/',
-        //     alt: 'Facebook logo',
-        // },
-        // {
-        //     title: 'BMO',
-        //     image: require('./../../assets/img/sponsors-partners/bmo.png'),
-        //     link: 'https://www.bmo.com/main/about-bmo/',
-        //     alt: 'BMO logo',
-        // },
-        // {
-        //     title: 'Amazon',
-        //     image: require('./../../assets/img/sponsors-partners/amazon.png'),
-        //     link: 'https://www.amazon.science/',
-        //     alt: 'Amazon logo',
-        // },
     ],
     Silver: [
-        // {
-        //     title: 'Salesforce',
-        //     image: require('./../../assets/img/sponsors-partners/salesforce.png'),
-        //     link: 'https://www.salesforce.com/company/about-us/',
-        //     alt: 'Salesforce logo',
-        // },
         {
             title: 'Oracle',
             image: require('./../../assets/img/sponsors-partners/oracle.png'),
