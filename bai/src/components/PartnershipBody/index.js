@@ -1,9 +1,10 @@
 import { Button, Container, ListItem } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '../Typography';
+import sponsor from '../../assets/doc/Black_in_AI_2022_Sponsorship.pdf';
 // import { Document, Page } from 'react-pdf';
 
 const styles = (theme) => ({
@@ -64,12 +65,6 @@ const ColorButton = withStyles((theme) => ({
     },
 }))(Button);
 
-const [numPages, setNumPages] = useState(null);
-const [pageNumber, setPageNumber] = useState(1);
-
-function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-}
 function PartnershipBody(props) {
     const { classes } = props;
 
@@ -80,24 +75,19 @@ function PartnershipBody(props) {
                     <Typography variant="h6" color="secondary" align="center" className={classes.title}>
                         Be part of our network: please contact us at sponsorship@blackinai.org to receive a sponsorship package
                     </Typography>
-                   <Grid container spacing={3}>
-                        <Grid item xs={12}>
-                            <Grid item xs={6}>
+                   <Grid container spacing={2}>
+                        <Grid xs>
+                            <Grid xs={12} md={6}>
+                                <embed src="https://github.com/blackinai/blackinai.github.io/blob/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" type="application/pdf" width="100%" height="600px" />
+                            </Grid>
+                            <Grid xs={12} md={6}>
                                 <Typography variant="h2" color="secondary" className={classes.title}>
                                     Be part of our network
                                 </Typography>
-                                <ColorButton className={classes.chip} variant="contained" href="https://drive.google.com/file/d/1BJQLaLQwjMmUeNij7Oh_F0_0uPAwT_Lf/view">
-                                    PARTNER WITH US
+                                <ColorButton className={classes.chip} variant="contained" href="../../assets/doc/Black_in_AI_2022_Sponsorship.pdf">
+                                    Download sponsorship brochure
                                 </ColorButton>
                             </Grid>
-                            {/* <Grid item xs={6}>
-                                <Document file="bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-                                    <Page pageNumber={pageNumber} />
-                                </Document>
-                                <p>
-                                    Page {pageNumber} of {numPages}
-                                </p>
-                            </Grid> */}
                         </Grid> 
                         {/* <Grid item xs={12} md={6}>
                             <Typography variant="h4" className={classes.title}>
