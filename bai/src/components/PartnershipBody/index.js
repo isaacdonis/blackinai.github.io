@@ -72,50 +72,25 @@ function PartnershipBody(props) {
         <section className={classes.root}>
             <Container className={classes.container}>
                 <Grid item xs={12} align="center">
-                    <Typography variant="h6" color="secondary" align="center" className={classes.title}>
-                        Be part of our network: please contact us at sponsorship@blackinai.org to receive a sponsorship package
-                    </Typography>
                    <Grid container spacing={2}>
-                        <Grid xs>
-                            <Grid xs={12} md={6}>
-                                <embed src="https://github.com/blackinai/blackinai.github.io/blob/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" type="application/pdf" width="100%" height="600px" />
-                            </Grid>
-                            <Grid xs={12} md={6}>
-                                <Typography variant="h2" color="secondary" className={classes.title}>
-                                    Be part of our network
-                                </Typography>
-                                <ColorButton className={classes.chip} variant="contained" href="../../assets/doc/Black_in_AI_2022_Sponsorship.pdf">
-                                    Download sponsorship brochure
-                                </ColorButton>
-                            </Grid>
-                        </Grid> 
-                        {/* <Grid item xs={12} md={6}>
-                            <Typography variant="h4" className={classes.title}>
-                                Diamond & Platinum Sponsors
+                        <Grid item xs={12} md={6}>
+                        <iframe src="https://github.com/blackinai/blackinai.github.io/blob/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" 
+                            width="100%" height="600px">
+                        </iframe>
+                            {/* <embed src="https://github.com/blackinai/blackinai.github.io/blob/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" type="application/pdf" width="100%" height="600px" /> */}
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                            <Typography variant="h2" color="secondary" className={classes.title}>
+                                Be part of our network
                             </Typography>
-                            <Typography variant="body1" className={classes.title}>
-                                <ListItem>Recruitment booth at the workshop.</ListItem>
-                                <ListItem>Access to attendees opt-in resume booklet.</ListItem>
-                                <ListItem>Promotional materials of your organization shown during our workshop proceedings.</ListItem>
-                                <ListItem>Logo displayed on our website.</ListItem>
+                            <Typography variant="h6" color="secondary" align="center" className={classes.title}>
+                                Please contact us at sponsorship@blackinai.org to receive a sponsorship package
                             </Typography>
-                            <Typography variant="h4" className={classes.title}>
-                                Gold & Silver Sponsors
-                            </Typography>
-                            <Typography variant="body1" className={classes.title}>
-                                <ListItem>Access to attendees opt-in resume booklet.</ListItem>
-                                <ListItem>Swags and promotional materials of your organization.</ListItem>
-                                <ListItem>Logo displayed on our website.</ListItem>
-                            </Typography>
-                            <Typography variant="h4" className={classes.title}>
-                                Bronze Sponsor
-                            </Typography>
-                            <Typography variant="body1" className={classes.title}>
-                                <ListItem>Access to attendees opt-in resume booklet.</ListItem>
-                                <ListItem>Logo displayed on our website.</ListItem>
-                            </Typography> 
-                        </Grid> */ } 
-                    </Grid>
+                            <ColorButton className={classes.chip} variant="contained" href="https://github.com/blackinai/blackinai.github.io/raw/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf">
+                                Download our sponsorship brochure
+                            </ColorButton>
+                        </Grid>
+                    </Grid> 
                 </Grid>
             </Container>
         </section>
