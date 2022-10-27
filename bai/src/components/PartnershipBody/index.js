@@ -74,10 +74,9 @@ function PartnershipBody(props) {
                 <Grid item xs={12} align="center">
                    <Grid container spacing={2}>
                         <Grid item xs={12} md={6}>
-                        <iframe src="https://github.com/blackinai/blackinai.github.io/blob/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" 
+                        <iframe src="https://drive.google.com/file/d/1BJQLaLQwjMmUeNij7Oh_F0_0uPAwT_Lf/preview" 
                             width="100%" height="600px">
                         </iframe>
-                            {/* <embed src="https://github.com/blackinai/blackinai.github.io/blob/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf" type="application/pdf" width="100%" height="600px" /> */}
                         </Grid>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
