@@ -8,6 +8,7 @@ import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
 import GridOfContents from './GridOfContents';
 import image from './../../../assets/img/general/header-bai-2022.png';
 import Loader from '../../../loader';
+import Sponsors from './Sponsors';
 
 function BAI2021() {
     return (
@@ -16,6 +17,7 @@ function BAI2021() {
             <Navbar />
             <WorkshopPageHeader src={image}/>
             <GridOfContents/>
+            <Sponsors/>
             <Footer />
         </ThemeProvider>
     );

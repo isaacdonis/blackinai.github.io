@@ -43,6 +43,20 @@ const styles = (theme) => ({
 });
 
 const sponsorslist = {
+    Ruby: [
+        {
+            title: 'Microsoft',
+            image: require('./../../assets/img/sponsors-partners/microsoft.png'),
+            link: 'https://www.microsoft.com/',
+            alt: 'Microsoft Ruby Sponsor',
+        },
+        {
+            title: 'Meta',
+            image: require('./../../assets/img/sponsors-partners/meta.png'),
+            link: 'https://www.meta.com/',
+            alt: 'Meta Ruby Sponsor',
+        },
+    ],
     Diamond: [
         {
             title: 'Apple',
@@ -75,20 +89,6 @@ const sponsorslist = {
             link: 'https://www.upstart.com/',
             alt: 'Upstart Bronze Sponsor',
         }],
-    Ruby: [
-            {
-                title: 'Microsoft',
-                image: require('./../../assets/img/sponsors-partners/microsoft.png'),
-                link: 'https://www.microsoft.com/',
-                alt: 'Microsoft Ruby Sponsor',
-            },
-            {
-                title: 'Meta',
-                image: require('./../../assets/img/sponsors-partners/meta.png'),
-                link: 'https://www.meta.com/',
-                alt: 'Meta Ruby Sponsor',
-            },
-    ]
 };
 
 
@@ -104,6 +104,20 @@ function Sponsors(props) {
                             Current Sponsors
                         </Typography>
                     </Grid>
+                    <Grid item xs={12}>
+                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                            Ruby
+                        </Typography>
+                    </Grid>
+                    {sponsorslist.Ruby.map(key => (
+                        <Grid item xs align="center">
+                            <div className={classes.item}>
+                                <Link href={key.link}>
+                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                </Link>
+                            </div>
+                        </Grid>
+                    ))}
                     <Grid item xs={12}>
                         <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                             Diamond
@@ -162,20 +176,6 @@ function Sponsors(props) {
                         </Typography>
                     </Grid>
                     {sponsorslist.Bronze.map(key => (
-                        <Grid item xs align="center">
-                            <div className={classes.item}>
-                                <Link href={key.link}>
-                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
-                                </Link>
-                            </div>
-                        </Grid>
-                    ))}
-                    <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
-                            Ruby
-                        </Typography>
-                    </Grid>
-                    {sponsorslist.Ruby.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>

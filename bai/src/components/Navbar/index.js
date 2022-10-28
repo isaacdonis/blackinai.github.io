@@ -153,10 +153,10 @@ function Navbar(props) {
                     text: 'Advocacy',
                     path: '/#/programs/advocacy',
                 },
-                {
-                    text: 'Entrepreneurship Program',
-                    path: '/#/programs/entrepreneurship-program',
-                },
+                // {
+                //     text: 'Entrepreneurship Program',
+                //     path: '/#/programs/entrepreneurship-program',
+                // },
                 {
                     text: 'Financial Support',
                     path: '/#/programs/financial-support',
@@ -175,8 +175,8 @@ function Navbar(props) {
                     path: '/#/membership',
                 },
                 {
-                    text: 'Partnership',
-                    path: '/#/partnership',
+                    text: 'Sponsorship',
+                    path: '/#/sponsorship',
                 },
                 {
                     text: 'Share Opportunities',

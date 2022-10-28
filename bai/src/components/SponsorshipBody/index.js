@@ -65,7 +65,7 @@ const ColorButton = withStyles((theme) => ({
     },
 }))(Button);
 
-function PartnershipBody(props) {
+function SponsorshipBody(props) {
     const { classes } = props;
 
     return (
@@ -96,8 +96,8 @@ function PartnershipBody(props) {
     );
 }
 
-PartnershipBody.propTypes = {
+SponsorshipBody.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(PartnershipBody);
+export default withStyles(styles)(SponsorshipBody);

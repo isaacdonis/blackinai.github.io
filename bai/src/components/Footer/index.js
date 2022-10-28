@@ -111,11 +111,10 @@ function Footer(props) {
                         <ul className={classes.list} style={{ color:'#f8f7f7'}}>
                             <li className={classes.listItem}>
                                 <Typography variant="body1" style={{ color:'#f8f7f7'}} href="/">
-                                    The Black in AI mailing box:
+                                    Black in AI mailing box:
                                     <br/>
-                                    PO Box 8786,<br/>
-                                    Champaign,<br/>
-                                    Illinois 61826
+                                    101 Jefferson Drive<br/>
+                                    Menlo, Park, CA 94025<br/>
                                 </Typography>
                             </li>
                             <li>
@@ -151,7 +150,7 @@ function Footer(props) {
                                 <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/membership">Membership</Link>
                             </li>
                             <li className={classes.listItem}>
-                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/partnership">Partnership</Link>
+                                <Link variant="body1" style={{ color:'#f8f7f7'}} href="/#/sponsorship">Sponsorship</Link>
                             </li>
                         </ul>
                     </Grid>

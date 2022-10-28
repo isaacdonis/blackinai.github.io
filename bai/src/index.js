@@ -25,7 +25,7 @@ import SummerResearchPrograms from './pages/SummerResearchPrograms';
 import Media from './pages/Media';
 import Home from './pages/Home';
 import Membership from './pages/Membership';
-import Partnership from './pages/Partnership';
+import Sponsorship from './pages/Sponsorship';
 import Programs from './pages/Programs';
 import * as serviceWorker from './serviceWorker';
 import NAACL2021 from './pages/BaiSocials/NAACL2021';
@@ -40,7 +40,7 @@ ReactDOM.render(
             <Route path="/" component={Home} exact />
             <Route path="/about" component={About} />
             <Route path="/membership" component={Membership} />
-            <Route path="/partnership" component={Partnership} />
+            <Route path="/sponsorship" component={Sponsorship} />
             <Route path="/events" component={Events} />
             <Route path="/social-naacl-2021" component={NAACL2021}/>
             <Route path="/social-icml-2021" component={ICML2021}/>

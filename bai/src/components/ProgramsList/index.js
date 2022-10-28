@@ -81,20 +81,20 @@ const eachProgramOne = [
             to attend major international AI conferences, the lack of presence by international companies on the African \
             continent, and the choice of conference locations that exclude many members of our community.'
     },
-    {
-        img: require('./../../assets/img/header/bai-img-15.jpg'),
-        title: 'Entrepreneurship Program',
-        url: '/#/programs/entrepreneurship-program',
-        // eslint-disable-next-line
-        text: 'As of 2021, Black founders in the US receive around 2% of venture capital and Black investors \
-        represent 3% of the professionals in the Venture Capital industry. Our \
-        entrepreneurship program, which is currently under design, hopes to work on closing this gap by providing \
-        support to entrepreneurs in Black in AI. We started our work with a survey \
-        for aspiring founders and funders of the community and will release a report based on the survey to enable other \
-        members of the entrepreneurial ecosystem to support Black AI founders and foster collaborations. We then plan on \
-        implementing our program based on major difficulties pointed out by our members, including funding early stage \
-        teams and pairing them with experienced mentors.'
-    },
+    // {
+    //     img: require('./../../assets/img/header/bai-img-15.jpg'),
+    //     title: 'Entrepreneurship Program',
+    //     url: '/#/programs/entrepreneurship-program',
+    //     // eslint-disable-next-line
+    //     text: 'As of 2021, Black founders in the US receive around 2% of venture capital and Black investors \
+    //     represent 3% of the professionals in the Venture Capital industry. Our \
+    //     entrepreneurship program, which is currently under design, hopes to work on closing this gap by providing \
+    //     support to entrepreneurs in Black in AI. We started our work with a survey \
+    //     for aspiring founders and funders of the community and will release a report based on the survey to enable other \
+    //     members of the entrepreneurial ecosystem to support Black AI founders and foster collaborations. We then plan on \
+    //     implementing our program based on major difficulties pointed out by our members, including funding early stage \
+    //     teams and pairing them with experienced mentors.'
+    // },
 ];
 
 const eachProgramTwo = [
@@ -142,7 +142,7 @@ function ProgramsList(props) {
                 </Grid>
                 <Grid container spacing={4}>
                     {eachProgramOne.map((key) => (
-                        <Grid container item xs={12} md={4}>
+                        <Grid container item xs={12} md={6}>
                             <Card className={classes.card}>
                                 <div className={classes.details}>
                                     <CardMedia className={classes.media} image={key.img} title={key.title} />
