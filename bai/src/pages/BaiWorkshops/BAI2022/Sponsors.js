@@ -65,6 +65,18 @@ const sponsorslist = {
             link: 'https://www.apple.com/',
             alt: 'Apple logo',
         },
+        {
+            title: 'NVIDIA',
+            image: require('./../../../assets/img/sponsors-partners/nvidia.png'),
+            link: 'https://www.nvidia.com/en-us/',
+            alt: 'NVIDIA Diamond Sponsor',
+        },
+        {
+            title: 'Accenture',
+            image: require('./../../../assets/img/sponsors-partners/accenture.png'),
+            link: 'https://www.accenture.com/us-en',
+            alt: 'Accenture Diamond Sponsor',
+        },
     ],
     Platinum: [
         {

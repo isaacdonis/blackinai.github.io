@@ -118,6 +118,9 @@ function CallForPapers(props) {
                     <ColorButton className={classes.chip} variant="contained" href="https://forms.gle/SHdt1Bpy5aBbwpBW9">
                         Workshop Registration
                     </ColorButton>
+                    <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/spreadsheets/d/1_z84NelJwgIx38ew0yuW1Zt5e4vr0CCbbtKJDnhm0Mg/edit?usp=sharing">
+                        BAI 2022 Accepted Papers
+                    </ColorButton>
                     {/* 
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2021-keynote-speakers">
                         Keynote Speakers
