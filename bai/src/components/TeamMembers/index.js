@@ -64,12 +64,12 @@ const advisoryBoard = [
         link: 'https://www.linkedin.com/in/makinde/',
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
-    {
-        image: require('./../../assets/img/team/TimnitGebru.jpg'),
-        name: 'Timnit Gebru',
-        link: 'https://ai.stanford.edu/~tgebru/',
-        icon: <FontAwesomeIcon icon={["fa", "link"]} size="1x"/>,
-    },
+    // {
+    //     image: require('./../../assets/img/team/TimnitGebru.jpg'),
+    //     name: 'Timnit Gebru',
+    //     link: 'https://ai.stanford.edu/~tgebru/',
+    //     icon: <FontAwesomeIcon icon={["fa", "link"]} size="1x"/>,
+    // },
     {
         image: require('./../../assets/img/team/HabenGirma.jpg'),
         name: 'Haben Girma', 
