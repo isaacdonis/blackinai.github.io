@@ -113,7 +113,7 @@ function HomeBody(props) {
                             Partners play a key role in accelerating our mission and impact through 
                             making our workshop feasible and sustaining our community
                         </Typography>
-                        <ColorButton className={classes.chip} variant="contained" href="/#/partnership">
+                        <ColorButton className={classes.chip} variant="contained" href="/#/sponsorship">
                             Learn More
                         </ColorButton>
                     </Grid>

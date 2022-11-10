@@ -2,23 +2,23 @@ import { ThemeProvider } from '@material-ui/core';
 import React from 'react';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
-import PartnershipBody from '../../components/PartnershipBody';
-import PartnershipHeader from '../../components/PartnershipHeader';
+import SponsorshipBody from '../../components/SponsorshipBody';
+import SponsorshipHeader from '../../components/SponsorshipHeader';
 import Sponsors from '../../components/Sponsors';
 import Loader from '../../loader';
-import theme from './../../theme';
+import theme from '../../theme';
 
-function Partnership() {
+function Sponsorship() {
     return (
         <ThemeProvider theme={theme}>
             <Loader />
             <Navbar />
-            <PartnershipHeader/>
-            <PartnershipBody/>
+            <SponsorshipHeader/>
+            <SponsorshipBody/>
             <Sponsors/>
             <Footer />
         </ThemeProvider>
     );
 }
 
-export default Partnership;
+export default Sponsorship;

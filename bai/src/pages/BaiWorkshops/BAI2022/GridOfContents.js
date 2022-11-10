@@ -88,9 +88,9 @@ function GridOfContents(props) {
             url: 'https://forms.gle/SHdt1Bpy5aBbwpBW9',
         },
         {
-            title: 'Workshop Schedule & Keynote Speakers - Coming Soon',
+            title: 'Accepted Papers',
             width: '33.3%',
-            url: '',
+            url: 'https://docs.google.com/spreadsheets/d/1_z84NelJwgIx38ew0yuW1Zt5e4vr0CCbbtKJDnhm0Mg/edit?usp=sharing',
         },
         // {
         //     title: 'Accepted Papers',

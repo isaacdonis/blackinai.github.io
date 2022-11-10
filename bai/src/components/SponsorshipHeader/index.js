@@ -41,7 +41,7 @@ const styles = (theme) => ({
     },
 });
 
-function PartnershipHeader(props) {
+function SponsorshipHeader(props) {
     const { classes } = props;
 
     return (
@@ -65,8 +65,8 @@ function PartnershipHeader(props) {
     );
 }
 
-PartnershipHeader.propTypes = {
+SponsorshipHeader.propTypes = {
     classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(PartnershipHeader);
+export default withStyles(styles)(SponsorshipHeader);
