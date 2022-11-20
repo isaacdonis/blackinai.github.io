@@ -90,7 +90,7 @@ function GridOfContents(props) {
         {
             title: 'Accepted Papers',
             width: '33.3%',
-            url: 'https://docs.google.com/spreadsheets/d/1_z84NelJwgIx38ew0yuW1Zt5e4vr0CCbbtKJDnhm0Mg/edit?usp=sharing',
+            url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf',
         },
         // {
         //     title: 'Accepted Papers',

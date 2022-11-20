@@ -118,7 +118,7 @@ function CallForPapers(props) {
                     <ColorButton className={classes.chip} variant="contained" href="https://forms.gle/SHdt1Bpy5aBbwpBW9">
                         Workshop Registration
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/spreadsheets/d/1_z84NelJwgIx38ew0yuW1Zt5e4vr0CCbbtKJDnhm0Mg/edit?usp=sharing">
+                    <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf">
                         BAI 2022 Accepted Papers
                     </ColorButton>
                     {/* 
