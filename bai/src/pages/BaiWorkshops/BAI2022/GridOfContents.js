@@ -98,9 +98,9 @@ function GridOfContents(props) {
         //     url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf',
         // },
         {
-            title: 'Call For Volunteers - Coming Soon',
+            title: 'Workshop Program',
             width: '33.3%',
-            url: '',
+            url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf',
         },
         // {
         //     title: 'Meet the Black in AI 2021 Organizers',
