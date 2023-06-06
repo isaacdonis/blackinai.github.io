@@ -19,7 +19,7 @@ function Home() {
             <CssBaseline />
             <Navbar/>
             {/* Uncomment this section below to show at the top of Home page the Call For paper for Neurips 2023 */}
-            <CallForPapers/> 
+            {/* <CallForPapers/>  */}
             <HomeHeader/>
             {/* <Advertising/> */}
             <HomeQuote/>
