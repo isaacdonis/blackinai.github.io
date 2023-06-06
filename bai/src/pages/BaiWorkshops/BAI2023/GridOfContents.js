@@ -70,22 +70,22 @@ function GridOfContents(props) {
         {
             title: 'Call For Paper & Important Deadlines',
             width: '33.3%',
-            url: '/#/workshop/bai2022-cfp',
+            url: '/#/workshop/bai2023-cfp',
         },
         {
             title: 'Call For Reviewer/Area Chair',
             width: '33.3%',
-            url: 'https://forms.gle/q1v4kqknELEXLLpr8',
+            // url: 'https://forms.gle/q1v4kqknELEXLLpr8',
         },
         {
             title: 'Black in AI Travel Grant Application',
             width: '33.3%',
-            url: 'https://forms.gle/4CXkLZk89e1JvTZ66',
+            // url: 'https://forms.gle/4CXkLZk89e1JvTZ66',
         },
         {
             title: 'Workshop Registration (Hybrid format)',
             width: '33.3%',
-            url: 'https://forms.gle/SHdt1Bpy5aBbwpBW9',
+            // url: 'https://forms.gle/SHdt1Bpy5aBbwpBW9',
         },
         // {
         //     title: 'Accepted Papers',
@@ -100,7 +100,7 @@ function GridOfContents(props) {
         {
             title: 'Workshop Program',
             width: '33.3%',
-            url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf',
+           // url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf',
         },
         // {
         //     title: 'Meet the Black in AI 2021 Organizers',

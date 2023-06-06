@@ -8,6 +8,7 @@ import HomeHeader from '../../components/HomeHeader';
 import HomeQuote from '../../components/HomeQuote';
 import JoinUs from '../../components/JoinUs';
 import Navbar from '../../components/Navbar';
+import SponsorsHome from '../../components/SponsorsHome';
 import Loader from '../../loader';
 import theme from './../../theme';
 
@@ -24,6 +25,7 @@ function Home() {
             <HomeQuote/>
             <HomeBody/>
             <JoinUs/>
+            {/* <SponsorsHome/> */}
             <Footer/>
         </ThemeProvider>
     );
