@@ -83,7 +83,7 @@ function CallForPapers(props) {
                         <Grid item xs={12} md={6}>
                             <div className={classes.item}>
                                 <Typography variant="h2" className={classes.title}>
-                                    Black in AI Workshop 2022
+                                    Black in AI Workshop 2023
                                     Call for Papers
                                 </Typography>
                             </div>
@@ -115,15 +115,15 @@ function CallForPapers(props) {
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023/">
                         Full Details
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="https://forms.gle/SHdt1Bpy5aBbwpBW9">
+                    <ColorButton className={classes.chip} variant="contained" href="UPDATE-LINK-HERE">
                         Workshop Registration
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf">
+                    {/* <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf">
                         BAI 2022 Accepted Papers
-                    </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf">
+                    </ColorButton> */}
+                    {/* <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf">
                         Workshop Program
-                    </ColorButton>
+                    </ColorButton> */}
                     {/* 
                     <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf">
                         Accepted Papers Black in AI 2021
