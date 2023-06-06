@@ -19,6 +19,8 @@ import BAI2021Team from './pages/BaiWorkshops/BAI2021/Team2021';
 import BAI2021Keynote from './pages/BaiWorkshops/BAI2021/KeynoteSpeakers';
 import BAI2022 from './pages/BaiWorkshops/BAI2022';
 import BAI2022CFP from './pages/BaiWorkshops/BAI2022/CallForPapers';
+import BAI2023 from './pages/BaiWorkshops/BAI2023';
+import BAI2023CFP from './pages/BaiWorkshops/BAI2023/CallForPapers';
 import FinancialSupport from './pages/FinancialSupport';
 import EntrepreneurshipProgram from './pages/EntrepreneurshipProgram';
 import SummerResearchPrograms from './pages/SummerResearchPrograms';
@@ -62,6 +64,8 @@ ReactDOM.render(
             <Route path="/workshop/bai2021-keynote-speakers" component={BAI2021Keynote} />
             <Route path="/workshop/bai2022" component={BAI2022} />
             <Route path="/workshop/bai2022-cfp" component={BAI2022CFP} />
+            <Route path="/workshop/bai2023" component={BAI2023} />
+            <Route path="/workshop/bai2023-cfp" component={BAI2023CFP} />
             <Route path="/media" component={Media.PressRoom} />
             <Route path="/bai-open-position-2022" component={Media.BAIOpenPosition} />
         </Switch>

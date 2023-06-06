@@ -112,7 +112,7 @@ function CallForPapers(props) {
                         
                         <a href="/#/conferences" target="_blank"> Check out more information about submissions and important dates.</a> */}
                     </Typography>
-                    <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2022/">
+                    <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023/">
                         Full Details
                     </ColorButton>
                     <ColorButton className={classes.chip} variant="contained" href="https://forms.gle/SHdt1Bpy5aBbwpBW9">
