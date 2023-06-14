@@ -65,11 +65,11 @@ const ColorButton = withStyles((theme) => ({
 
 const valueslist = [
     {
-        id: 1, title: '3000+',
-        text: 'We’ve grown from a small facebook group to a global movement comprising 3000 community members and allies who believe that more Black people should shape the direction of the field of AI.'
+        id: 1, title: '5000+',
+        text: 'We’ve grown from a small facebook group to a global movement comprising 5000+ community members and allies who believe that more Black people should shape the direction of the field of AI.'
     },
     {
-        id: 2, title: '42',
+        id: 2, title: '43+',
         text: 'Total number of countries with Black in AI members.'
     },
 ];

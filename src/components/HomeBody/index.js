@@ -92,7 +92,7 @@ function HomeBody(props) {
                             and job opportunities, summer schools, or research related discussions.
                         </Typography>
                         <ColorButton className={classes.chip} variant="contained" href="https://docs.google.com/forms/d/1pv34QhQE74gBnDu2xTdLmMNnWykY5tN2wihWIh7mwrQ/viewform?edit_requested=true">
-                            Join Us
+                            Become a member
                         </ColorButton>
                     </Grid>
                     <Container className={classes.cardMedia} style={{ backgroundImage: `url(${image2})` }}>    

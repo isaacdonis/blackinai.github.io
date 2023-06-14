@@ -91,7 +91,7 @@ function Workshops(props) {
             img: require('./../../assets/img/general/neworleans_convention_center.jpeg'),
             title: 'Black in AI 2023',
             width: '100%',
-            // url: '/#/workshop/bai2023',
+            url: '/#/workshop/bai2023',
         },
         {
             img: require('./../../assets/img/general/neworleans_convention_center.jpeg'),

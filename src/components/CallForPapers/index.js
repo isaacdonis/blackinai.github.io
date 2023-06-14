@@ -91,7 +91,7 @@ function CallForPapers(props) {
                     </Grid>
 
                     <Typography variant="body1" className={classes.title}>
-                        The 6th Black in AI Workshop will be held co-located with NeurIPS 2022.
+                        The 7th Black in AI Workshop will be held co-located with NeurIPS 2023.
 
                         We are looking forward to papers in the area of AI, including but not limited to computer
                         vision, deep learning, knowledge reasoning, machine learning, multi-agent systems, natural
@@ -102,22 +102,23 @@ function CallForPapers(props) {
                         We encourage all Black researchers in fields related to AI to submit their work. The paper should
                         involve at least one Black researcher as either a lead or co-author.
 
+                        Black researchers in AI, ML and related application areas (health, agriculture, politics, economics, law etc.) 
+                        are welcome to submit their work. We encourage individuals from Black, African, and Diasporic communities to join us and submit their work.
+                        
+                        <a href="/#/conferences" target="_blank"> Check out more information about submissions and important dates.</a> 
                         {/* The workshop will feature invited talks from prominent researchers and practitioners and a poster session. 
                         We invite all members of the AI community to attend the workshop. Registration for the Workshop: 
                         <a href="https://blackinai-workshop2021.eventbrite.com.br" target="_blank" rel="noopener noreferrer">HERE.</a>
                         <br/>
+                        */}
 
-                        Black researchers in AI, ML and related application areas (health, agriculture, politics, economics, law etc.) 
-                        are welcome to submit their work. We encourage individuals from Black, African, and Diasporic communities to join us and submit their work.
-                        
-                        <a href="/#/conferences" target="_blank"> Check out more information about submissions and important dates.</a> */}
                     </Typography>
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023/">
                         Full Details
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="UPDATE-LINK-HERE">
+                    {/* <ColorButton className={classes.chip} variant="contained" href="UPDATE-LINK-HERE">
                         Workshop Registration
-                    </ColorButton>
+                    </ColorButton> */}
                     {/* <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf">
                         BAI 2022 Accepted Papers
                     </ColorButton> */}
