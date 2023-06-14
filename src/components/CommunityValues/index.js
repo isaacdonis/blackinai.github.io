@@ -66,8 +66,8 @@ const valueslist = [
         text: 'Black in AI was founded to challenge the status quo.'
     },
     {
-        id: 2, title: '3000',
-        text: 'We’ve grown from a small facebook group to a global movement comprising 3000 community members & allies who believe that more Black people should shape the direction of the field of AI.'
+        id: 2, title: '5000+',
+        text: 'We’ve grown from a small facebook group to a global movement comprising 5000 community members & allies who believe that more Black people should shape the direction of the field of AI.'
     },
     {
         id: 3, title: '10+',

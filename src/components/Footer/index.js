@@ -48,7 +48,7 @@ function Copyright() {
                 Black in AI
             </Link>{' '}{new Date().getFullYear()}{' '}
             <Typography style={{ color:'#f8f7f7'}} variant="body2" marked="left" gutterBottom>
-                Website develop by <Link color="inherit" href="https://github.com/mirianfsilva">@mirianfsilva</Link>
+                website developed by <Link color="inherit" href="https://github.com/mirianfsilva">@mirianfsilva</Link>
             </Typography>
         </React.Fragment>
     );

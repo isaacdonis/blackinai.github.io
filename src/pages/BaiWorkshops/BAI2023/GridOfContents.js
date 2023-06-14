@@ -68,22 +68,22 @@ function GridOfContents(props) {
 
     const workshops = [
         {
-            title: 'Call For Paper & Important Deadlines',
+            title: 'Call For Paper & Important Deadlines SOON',
             width: '33.3%',
-            url: '/#/workshop/bai2023-cfp',
+            // url: '/#/workshop/bai2023-cfp',
         },
         {
-            title: 'Call For Reviewer/Area Chair',
+            title: 'Call For Reviewer/Area Chair SOON',
             width: '33.3%',
             // url: 'https://forms.gle/q1v4kqknELEXLLpr8',
         },
         {
-            title: 'Black in AI Travel Grant Application',
-            width: '33.3%',
+            // title: 'Black in AI Travel Grant Application',
+            // width: '33.3%',
             // url: 'https://forms.gle/4CXkLZk89e1JvTZ66',
         },
         {
-            title: 'Workshop Registration (Hybrid format)',
+            title: 'Workshop Registration (Hybrid format) SOON',
             width: '33.3%',
             // url: 'https://forms.gle/SHdt1Bpy5aBbwpBW9',
         },
@@ -98,8 +98,8 @@ function GridOfContents(props) {
         //     url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf',
         // },
         {
-            title: 'Workshop Program',
-            width: '33.3%',
+            // title: 'Workshop Program - SOON',
+            // width: '33.3%',
            // url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf',
         },
         // {
@@ -112,7 +112,7 @@ function GridOfContents(props) {
     return (
         <Container className={classes.root} component="section">
             <Typography variant="h4" marked="center" align="center" component="h2">
-                The 6th Black in AI Workshop will be held co-located with NeurIPS 2022.
+                The 7th Black in AI Workshop will be held co-located with NeurIPS 2023.
                 The workshop will feature invited talks from prominent researchers and practitioners, 
                 a poster session and a startups showcase. We invite all members of the AI community 
                 to attend the workshop.

@@ -120,7 +120,7 @@ function Sponsors(props) {
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
                         <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            2022 Sponsors
+                            2023 Sponsors
                         </Typography>
                     </Grid>
                     <Grid item xs={3} spacing={2}>

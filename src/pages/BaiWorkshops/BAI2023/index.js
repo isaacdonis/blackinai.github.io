@@ -17,7 +17,7 @@ function BAI2021() {
             <Navbar />
             <WorkshopPageHeader src={image}/>
             <GridOfContents/>
-            <Sponsors/>
+            {/* <Sponsors/> */}
             <Footer />
         </ThemeProvider>
     );
