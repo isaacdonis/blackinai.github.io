@@ -6,8 +6,6 @@ name: CI Black in AI webpage deployment
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   build:
