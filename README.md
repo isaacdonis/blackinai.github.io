@@ -4,7 +4,7 @@ This repository, host the main website of the Black in AI community.
 
 
 --------
-### Note from website contributors
+### Notes for website contributors
 
 To suggest website changes:
 - [ ] Create a fork;
