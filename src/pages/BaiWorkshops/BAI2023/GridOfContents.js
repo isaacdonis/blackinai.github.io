@@ -70,7 +70,7 @@ function GridOfContents(props) {
         {
             title: 'Call For Paper & Important Deadlines',
             width: '33.3%',
-            url: 'https://docs.google.com/document/d/1HWAmSp5szn4mMu_4G0xEUNwMxN4mW7eU6bD02PCg4vo/edit',
+            url: '/#/workshop/bai2023-cfp',
         },
         {
             title: 'Call For Reviewer/Area Chair SOON',
