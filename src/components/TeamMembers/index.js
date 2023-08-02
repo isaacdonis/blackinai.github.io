@@ -156,13 +156,6 @@ const communityTeam = [
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
     },
     {
-        image: require('./../../assets/img/team/KrystalMaughan.jpg'),
-        name: 'Krystal Maughan', 
-        title: '',
-        link: 'https://www.linkedin.com/in/krystal-maughan-3563a215/',
-        icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
-    },
-    {
         image: require('./../../assets/img/team/mirian.jpg'),
         name: 'Mírian Silva', 
         title: '',
