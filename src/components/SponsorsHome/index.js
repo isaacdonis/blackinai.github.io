@@ -56,12 +56,6 @@ const sponsorslist = [
             alt: 'Meta Ruby Sponsor',
         },
         {
-            title: 'Etsy',
-            image: require('./../../assets/img/sponsors-partners/etsy.png'),
-            link: 'https://www.meta.com/',
-            alt: 'Meta Ruby Sponsor',
-        },
-        {
             title: 'Apple',
             image: require('./../../assets/img/sponsors-partners/apple.png'),
             link: 'https://www.apple.com/',
