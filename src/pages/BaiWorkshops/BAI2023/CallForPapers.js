@@ -8,7 +8,7 @@ import CallForPapers2023 from './../../../posts/bai2023/CallForPapers2023.md';
 import Submissions2023 from './../../../posts/bai2023/Submissions2023.md';
 import ContentFile from '../../../components/Markdown/readfile';
 import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
-import image from './../../../assets/img/general/header-bai-2022.png';
+import image from './../../../assets/img/general/header-bai-2023.png';
 import Loader from '../../../loader';
 
 function CallForPapers() {
