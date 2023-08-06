@@ -21,7 +21,7 @@ function CallForPapers() {
                 Black in AI 2023 - Call For Papers Submissions
             </ContentFile>
             <ContentFile href={Submissions2023}/>
-            <Footer />/
+            <Footer />
         </ThemeProvider>
     );
 }

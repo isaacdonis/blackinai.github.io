@@ -30,7 +30,7 @@ All submissions must be in PDF format. Submissions are limited to two content pa
 
 
 ## Registration
-Registration starts on Saturday, September 24th, 2022. We strongly encourage workshop attendees to register for the workshops as early as possible. The registration can be found [here](https://nips.cc/accounts/login/?next=/Profile).
+We strongly encourage workshop attendees to register for the workshops as early as possible. The registration can be found [here](https://nips.cc/accounts/login/?next=/Profile).
 
 
 ## Important Dates

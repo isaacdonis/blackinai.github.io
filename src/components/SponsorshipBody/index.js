@@ -85,9 +85,9 @@ function SponsorshipBody(props) {
                             <Typography variant="h6" color="secondary" align="center" className={classes.title}>
                                 To learn more, please contact us at sponsorship@blackinai.org. 
                             </Typography>
-                            <ColorButton className={classes.chip} variant="contained" href="https://github.com/blackinai/blackinai.github.io/raw/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf">
+                            {/* <ColorButton className={classes.chip} variant="contained" href="https://github.com/blackinai/blackinai.github.io/raw/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf">
                                 Download our sponsorship offerings
-                            </ColorButton>
+                            </ColorButton> */}
                         </Grid>
                     </Grid> 
                 </Grid>

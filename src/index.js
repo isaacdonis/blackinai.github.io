@@ -21,7 +21,7 @@ import BAI2022 from './pages/BaiWorkshops/BAI2022';
 import BAI2022CFP from './pages/BaiWorkshops/BAI2022/CallForPapers';
 import BAI2023 from './pages/BaiWorkshops/BAI2023';
 import BAI2023CFP from './pages/BaiWorkshops/BAI2023/CallForPapers';
-import FinancialSupport from './pages/FinancialSupport';
+// import FinancialSupport from './pages/FinancialSupport';
 import EntrepreneurshipProgram from './pages/EntrepreneurshipProgram';
 import SummerResearchPrograms from './pages/SummerResearchPrograms';
 import Media from './pages/Media';
@@ -49,7 +49,7 @@ ReactDOM.render(
             <Route path="/social-icml-2022" component={ICML2021}/>
             <Route path="/programs/academic-program" component={AcademicProgram} />
             <Route path="/programs/advocacy" component={AdvocacyPrograms} />
-            <Route path="/programs/financial-support" component={FinancialSupport} />
+            {/* <Route path="/programs/financial-support" component={FinancialSupport} /> */}
             <Route path="/programs/entrepreneurship-program" component={EntrepreneurshipProgram} />
             <Route path="/programs/summer-research-programs" component={SummerResearchPrograms} />
             <Route path="/programs" component={Programs} />
