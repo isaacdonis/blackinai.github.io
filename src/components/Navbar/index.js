@@ -150,10 +150,10 @@ function Navbar(props) {
                 //     text: 'Entrepreneurship Program',
                 //     path: '/#/programs/entrepreneurship-program',
                 // },
-                {
-                    text: 'Financial Support',
-                    path: '/#/programs/financial-support',
-                },
+                // {
+                    // text: 'Financial Support',
+                    // path: '/#/programs/financial-support',
+                // },
                 {
                     text: 'Summer Research Programs',
                     path: '/#/programs/summer-research-programs',
