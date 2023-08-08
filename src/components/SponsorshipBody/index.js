@@ -72,10 +72,7 @@ function SponsorshipBody(props) {
         <section className={classes.root}>
             <Container className={classes.container}>
                 <Grid item xs={12} align="center">
-                   <Grid container spacing={2}>
-                        <Grid item xs={12} md={6}>
-                        <iframe src="https://drive.google.com/file/d/1nIr1ePBRXJ6n0jCmYMVbnHkEp3NvyMyo/preview" width="640" height="480" allow="autoplay"></iframe>
-                        </Grid>
+                   <Grid container spacing={5}>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 Be part of our network
@@ -86,6 +83,9 @@ function SponsorshipBody(props) {
                             <ColorButton className={classes.chip} variant="contained" href="https://github.com/blackinai/blackinai.github.io/raw/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf">
                                 Download our sponsorship offerings
                             </ColorButton>
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                            <iframe src="https://drive.google.com/file/d/1nIr1ePBRXJ6n0jCmYMVbnHkEp3NvyMyo/preview" width="640" height="480" allow="autoplay"></iframe>
                         </Grid>
                     </Grid> 
                 </Grid>
