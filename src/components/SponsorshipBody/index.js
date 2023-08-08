@@ -72,12 +72,7 @@ function SponsorshipBody(props) {
         <section className={classes.root}>
             <Container className={classes.container}>
                 <Grid item xs={12} align="center">
-                   <Grid container spacing={2}>
-                        <Grid item xs={12} md={6}>
-                        <iframe src="https://drive.google.com/file/d/1BJQLaLQwjMmUeNij7Oh_F0_0uPAwT_Lf/preview" 
-                            width="100%" height="600px">
-                        </iframe>
-                        </Grid>
+                   <Grid container spacing={5}>
                         <Grid item xs={12} md={6}>
                             <Typography variant="h2" color="secondary" className={classes.title}>
                                 Be part of our network
@@ -85,9 +80,12 @@ function SponsorshipBody(props) {
                             <Typography variant="h6" color="secondary" align="center" className={classes.title}>
                                 To learn more, please contact us at sponsorship@blackinai.org. 
                             </Typography>
-                            {/* <ColorButton className={classes.chip} variant="contained" href="https://github.com/blackinai/blackinai.github.io/raw/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf">
+                            <ColorButton className={classes.chip} variant="contained" href="https://github.com/blackinai/blackinai.github.io/raw/d358ea7c584204b0f0f3a29ca2b6889b81cf3159/bai/src/assets/doc/Black_in_AI_2022_Sponsorship.pdf">
                                 Download our sponsorship offerings
-                            </ColorButton> */}
+                            </ColorButton>
+                        </Grid>
+                        <Grid item xs={12} md={6}>
+                            <iframe src="https://drive.google.com/file/d/1nIr1ePBRXJ6n0jCmYMVbnHkEp3NvyMyo/preview" width="640" height="480" allow="autoplay"></iframe>
                         </Grid>
                     </Grid> 
                 </Grid>
