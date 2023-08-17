@@ -104,25 +104,11 @@ const advisoryBoard = [
 
 const blackinAIBoard = [
     {
-        image: require('./../../assets/img/team/RedietAbebe.jpg'),
-        name: 'Rediet Abebe', 
-        title: 'Director',
-        link: 'https://www.cs.cornell.edu/~red/',
-        icon: <FontAwesomeIcon icon={["fa", "link"]} size="1x"/>,
-    },
-    {
         image: require('./../../assets/img/team/SimoneBartlett.jpg'),
         name: 'Simone Bartlett',
         title: 'Treasurer', 
         link: 'https://www.linkedin.com/in/simone-bartlett-b527275b/',
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]} size="1x"/>,
-    },
-    {
-        image: require('./../../assets/img/team/DevinGuillory.jpg'),
-        name: 'Devin Guillory', 
-        title: 'Director',
-        link: 'http://www.devinguillory.com/',
-        icon: <FontAwesomeIcon icon={["fa", "link"]} size="1x"/>,
     },
     {
         image: require('./../../assets/img/team/SanmiKoyejo.png'),
@@ -189,16 +175,18 @@ function TeamMembers(props) {
                             Black in AI Board
                         </Typography>
                     </Grid> 
-                    {blackinAIBoard.map((tile) => (
-                        <Grid item xs align="center">
-                            <Avatar alt={tile.name} src={tile.image} className={classes.avatarSize} />
-                            <Typography className={classes.cardtitle} variant="h6" gutterBottom>
-                                {tile.name} <Link target="_blank" rel="noopener" className={classes.icon} href={tile.link}>{tile.icon}</Link>
-                                <br/>
-                                {tile.title}
-                            </Typography>
-                        </Grid>
-                    ))}
+                    <Grid container justify="center">
+                        {blackinAIBoard.map((tile) => (
+                            <Grid key={tile} item xs md={2} align="center">
+                                <Avatar alt={tile.name} src={tile.image} className={classes.avatarSize} />
+                                <Typography className={classes.cardtitle} variant="h6" gutterBottom>
+                                    {tile.name} <Link target="_blank" rel="noopener" className={classes.icon} href={tile.link}>{tile.icon}</Link>
+                                    <br/>
+                                    {tile.title}
+                                </Typography>
+                            </Grid>
+                        ))}
+                    </Grid>
 
                     <Divider variant="middle" className={classes.divider}/>
                     
