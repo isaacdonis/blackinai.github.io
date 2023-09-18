@@ -21,26 +21,15 @@ If you are interested in supporting us by volunteering your time as a mentor, do
 ### Contact:
 ` academic@blackinai.org `
 
-### Organizers:
-- Rediet Abebe, University of California at Berkeley
-- Moses Namara, Clemson University
-- Daniel Nkemelu, Georgia Institute of Technology
-- Ezinne Nwankwo, Duke University
-### Faculty Advisors:
-- Rediet Abebe, University of California at Berkeley
-- Sanmi Koyejo, Ph.D., University of Illinois, Urbana Champaign
-- Dina Machuve, Ph.D., Nelson Mandela African Institute of Science and Technology
-- Brandeis Marshall, Ph.D., Spelman College
-
 ### Supported By: Black in AI
 
 -----
 
 ### FAQs:
 
-- **How can I take part in this program?**
+- **How can I apply?**
 
-*If you self-identify as Black and are applying to graduate or postgraduate positions or are currently in graduate school, please sign up to join the Black in AI google group here and follow instructions sent out over our email list.*
+[APPLY HERE](https://forms.gle/TcnntQBihMivhajr7)
 
 - **How can I support this program as an academic?**
 
