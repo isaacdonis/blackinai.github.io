@@ -1,6 +1,6 @@
 import { CssBaseline, ThemeProvider } from '@material-ui/core';
 import React from 'react';
-import Advertising from '../../components/Advertising';
+import AdvertisingBar from '../../components/AdvertisingBar';
 import CallForPapers from '../../components/CallForPapers';
 import Footer from '../../components/Footer';
 import HomeBody from '../../components/HomeBody';
@@ -19,8 +19,8 @@ function Home() {
             <CssBaseline />
             <Navbar/>
             <CallForPapers/> 
+            <AdvertisingBar/>
             <HomeHeader/>
-            {/* <Advertising/> */}
             <HomeQuote/>
             <HomeBody/>
             <JoinUs/>

@@ -1,4 +1,4 @@
-##### Last updated on Jun, 2023
+##### Last updated on Sep, 2023
 
 
 **The Black in AI Academic Program** is committed to serving as a resource and supporting Black junior researchers as they apply to graduate programs, navigate graduate school, and enter the postgraduate job market. To that end, we conduct online information sessions, provide scholarships to cover costs related to applications, assign participants to peer and senior mentors, and share crowdsourced documents that demystify application processes.
@@ -18,10 +18,8 @@ On this page we will answer frequently asked questions and provide opportunities
 
 If you are interested in supporting us by volunteering your time as a mentor, donating to the program, or supporting us with our advocacy, please reach out to the organizers
 
-### Contact:
-` academic@blackinai.org `
+**APPLY HERE: [Academic Program Forms](https://forms.gle/TcnntQBihMivhajr7)**
 
-### Supported By: Black in AI
 
 -----
 
