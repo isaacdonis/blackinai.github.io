@@ -7,6 +7,7 @@ import SponsorshipHeader from '../../components/SponsorshipHeader';
 import Sponsors from '../../components/Sponsors';
 import Loader from '../../loader';
 import theme from '../../theme';
+import SponsorshipNeurips2023 from '../../components/SponsorshipNeurips2023';
 
 function Sponsorship() {
     return (
@@ -15,6 +16,7 @@ function Sponsorship() {
             <Navbar />
             <SponsorshipHeader/>
             <SponsorshipBody/>
+            <SponsorshipNeurips2023/>
             <Sponsors/>
             <Footer />
         </ThemeProvider>
