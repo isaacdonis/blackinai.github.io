@@ -188,10 +188,10 @@ function StartupsShowcase(props) {
                             <Typography variant='h4'>
                                 Watch the Startup Showcase at NeurIPS 2021
                             </Typography>
-                            <iframe src="https://slideslive.com/embed/presentation/38973431" width="100%" height="400" 
+                            <iframe title="" src="https://slideslive.com/embed/presentation/38973431" width="100%" height="400" 
                                 allow="autoplay; fullscreen" 
                                 sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation" 
-                                frameborder="0" scrolling="no">    
+                                frameborder="0">    
                             </iframe>
                         </Grid>
                     </Grid>

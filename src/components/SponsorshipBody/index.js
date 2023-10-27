@@ -1,10 +1,10 @@
-import { Button, Container, ListItem } from '@material-ui/core/';
+import { Button, Container } from '@material-ui/core/';
 import Grid from '@material-ui/core/Grid';
 import { withStyles } from '@material-ui/core/styles';
 import React from 'react';
 import PropTypes from 'prop-types';
 import Typography from '../Typography';
-import sponsor from '../../assets/doc/Black_in_AI_2022_Sponsorship.pdf';
+// import sponsor from '../../assets/doc/Black_in_AI_2022_Sponsorship.pdf';
 // import { Document, Page } from 'react-pdf';
 
 const styles = (theme) => ({
@@ -85,7 +85,7 @@ function SponsorshipBody(props) {
                             </ColorButton>
                         </Grid>
                         <Grid item xs={12} md={6}>
-                            <iframe src="https://drive.google.com/file/d/1nIr1ePBRXJ6n0jCmYMVbnHkEp3NvyMyo/preview" width="640" height="480" allow="autoplay"></iframe>
+                            <iframe title="" src="https://drive.google.com/file/d/1nIr1ePBRXJ6n0jCmYMVbnHkEp3NvyMyo/preview" width="640" height="480" allow="autoplay"></iframe>
                         </Grid>
                     </Grid> 
                 </Grid>

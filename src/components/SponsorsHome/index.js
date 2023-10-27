@@ -41,62 +41,42 @@ const styles = (theme) => ({
         height: theme.spacing(8),
     },
 });
+// Ruby -> Diamond -> Platinum -> Gold -> Silver -> Bronze -> Thank You
 
 const sponsorslist = [
-        {
-            title: 'Microsoft',
-            image: require('./../../assets/img/sponsors-partners/microsoft.png'),
-            link: 'https://www.microsoft.com/',
-            alt: 'Microsoft Ruby Sponsor',
-        },
-        {
-            title: 'Meta',
-            image: require('./../../assets/img/sponsors-partners/meta.png'),
-            link: 'https://www.meta.com/',
-            alt: 'Meta Ruby Sponsor',
-        },
         {
             title: 'Apple',
             image: require('./../../assets/img/sponsors-partners/apple.png'),
             link: 'https://www.apple.com/',
-            alt: 'Apple Diamond Sponsor',
-        },
-        {
-            title: 'NVIDIA',
-            image: require('./../../assets/img/sponsors-partners/nvidia.png'),
-            link: 'https://www.nvidia.com/en-us/',
-            alt: 'NVIDIA Diamond Sponsor',
-        },
-        {
-            title: 'Accenture',
-            image: require('./../../assets/img/sponsors-partners/accenture.png'),
-            link: 'https://www.accenture.com/us-en',
-            alt: 'Accenture Diamond Sponsor',
+            alt: 'Apple Gold Sponsor',
         },
         {
             title: 'IBM',
             image: require('./../../assets/img/sponsors-partners/ibm.png'),
             link: 'https://www.ibm.com/',
-            alt: 'IBM Platinum Sponsor'
+            alt: 'IBM Gold Sponsor'
         },
         {
-            title: 'D. E. Shaw Research',
-            image: require('./../../assets/img/sponsors-partners/deshaw.jpg'),
-            link: 'https://www.deshaw.com/',
-            alt: 'D. E. Shaw Research Platinum Sponsor',
+            title: "Duolingo",
+            image: require('./../../assets/img/sponsors-partners/duolingo.png'),
+            link: "https://www.duolingo.com/",
+            alt: "Duolingo Bronze Sponsor"
         },
         {
-            title: 'Oracle',
-            image: require('./../../assets/img/sponsors-partners/oracle.png'),
-            link: 'https://www.oracle.com/corporate/',
-            alt: 'Oracle logo',
-        },
-        {
-            title: 'Upstart',
-            image: require('./../../assets/img/sponsors-partners/upstart.png'),
-            link: 'https://www.upstart.com/',
-            alt: 'Upstart Bronze Sponsor',
+            title: "Vector Institute",
+            image: require('./../../assets/img/sponsors-partners/vectorInstitute.png'),
+            link: "https://vectorinstitute.ai/",
+            alt: "Vector Institute Silver Sponsor"
         }
+]
+
+const CorporateSponsorsforEquity = [
+    {
+        title: 'Deepmind',
+        image: require('./../../assets/img/sponsors-partners/deepmind.png'),
+        link: 'https://www.upstart.com/',
+        alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
+    }
 ]
 
 
@@ -109,7 +89,7 @@ function SponsorsHome(props) {
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
                         <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            Current Sponsors
+                            2023 Current Sponsors
                         </Typography>
                     </Grid>
                     {sponsorslist.map(key => (
@@ -121,8 +101,42 @@ function SponsorsHome(props) {
                             </div>
                         </Grid>
                     ))}
+                    <Grid item xs={12}>
+                        <Typography variant="h4" align="center" component="h3" className={classes.title}>
+                                Corporate Sponsors for Equity
+                        </Typography>
+                        {CorporateSponsorsforEquity.map(key => (
+                            <Grid item xs align="center">
+                                <div className={classes.item}>
+                                    <Link href={key.link}>
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    </Link>
+                                    <br></br>
+                                </div>
+                            </Grid>
+                        ))}
+                    </Grid>
                 </Grid>
             </Container>
+            
+            {/* <Container>
+                <Grid container spacing={12}>
+                    <Grid item xs={12}>
+                        <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
+                            Corporate Sponsors for Equity
+                        </Typography>
+                    </Grid>
+                    {CorporateSponsorsforEquity.map(key => (
+                        <Grid item xs align="center">
+                            <div className={classes.item}>
+                                <Link href={key.link}>
+                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                </Link>
+                            </div>
+                        </Grid>
+                    ))}
+                </Grid>
+            </Container> */}
         </section>
     );
 }

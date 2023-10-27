@@ -41,72 +41,73 @@ const styles = (theme) => ({
         height: theme.spacing(8),
     },
 });
-
+// Ruby -> Diamond -> Platinum -> Gold -> Silver -> Bronze -> Thank You
 const sponsorslist = {
-    Ruby: [
+    // Ruby: [
+    //     {
+    //         title: 'Microsoft',
+    //         image: require('./../../assets/img/sponsors-partners/microsoft.png'),
+    //         link: 'https://www.microsoft.com/',
+    //         alt: 'Microsoft Ruby Sponsor',
+    //     },
+    //     {
+    //         title: 'Meta',
+    //         image: require('./../../assets/img/sponsors-partners/meta.png'),
+    //         link: 'https://www.meta.com/',
+    //         alt: 'Meta Ruby Sponsor',
+    //     },
+    // ],
+    // Diamond: [
+        
+    //     {
+    //         title: 'NVIDIA',
+    //         image: require('./../../assets/img/sponsors-partners/nvidia.png'),
+    //         link: 'https://www.nvidia.com/en-us/',
+    //         alt: 'NVIDIA Diamond Sponsor',
+    //     },
+    //     {
+    //         title: 'Accenture',
+    //         image: require('./../../assets/img/sponsors-partners/accenture.png'),
+    //         link: 'https://www.accenture.com/us-en',
+    //         alt: 'Accenture Diamond Sponsor',
+    //     },
+    // ],
+    Platinum: [
         {
-            title: 'Microsoft',
-            image: require('./../../assets/img/sponsors-partners/microsoft.png'),
-            link: 'https://www.microsoft.com/',
-            alt: 'Microsoft Ruby Sponsor',
-        },
-        {
-            title: 'Meta',
-            image: require('./../../assets/img/sponsors-partners/meta.png'),
-            link: 'https://www.meta.com/',
-            alt: 'Meta Ruby Sponsor',
-        },
+            title: 'Deepmind',
+            image: require('./../../assets/img/sponsors-partners/deepmind.png'),
+            link: 'https://www.upstart.com/',
+            alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
+        }
     ],
-    Diamond: [
+    Gold: [
         {
             title: 'Apple',
             image: require('./../../assets/img/sponsors-partners/apple.png'),
             link: 'https://www.apple.com/',
-            alt: 'Apple Diamond Sponsor',
+            alt: 'Apple Gold Sponsor',
         },
-        {
-            title: 'NVIDIA',
-            image: require('./../../assets/img/sponsors-partners/nvidia.png'),
-            link: 'https://www.nvidia.com/en-us/',
-            alt: 'NVIDIA Diamond Sponsor',
-        },
-        {
-            title: 'Accenture',
-            image: require('./../../assets/img/sponsors-partners/accenture.png'),
-            link: 'https://www.accenture.com/us-en',
-            alt: 'Accenture Diamond Sponsor',
-        },
-    ],
-    Platinum: [
         {
             title: 'IBM',
             image: require('./../../assets/img/sponsors-partners/ibm.png'),
             link: 'https://www.ibm.com/',
-            alt: 'IBM Platinum Sponsor'
+            alt: 'IBM Gold Sponsor'
         },
-        {
-            title: 'D. E. Shaw Research',
-            image: require('./../../assets/img/sponsors-partners/deshaw.jpg'),
-            link: 'https://www.deshaw.com/',
-            alt: 'D. E. Shaw Research Platinum Sponsor',
-        }
-    ],
-    Gold: [
     ],
     Silver: [
         {
-            title: 'Oracle',
-            image: require('./../../assets/img/sponsors-partners/oracle.png'),
-            link: 'https://www.oracle.com/corporate/',
-            alt: 'Oracle logo',
+            title: "Vector Institute",
+            image: require('./../../assets/img/sponsors-partners/vectorInstitute.png'),
+            link: "https://vectorinstitute.ai/",
+            alt: "Vector Institute Silver Sponsor"
         }],
-    Bronze: [
-        {
-            title: 'Upstart',
-            image: require('./../../assets/img/sponsors-partners/upstart.png'),
-            link: 'https://www.upstart.com/',
-            alt: 'Upstart Bronze Sponsor',
-        }],
+    // Bronze: [
+        // {
+        //     title: 'Upstart',
+        //     image: require('./../../assets/img/sponsors-partners/upstart.png'),
+        //     link: 'https://www.upstart.com/',
+        //     alt: 'Upstart Bronze Sponsor',
+        // }],
 };
 
 
@@ -119,14 +120,14 @@ function Sponsors(props) {
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
                         <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            Current Sponsors
+                            2023 Current Sponsors
                         </Typography>
                     </Grid>
-                    <Grid item xs={12}>
+                    {/* <Grid item xs={12}>
                         <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                             Ruby
                         </Typography>
-                    </Grid>
+                    </Grid> */}
                     {sponsorslist.Ruby.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
@@ -136,11 +137,11 @@ function Sponsors(props) {
                             </div>
                         </Grid>
                     ))}
-                    <Grid item xs={12}>
+                    {/* <Grid item xs={12}>
                         <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
                             Diamond
                         </Typography>
-                    </Grid>
+                    </Grid> */}
                     {sponsorslist.Diamond.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
@@ -167,10 +168,10 @@ function Sponsors(props) {
                     ))}
                     <Grid item xs={12}>
                         <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
-                            Silver
+                            Gold
                         </Typography>
                     </Grid>
-                    {/* {sponsorslist.Gold.map(key => (
+                    {sponsorslist.Gold.map(key => (
                         <Grid item xs={12} md={3}>
                             <div className={classes.item}>
                                 <Link href={key.link}>
@@ -178,7 +179,12 @@ function Sponsors(props) {
                                 </Link>
                             </div>
                         </Grid>
-                    ))} */}
+                    ))}
+                    <Grid item xs={12}>
+                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                            Silver
+                        </Typography>
+                    </Grid>
                     {sponsorslist.Silver.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>

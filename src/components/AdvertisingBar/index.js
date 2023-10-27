@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button, Container, Link } from "@material-ui/core/";
+import { Container, Link } from "@material-ui/core/";
 import Grid from "@material-ui/core/Grid";
 import { withStyles } from "@material-ui/core/styles";
 import React from "react";
@@ -48,22 +48,6 @@ const styles = (theme) => ({
     },
 });
 
-const ColorButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.dark),
-        backgroundColor: theme.palette.primary.dark,
-        "&:hover": {
-            backgroundColor: theme.palette.primary.dark,
-        },
-    },
-    secundary: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.dark,
-        "&:hover": {
-            backgroundColor: theme.palette.primary.dark,
-        },
-    },
-}))(Button);
 
 function AdvertisingBar(props) {
     const { classes } = props;

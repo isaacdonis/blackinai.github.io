@@ -8,7 +8,7 @@ import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
 import GridOfContents from './GridOfContents';
 import image from './../../../assets/img/general/header-bai-2023.png';
 import Loader from '../../../loader';
-import Sponsors from './Sponsors';
+// import Sponsors from './Sponsors';
 
 function BAI2021() {
     return (
