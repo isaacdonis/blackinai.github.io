@@ -40,38 +40,14 @@ const styles = (theme) => ({
     avatarSize: {
         height: theme.spacing(8),
     },
+    duolingoAvatarSize: {
+        height: theme.spacing(10),
+    },
 });
 // Ruby -> Diamond -> Platinum -> Gold -> Silver -> Bronze -> Thank You
 const sponsorslist = {
-    // Ruby: [
-    //     {
-    //         title: 'Microsoft',
-    //         image: require('./../../assets/img/sponsors-partners/microsoft.png'),
-    //         link: 'https://www.microsoft.com/',
-    //         alt: 'Microsoft Ruby Sponsor',
-    //     },
-    //     {
-    //         title: 'Meta',
-    //         image: require('./../../assets/img/sponsors-partners/meta.png'),
-    //         link: 'https://www.meta.com/',
-    //         alt: 'Meta Ruby Sponsor',
-    //     },
-    // ],
-    // Diamond: [
-        
-    //     {
-    //         title: 'NVIDIA',
-    //         image: require('./../../assets/img/sponsors-partners/nvidia.png'),
-    //         link: 'https://www.nvidia.com/en-us/',
-    //         alt: 'NVIDIA Diamond Sponsor',
-    //     },
-    //     {
-    //         title: 'Accenture',
-    //         image: require('./../../assets/img/sponsors-partners/accenture.png'),
-    //         link: 'https://www.accenture.com/us-en',
-    //         alt: 'Accenture Diamond Sponsor',
-    //     },
-    // ],
+    Ruby: [],
+    Diamond: [],
     Platinum: [
         {
             title: 'Deepmind',
@@ -101,13 +77,14 @@ const sponsorslist = {
             link: "https://vectorinstitute.ai/",
             alt: "Vector Institute Silver Sponsor"
         }],
-    // Bronze: [
-        // {
-        //     title: 'Upstart',
-        //     image: require('./../../assets/img/sponsors-partners/upstart.png'),
-        //     link: 'https://www.upstart.com/',
-        //     alt: 'Upstart Bronze Sponsor',
-        // }],
+    Bronze: [
+        {
+            title: "Duolingo",
+            image: require('./../../assets/img/sponsors-partners/duolingo.png'),
+            link: "https://www.duolingo.com/",
+            alt: "Duolingo Bronze Sponsor"
+        },
+    ],
 };
 
 
@@ -120,15 +97,15 @@ function Sponsors(props) {
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
                         <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            2023 Current Sponsors
+                            2023 Sponsors
                         </Typography>
                     </Grid>
                     {/* <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Ruby
                         </Typography>
                     </Grid> */}
-                    {sponsorslist.Ruby.map(key => (
+                    {/* {sponsorslist.Ruby.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
@@ -136,13 +113,13 @@ function Sponsors(props) {
                                 </Link>
                             </div>
                         </Grid>
-                    ))}
+                    ))} */}
                     {/* <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Diamond
                         </Typography>
                     </Grid> */}
-                    {sponsorslist.Diamond.map(key => (
+                    {/* {sponsorslist.Diamond.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
@@ -151,9 +128,9 @@ function Sponsors(props) {
                                 <br></br>
                             </div>
                         </Grid>
-                    ))}
+                    ))} */}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Platinum
                         </Typography>
                     </Grid>
@@ -167,12 +144,12 @@ function Sponsors(props) {
                         </Grid>
                     ))}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Gold
                         </Typography>
                     </Grid>
                     {sponsorslist.Gold.map(key => (
-                        <Grid item xs={12} md={3}>
+                        <Grid item md align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
                                     <img alt={key.title} src={key.image} className={classes.avatarSize} />
@@ -181,7 +158,7 @@ function Sponsors(props) {
                         </Grid>
                     ))}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Silver
                         </Typography>
                     </Grid>
@@ -195,7 +172,7 @@ function Sponsors(props) {
                         </Grid>
                     ))}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Bronze
                         </Typography>
                     </Grid>
@@ -203,7 +180,7 @@ function Sponsors(props) {
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
-                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    <img alt={key.title} src={key.image} className={classes.duolingoAvatarSize} />
                                 </Link>
                             </div>
                         </Grid>
