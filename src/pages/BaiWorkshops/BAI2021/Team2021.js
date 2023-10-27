@@ -10,8 +10,6 @@ import Grid from '@material-ui/core/Grid';
 import { Container, Card, CardContent, Avatar, Link} from '@material-ui/core/';
 import Typography from '../../../components/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
-import image from './../../../assets/img/general/header-bai-2021.png';
 
 // images 
 import foutse from '../../../assets/img/team/foutse.jpg';

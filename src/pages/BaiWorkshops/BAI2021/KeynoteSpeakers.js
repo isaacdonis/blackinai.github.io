@@ -10,8 +10,6 @@ import Grid from '@material-ui/core/Grid';
 import { Container, Card, CardContent, Avatar, Link, Divider, Button} from '@material-ui/core/';
 import Typography from '../../../components/Typography';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
-import image from './../../../assets/img/general/header-bai-2021.png';
 
 // keynotes 
 import louvere from './../../../assets/img/events/Louvere.jpeg';
@@ -87,7 +85,8 @@ const speakers = [
         technical guidance on the implementation of AI and Data Science workflows for various applications. \
         She also leads a team of other Application Engineers. She has a bachelor’s degree in Biomedical Engineering \
         and a master’s degree in Geographic Information Technology with a specialization in Remote Sensing.\
-        Louvere has worked in three different engineering roles throughout her 20 plus year career while at MathWorks.\        Louvere has presented and continues to present at several STEM related conferences on various topics \
+        Louvere has worked in three different engineering roles throughout her 20 plus year career while at MathWorks.\
+        Louvere has presented and continues to present at several STEM related conferences on various topics \
         and is an active STEM advocate. She has presented her work on Natural Language Processing and \
         presented AI workshops at various conferences. Louvere has presented her AI work at the following \
         conferences: Grace Hopper Celebration, the Women in Data Science (WiDS), the Open Data Science East \

@@ -6,8 +6,8 @@ import theme from '../../../theme';
 import withRoot from '../../../withRoot';
 import CallForStartups2021 from './../../../posts/bai2021/CallForStartups2021.md';
 import ContentFile from '../../../components/Markdown/readfile';
-import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
-import image from './../../../assets/img/general/header-bai-2021.png';
+// import WorkshopPageHeader from '../../../components/WorkshopPageHeader';
+// import image from './../../../assets/img/general/header-bai-2021.png';
 import Loader from '../../../loader';
 import StartupsShowcase from './StartupsShowcase';
 

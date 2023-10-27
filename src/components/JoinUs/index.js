@@ -40,23 +40,6 @@ const styles = (theme) => ({
     }
 });
 
-const ColorButton = withStyles((theme) => ({
-    root: {
-        color: theme.palette.getContrastText(theme.palette.primary.dark),
-        backgroundColor: theme.palette.primary.dark,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.dark,
-        },
-    },
-    secundary: {
-        color: theme.palette.getContrastText(theme.palette.primary.light),
-        backgroundColor: theme.palette.primary.light,
-        '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-        },
-    },
-}))(Button);
-
 const JoinUsButton = withStyles((theme) => ({
     root: {
         color: theme.palette.getContrastText(theme.palette.primary.light),

@@ -40,73 +40,51 @@ const styles = (theme) => ({
     avatarSize: {
         height: theme.spacing(8),
     },
+    duolingoAvatarSize: {
+        height: theme.spacing(10),
+    },
 });
-
+// Ruby -> Diamond -> Platinum -> Gold -> Silver -> Bronze -> Thank You
 const sponsorslist = {
-    Ruby: [
+    Ruby: [],
+    Diamond: [],
+    Platinum: [
         {
-            title: 'Microsoft',
-            image: require('./../../assets/img/sponsors-partners/microsoft.png'),
-            link: 'https://www.microsoft.com/',
-            alt: 'Microsoft Ruby Sponsor',
-        },
-        {
-            title: 'Meta',
-            image: require('./../../assets/img/sponsors-partners/meta.png'),
-            link: 'https://www.meta.com/',
-            alt: 'Meta Ruby Sponsor',
-        },
+            title: 'Deepmind',
+            image: require('./../../assets/img/sponsors-partners/deepmind.png'),
+            link: 'https://www.upstart.com/',
+            alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
+        }
     ],
-    Diamond: [
+    Gold: [
         {
             title: 'Apple',
             image: require('./../../assets/img/sponsors-partners/apple.png'),
             link: 'https://www.apple.com/',
-            alt: 'Apple Diamond Sponsor',
+            alt: 'Apple Gold Sponsor',
         },
-        {
-            title: 'NVIDIA',
-            image: require('./../../assets/img/sponsors-partners/nvidia.png'),
-            link: 'https://www.nvidia.com/en-us/',
-            alt: 'NVIDIA Diamond Sponsor',
-        },
-        {
-            title: 'Accenture',
-            image: require('./../../assets/img/sponsors-partners/accenture.png'),
-            link: 'https://www.accenture.com/us-en',
-            alt: 'Accenture Diamond Sponsor',
-        },
-    ],
-    Platinum: [
         {
             title: 'IBM',
             image: require('./../../assets/img/sponsors-partners/ibm.png'),
             link: 'https://www.ibm.com/',
-            alt: 'IBM Platinum Sponsor'
+            alt: 'IBM Gold Sponsor'
         },
-        {
-            title: 'D. E. Shaw Research',
-            image: require('./../../assets/img/sponsors-partners/deshaw.jpg'),
-            link: 'https://www.deshaw.com/',
-            alt: 'D. E. Shaw Research Platinum Sponsor',
-        }
-    ],
-    Gold: [
     ],
     Silver: [
         {
-            title: 'Oracle',
-            image: require('./../../assets/img/sponsors-partners/oracle.png'),
-            link: 'https://www.oracle.com/corporate/',
-            alt: 'Oracle logo',
+            title: "Vector Institute",
+            image: require('./../../assets/img/sponsors-partners/vectorInstitute.png'),
+            link: "https://vectorinstitute.ai/",
+            alt: "Vector Institute Silver Sponsor"
         }],
     Bronze: [
         {
-            title: 'Upstart',
-            image: require('./../../assets/img/sponsors-partners/upstart.png'),
-            link: 'https://www.upstart.com/',
-            alt: 'Upstart Bronze Sponsor',
-        }],
+            title: "Duolingo",
+            image: require('./../../assets/img/sponsors-partners/duolingo.png'),
+            link: "https://www.duolingo.com/",
+            alt: "Duolingo Bronze Sponsor"
+        },
+    ],
 };
 
 
@@ -119,15 +97,15 @@ function Sponsors(props) {
                 <Grid container spacing={12}>
                     <Grid item xs={12}>
                         <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            Current Sponsors
+                            2023 Sponsors
                         </Typography>
                     </Grid>
-                    <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                    {/* <Grid item xs={12}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Ruby
                         </Typography>
-                    </Grid>
-                    {sponsorslist.Ruby.map(key => (
+                    </Grid> */}
+                    {/* {sponsorslist.Ruby.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
@@ -135,13 +113,13 @@ function Sponsors(props) {
                                 </Link>
                             </div>
                         </Grid>
-                    ))}
-                    <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                    ))} */}
+                    {/* <Grid item xs={12}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Diamond
                         </Typography>
-                    </Grid>
-                    {sponsorslist.Diamond.map(key => (
+                    </Grid> */}
+                    {/* {sponsorslist.Diamond.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
@@ -150,9 +128,9 @@ function Sponsors(props) {
                                 <br></br>
                             </div>
                         </Grid>
-                    ))}
+                    ))} */}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Platinum
                         </Typography>
                     </Grid>
@@ -166,19 +144,24 @@ function Sponsors(props) {
                         </Grid>
                     ))}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
-                            Silver
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
+                            Gold
                         </Typography>
                     </Grid>
-                    {/* {sponsorslist.Gold.map(key => (
-                        <Grid item xs={12} md={3}>
+                    {sponsorslist.Gold.map(key => (
+                        <Grid item md align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
                                     <img alt={key.title} src={key.image} className={classes.avatarSize} />
                                 </Link>
                             </div>
                         </Grid>
-                    ))} */}
+                    ))}
+                    <Grid item xs={12}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
+                            Silver
+                        </Typography>
+                    </Grid>
                     {sponsorslist.Silver.map(key => (
                         <Grid item xs align="center">
                             <div className={classes.item}>
@@ -189,7 +172,7 @@ function Sponsors(props) {
                         </Grid>
                     ))}
                     <Grid item xs={12}>
-                        <Typography variant="h4" marked="center" align="center" component="h2" className={classes.title}>
+                        <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Bronze
                         </Typography>
                     </Grid>
@@ -197,7 +180,7 @@ function Sponsors(props) {
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
-                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    <img alt={key.title} src={key.image} className={classes.duolingoAvatarSize} />
                                 </Link>
                             </div>
                         </Grid>
