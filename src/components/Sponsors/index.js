@@ -41,7 +41,7 @@ const styles = (theme) => ({
         height: theme.spacing(8),
     },
     duolingoAvatarSize: {
-        height: theme.spacing(10),
+        height: theme.spacing(12),
     },
 });
 // Ruby -> Diamond -> Platinum -> Gold -> Silver -> Bronze -> Thank You
@@ -51,7 +51,7 @@ const sponsorslist = {
     Platinum: [
         {
             title: 'Deepmind',
-            image: require('./../../assets/img/sponsors-partners/deepmind.png'),
+            image: require('./../../assets/img/sponsors-partners/deepmind2.png'),
             link: 'https://www.upstart.com/',
             alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
         }
@@ -138,7 +138,7 @@ function Sponsors(props) {
                         <Grid item xs align="center">
                             <div className={classes.item}>
                                 <Link href={key.link}>
-                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    <img alt={key.title} src={key.image} className={classes.duolingoAvatarSize} />
                                 </Link>
                             </div>
                         </Grid>
