@@ -73,8 +73,8 @@ function GridOfContents(props) {
             url: '/#/workshop/bai2023-cfp',
         },
         {
-            title: 'Call For Reviewer/Area Chair SOON',
-            width: '33.3%',
+            // title: 'Call For Reviewer/Area Chair SOON',
+            // width: '33.3%',
             // url: 'https://forms.gle/q1v4kqknELEXLLpr8',
         },
         {
@@ -83,15 +83,15 @@ function GridOfContents(props) {
             // url: 'https://forms.gle/4CXkLZk89e1JvTZ66',
         },
         {
-            title: 'Workshop Registration (Hybrid format) SOON',
+            title: 'Workshop Registration',
             width: '33.3%',
-            // url: 'https://forms.gle/SHdt1Bpy5aBbwpBW9',
+            url: 'https://airtable.com/app53hoDCmKRQ2BBB/shrVmFeaYU3dSyRrt',
         },
-        // {
-        //     title: 'Accepted Papers',
-        //     width: '33.3%',
-        //     url: 'https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf',
-        // },
+        {
+            title: 'Accepted Papers',
+            width: '33.3%',
+            url: '/#/workshop/bai2023-accepted-papers',
+        },
         // {
         //     title: 'Accepted Papers',
         //     width: '33.3%',
