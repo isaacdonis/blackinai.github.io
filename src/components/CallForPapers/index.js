@@ -116,15 +116,15 @@ function CallForPapers(props) {
                     <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023/">
                         Full Details
                     </ColorButton>
-                    <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023-cfp">
+                    {/* <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023-cfp">
                         Call for Papers
+                    </ColorButton> */}
+                    <ColorButton className={classes.chip} variant="contained" href="/#/workshop/bai2023-accepted-papers">
+                        BAI 2023 Accepted Papers
                     </ColorButton>
-                    {/* <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/4a3923311e72ea0613a1fcfd7472d98782787ff9/bai/src/files/BlackinAI22AcceptedPapers.pdf">
-                        BAI 2022 Accepted Papers
-                    </ColorButton> */}
-                    {/* <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2022WorkshopSchedule.pdf">
-                        Workshop Program
-                    </ColorButton> */}
+                    <ColorButton className={classes.chip} variant="contained" href="https://airtable.com/app53hoDCmKRQ2BBB/shrVmFeaYU3dSyRrt">
+                        Workshop Registration
+                    </ColorButton>
                     {/* 
                     <ColorButton className={classes.chip} variant="contained" href="https://nbviewer.org/github/blackinai/blackinai.github.io/blob/main/bai/src/files/BAI2021AcceptedPapersJointPostersSession.pdf">
                         Accepted Papers Black in AI 2021
