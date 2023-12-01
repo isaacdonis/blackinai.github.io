@@ -10,7 +10,7 @@ import image from './../../../assets/img/general/header-bai-2023.png';
 import Loader from '../../../loader';
 import SponsorsHome from '../../../components/SponsorsHome';
 
-function BAI2021() {
+function BAI2023() {
     return (
         <ThemeProvider theme={theme}>
             <Loader />
@@ -23,4 +23,4 @@ function BAI2021() {
     );
 }
 
-export default withRoot(BAI2021);
+export default withRoot(BAI2023);
