@@ -52,7 +52,7 @@ const sponsorslist = {
         {
             title: 'Deepmind',
             image: require('./../../assets/img/sponsors-partners/deepmind2.png'),
-            link: 'https://www.upstart.com/',
+            link: 'https://deepmind.google/',
             alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
         }
     ],
@@ -69,6 +69,12 @@ const sponsorslist = {
             link: 'https://www.ibm.com/',
             alt: 'IBM Gold Sponsor'
         },
+        {
+            title: 'D. E. Shaw Research',
+            image: require('./../../assets/img/sponsors-partners/deshaw.jpg'),
+            link: 'https://www.deshaw.com/',
+            alt: 'D. E. Shaw Research Gold Sponsor',
+        }
     ],
     Silver: [
         {

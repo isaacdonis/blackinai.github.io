@@ -71,7 +71,7 @@ function SponsorshipHeader(props) {
                         </Typography>
                         <ColorButton className={classes.chip} variant="contained" href="https://dashing-snarl-477.notion.site/Black-in-AI-Sponsors-FAQ-46a1df8cc2c64a46ab195734290a665e">
                                 Access the NeurIPS 2023 Sponsorship FAQ
-                            </ColorButton>
+                        </ColorButton>
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <CardMedia component="img" height="400" width="350" image={image}

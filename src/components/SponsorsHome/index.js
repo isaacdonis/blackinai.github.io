@@ -60,6 +60,12 @@ const sponsorslist = [
             alt: 'IBM Gold Sponsor'
         },
         {
+            title: 'D. E. Shaw Research',
+            image: require('./../../assets/img/sponsors-partners/deshaw.jpg'),
+            link: 'https://www.deshaw.com/',
+            alt: 'D. E. Shaw Research Gold Sponsor',
+        },
+        {
             title: "Duolingo",
             image: require('./../../assets/img/sponsors-partners/duolingo.png'),
             link: "https://www.duolingo.com/",
@@ -77,7 +83,7 @@ const CorporateSponsorsforEquity = [
     {
         title: 'Deepmind',
         image: require('./../../assets/img/sponsors-partners/deepmind2.png'),
-        link: 'https://www.upstart.com/',
+        link: 'https://deepmind.google/',
         alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
     }
 ]
