@@ -86,10 +86,10 @@ const sponsorslist = {
             alt: 'IBM Platinum Sponsor'
         },
         {
-            title: 'D. E. Shaw Research',
-            image: require('./../../../assets/img/sponsors-partners/deshaw.jpg'),
+            title: 'D.E.Shaw & Co Group',
+            image: require('./../../../assets/img/sponsors-partners/deshaw_group.png'),
             link: 'https://www.deshaw.com/',
-            alt: 'D. E. Shaw Research Platinum Sponsor',
+            alt: 'D.E.Shaw & Co Gold Sponsor',
         }
     ],
     Gold: [

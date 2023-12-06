@@ -49,12 +49,12 @@ const sponsorslist = {
     Ruby: [],
     Diamond: [],
     Platinum: [
-        {
-            title: 'Deepmind',
-            image: require('./../../assets/img/sponsors-partners/deepmind2.png'),
-            link: 'https://deepmind.google/',
-            alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
-        }
+        // {
+        //     title: 'Deepmind',
+        //     image: require('./../../assets/img/sponsors-partners/deepmind2.png'),
+        //     link: 'https://deepmind.google/',
+        //     alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
+        // }
     ],
     Gold: [
         {
@@ -70,10 +70,10 @@ const sponsorslist = {
             alt: 'IBM Gold Sponsor'
         },
         {
-            title: 'D. E. Shaw Research',
-            image: require('./../../assets/img/sponsors-partners/deshaw.jpg'),
+            title: 'D.E.Shaw & Co Group',
+            image: require('./../../assets/img/sponsors-partners/deshaw_group.png'),
             link: 'https://www.deshaw.com/',
-            alt: 'D. E. Shaw Research Gold Sponsor',
+            alt: 'D.E.Shaw & Co Gold Sponsor',
         }
     ],
     Silver: [
@@ -135,7 +135,7 @@ function Sponsors(props) {
                             </div>
                         </Grid>
                     ))} */}
-                    <Grid item xs={12}>
+                    {/* <Grid item xs={12}>
                         <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Platinum
                         </Typography>
@@ -148,7 +148,7 @@ function Sponsors(props) {
                                 </Link>
                             </div>
                         </Grid>
-                    ))}
+                    ))} */}
                     <Grid item xs={12}>
                         <Typography variant="h4" align="center" component="h2" className={classes.title}>
                             Gold
