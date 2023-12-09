@@ -56,7 +56,7 @@ const sponsorslist = [
         {
             title: 'IBM',
             image: require('./../../assets/img/sponsors-partners/ibm.png'),
-            link: 'https://www.ibm.com/',
+            link: 'https://research.ibm.com/',
             alt: 'IBM Gold Sponsor'
         },
         {
@@ -72,6 +72,12 @@ const sponsorslist = [
             alt: "Duolingo Bronze Sponsor"
         },
         {
+            title: "MathWorks",
+            image: require('./../../assets/img/sponsors-partners/mathworks.png'),
+            link: "https://www.duolingo.com/",
+            alt: "MathWorks Bronze Sponsor"
+        },
+        {
             title: "Vector Institute",
             image: require('./../../assets/img/sponsors-partners/vectorInstitute.png'),
             link: "https://vectorinstitute.ai/",
@@ -79,14 +85,56 @@ const sponsorslist = [
         }
 ]
 
-// const CorporateSponsorsforEquity = [
-//     {
-//         title: 'Deepmind',
-//         image: require('./../../assets/img/sponsors-partners/deepmind2.png'),
-//         link: 'https://deepmind.google/',
-//         alt: 'Deepmind Platinum Sponsor & Corporate Sponsor for Equity',
-//     }
-// ]
+const fundersList = [
+    {
+        title: 'Rockefeller Foundation',
+        image: require('./../../assets/img/funders/rockefeller.png'),
+        link: 'https://www.rockefellerfoundation.org/',
+        alt: 'BAI Funder Rockefeller Foundation',
+    },
+    {
+        title: 'MacArthur Foundation',
+        image: require('./../../assets/img/funders/macarthur.png'),
+        link: 'https://www.macfound.org/',
+        alt: 'BAI Funder MacArthur Foundation',
+    },
+    {
+        title: 'Patrick J McGovern Foudnation',
+        image: require('./../../assets/img/funders/pmjf.png'),
+        link: 'https://www.mcgovern.org/',
+        alt: 'BAI Funder Patrick J McGovern Foudnation',
+    },
+    {
+        title: 'Ford Foundation',
+        image: require('./../../assets/img/funders/fordfoundation.jpeg'),
+        link: 'https://www.fordfoundation.org/',
+        alt: 'BAI Funder Ford Foundation',
+    },
+    {
+        title: 'Sloan Foundation',
+        image: require('./../../assets/img/funders/alfredSloan.png'),
+        link: 'https://sloan.org/',
+        alt: 'BAI Funder Sloan Foundation',
+    },
+    {
+        title: 'Etsy',
+        image: require('./../../assets/img/funders/etsy.png'),
+        link: 'https://www.etsy.com/',
+        alt: 'BAI Funder Etsy',
+    },
+    {
+        title: 'GSK',
+        image: require('./../../assets/img/funders/gsk.png'),
+        link: 'https://www.gsk.com/',
+        alt: 'BAI Funder GSK',
+    },
+    {
+        title: 'Microsoft',
+        image: require('./../../assets/img/funders/microsoft.png'),
+        link: 'https://www.microsoft.com/en-us/research/',
+        alt: 'BAI Funder Microsoft',
+    },
+]
 
 
 function SponsorsHome(props) {
@@ -110,42 +158,24 @@ function SponsorsHome(props) {
                             </div>
                         </Grid>
                     ))}
-                    {/* <Grid item xs={12}>
-                        <Typography variant="h4" align="center" component="h3" className={classes.title}>
-                                Corporate Sponsors for Equity
-                        </Typography>
-                        {CorporateSponsorsforEquity.map(key => (
+                    <Grid container spacing={12}>
+                        <Grid item xs={12}>
+                            <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
+                                Black in AI Funders
+                            </Typography>
+                        </Grid>
+                        {fundersList.map(key => (
                             <Grid item xs align="center">
                                 <div className={classes.item}>
                                     <Link href={key.link}>
-                                        <img alt={key.title} src={key.image} className={classes.duolingoAvatarSize} />
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
                                     </Link>
-                                    <br></br>
                                 </div>
                             </Grid>
                         ))}
-                    </Grid> */}
+                    </Grid>
                 </Grid>
             </Container>
-            
-            {/* <Container>
-                <Grid container spacing={12}>
-                    <Grid item xs={12}>
-                        <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
-                            Corporate Sponsors for Equity
-                        </Typography>
-                    </Grid>
-                    {CorporateSponsorsforEquity.map(key => (
-                        <Grid item xs align="center">
-                            <div className={classes.item}>
-                                <Link href={key.link}>
-                                    <img alt={key.title} src={key.image} className={classes.avatarSize} />
-                                </Link>
-                            </div>
-                        </Grid>
-                    ))}
-                </Grid>
-            </Container> */}
         </section>
     );
 }

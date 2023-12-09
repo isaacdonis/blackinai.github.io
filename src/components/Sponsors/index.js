@@ -90,9 +90,65 @@ const sponsorslist = {
             link: "https://www.duolingo.com/",
             alt: "Duolingo Bronze Sponsor"
         },
+        {
+            title: "MathWorks",
+            image: require('./../../assets/img/sponsors-partners/mathworks.png'),
+            link: "https://www.duolingo.com/",
+            alt: "MathWorks Bronze Sponsor"
+        },
     ],
 };
 
+const fundersList = [
+    {
+        title: 'Rockefeller Foundation',
+        image: require('./../../assets/img/funders/rockefeller.png'),
+        link: 'https://www.rockefellerfoundation.org/',
+        alt: 'BAI Funder Rockefeller Foundation',
+    },
+    {
+        title: 'MacArthur Foundation',
+        image: require('./../../assets/img/funders/macarthur.png'),
+        link: 'https://www.macfound.org/',
+        alt: 'BAI Funder MacArthur Foundation',
+    },
+    {
+        title: 'Patrick J McGovern Foudnation',
+        image: require('./../../assets/img/funders/pmjf.png'),
+        link: 'https://www.mcgovern.org/',
+        alt: 'BAI Funder Patrick J McGovern Foudnation',
+    },
+    {
+        title: 'Ford Foundation',
+        image: require('./../../assets/img/funders/fordfoundation.jpeg'),
+        link: 'https://www.fordfoundation.org/',
+        alt: 'BAI Funder Ford Foundation',
+    },
+    {
+        title: 'Sloan Foundation',
+        image: require('./../../assets/img/funders/alfredSloan.png'),
+        link: 'https://sloan.org/',
+        alt: 'BAI Funder Sloan Foundation',
+    },
+    {
+        title: 'Etsy',
+        image: require('./../../assets/img/funders/etsy.png'),
+        link: 'https://www.etsy.com/',
+        alt: 'BAI Funder Etsy',
+    },
+    {
+        title: 'GSK',
+        image: require('./../../assets/img/funders/gsk.png'),
+        link: 'https://www.gsk.com/',
+        alt: 'BAI Funder GSK',
+    },
+    {
+        title: 'Microsoft',
+        image: require('./../../assets/img/funders/microsoft.png'),
+        link: 'https://www.microsoft.com/en-us/research/',
+        alt: 'BAI Funder Microsoft',
+    },
+]
 
 function Sponsors(props) {
     const { classes } = props;
@@ -191,6 +247,22 @@ function Sponsors(props) {
                             </div>
                         </Grid>
                     ))}
+                    <Grid container spacing={12}>
+                        <Grid item xs={12}>
+                            <Typography variant="h3" marked="center" align="center" component="h2" className={classes.title}>
+                                Black in AI Funders
+                            </Typography>
+                        </Grid>
+                        {fundersList.map(key => (
+                            <Grid item xs align="center">
+                                <div className={classes.item}>
+                                    <Link href={key.link}>
+                                        <img alt={key.title} src={key.image} className={classes.avatarSize} />
+                                    </Link>
+                                </div>
+                            </Grid>
+                        ))}
+                    </Grid>
                 </Grid>
             </Container>
         </section>

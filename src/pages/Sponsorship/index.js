@@ -16,7 +16,7 @@ function Sponsorship() {
             <Navbar />
             <SponsorshipHeader/>
             <SponsorshipBody/>
-            <SponsorshipNeurips2023/>
+            {/* <SponsorshipNeurips2023/> */}
             <Sponsors/>
             <Footer />
         </ThemeProvider>
