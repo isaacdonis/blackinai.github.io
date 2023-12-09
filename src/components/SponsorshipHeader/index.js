@@ -1,4 +1,4 @@
-import { CardMedia, Container, Grid } from '@material-ui/core';
+import { CardMedia, Container, Grid, Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import React from 'react';
@@ -41,6 +41,23 @@ const styles = (theme) => ({
     },
 });
 
+const ColorButton = withStyles((theme) => ({
+    root: {
+        color: theme.palette.getContrastText(theme.palette.primary.dark),
+        backgroundColor: theme.palette.primary.dark,
+        '&:hover': {
+            backgroundColor: theme.palette.primary.dark,
+        },
+    },
+    secundary: {
+        color: theme.palette.getContrastText(theme.palette.primary.light),
+        backgroundColor: theme.palette.primary.light,
+        '&:hover': {
+            backgroundColor: theme.palette.primary.light,
+        },
+    },
+}))(Button);
+
 function SponsorshipHeader(props) {
     const { classes } = props;
 
@@ -49,11 +66,17 @@ function SponsorshipHeader(props) {
             <Grid container spacing={4}>
                 <Grid item xs={12} md={6}>
                     <Typography align="left" variant="h3" marked="center" className={classes.title}>
-                        Become a sponsor of Black in AI
-                        </Typography>
+                        Become a Black in AI Sponsor
+                    </Typography>
                     <Typography align="left" variant="h5">
                         As a sponsor, you will have the utmost impact on various areas of our organization.
-                        </Typography>
+                    </Typography>
+                    <Typography align="left" variant="h4" className={classes.title}>
+                        Become a sponsor of the Black in AI Workshop at NeurIPS 2023
+                    </Typography>
+                    <ColorButton className={classes.chip} variant="contained" href="https://dashing-snarl-477.notion.site/Black-in-AI-Sponsors-FAQ-46a1df8cc2c64a46ab195734290a665e">
+                            Access the NeurIPS 2023 Sponsorship FAQ
+                    </ColorButton>
                 </Grid>
                 <Grid item xs={12} md={6}>
                     <CardMedia component="img" height="400" width="350" image={image}
