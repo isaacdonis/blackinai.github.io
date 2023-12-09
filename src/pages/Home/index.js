@@ -19,7 +19,7 @@ function Home() {
             <CssBaseline />
             <Navbar/>
             <CallForPapers/> 
-            <AdvertisingBar/>
+            {/* <AdvertisingBar/> */}
             <HomeHeader/>
             <HomeQuote/>
             <HomeBody/>
